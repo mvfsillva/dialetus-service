@@ -60,9 +60,6 @@ workflows:
       - lint:
           requires:
             - checkout
-      - lint_css:
-          requires:
-            - checkout
       - test:
           requires:
             - checkout
