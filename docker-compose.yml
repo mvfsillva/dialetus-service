@@ -5,5 +5,4 @@ services:
     environment:
       NODE_ENV: ${NODE_ENV:-development}
       DATABASE: ${DATABASE}
-      TOKEN: ${TOKEN}
       - ${PORT:-4000}:${PORT:-4000}
