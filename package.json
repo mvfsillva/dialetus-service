@@ -30,7 +30,8 @@
     "moment": "^2.22.2",
     "mongo-sanitize": "^1.0.0",
     "mongoose": "^5.2.9",
-    "morgan": "^1.9.0"
+    "morgan": "^1.9.0",
+    "winston": "^3.0.0"
   },
   "xo": {
     "extends": [
@@ -49,8 +50,8 @@
   "lint-staged": {
     "*.js": [
       "yarn lint",
-      "prettier --semi false --single-quote --trailing-comma --write",      
+      "prettier --semi false --single-quote --trailing-comma --write",
       "git add"
     ]
-  }  
+  }
 }
