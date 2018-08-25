@@ -1,0 +1,11 @@
+{
+    "connection": {
+      "server": "mongodb",
+      "port": 27017,
+      "database": "dialetos"
+    },
+    "app": {
+      "port": 3200
+    }
+  }
+  
