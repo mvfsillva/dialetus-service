@@ -1,9 +1,10 @@
 const winston = require('winston')
+const moment = require('moment')
 
 const { config } = winston
 
 const messageTemplate = options => {
-  const d = new Date()
+  const d = moment().format('DD/MM/YYYY h:mm')
   const level = config.addColors(options.level)
   const { message = '' } = options
 
