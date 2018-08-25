@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/workspace/repo
   docker:
-    - image: circleci/node:9.10-alpine
+    - image: circleci/node:9.11.2
 
 to_persist: &to_persist
   root: ~/workspace
