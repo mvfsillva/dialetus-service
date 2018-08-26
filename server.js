@@ -15,7 +15,8 @@ app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(expressValidator())
 app.set('port', config.port)
-routes(app)
+
+app.use(routes())
 
 app.listen(config.port, () => {
   logger.info(
