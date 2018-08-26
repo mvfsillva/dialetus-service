@@ -1,8 +1,10 @@
-version: "2"
+version: "3"
 services:
   dialetus-service:
     build: .
     environment:
-      NODE_ENV: $${NODE_ENV:-development}
-      DATABASE: $${DATABASE}
-        $${PORT:-4000}:$${PORT:-4000}
+      NODE_ENV: "${NODE_ENV:-development}"
+      DATABASE: "${DATABASE}"
+      PORT: "${PORT:-4000}"
+    ports:
+      - "${PORT:-4000}:${PORT:-4000}"
