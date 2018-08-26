@@ -14,14 +14,14 @@ app.config = config
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(expressValidator())
-app.set('port', 4000)
+app.set('port', config.port)
 routes(app)
 
-app.listen(4000, () => {
+app.listen(config.port, () => {
   logger.info(
     `Dialetus API server is listening on port ${app.get(
       'port'
-    )} (http://localhost:4000)`
+    )} (http://localhost:${config.port})`
   )
 })
 
