@@ -5,8 +5,43 @@
     "examples": ["Ô vei, relaxe mô fiu todo nervoso ele."]
   },
   {
+    "dialect": "É bala!",
+    "meanings": ["algo interessante", "massa"],
+    "examples": ["Que computador bala!"]
+  },
+  {
+    "dialect": "REG!",
+    "meanings": ["Chamar os amigos para a balada"],
+    "examples": ["Vamo pro reg galera?"]
+  },
+  {
+    "dialect": "Num tô comeno reggae!",
+    "meanings": ["Não acreditar em algo", "Não se importar"],
+    "examples": ["Num tô comeno reggae não viu pae!"]
+  },
+  {
+    "dialect": "Rumaláporra!",
+    "meanings": ["Agir violentamente contra alguém ou algo"],
+    "examples": ["Vou rumaláporra nele vuhhh!"]
+  },
+  {
+    "dialect": "Comer água!",
+    "meanings": ["Vodka", "Cerveja", "Qualquer bebida que contenha álcool"],
+    "examples": ["Vamo pro reg comer água galera!"]
+  },
+  {
+    "dialect": "Pega a visão!",
+    "meanings": ["Sinal de alerta", "Presta atenção"],
+    "examples": ["Pega a visão que lá vem a corda do chiclete!"]
+  },
+  {
     "dialect": "Canguinha!",
     "meanings": ["Pão duro"],
     "examples": ["Deixe de ser canguinha veiii!"]
+  },
+  {
+    "dialect": "To na bruxa!",
+    "meanings": ["irritado", "impaciente", "intolerante"],
+    "examples": ["Hoje eu to na bruxa!!"]
   }
 ]
