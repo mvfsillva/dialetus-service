@@ -1,0 +1,97 @@
+[
+  {
+    "dialect": "Cuméquecêchama?",
+    "meanings": ["Qual seu nome?"],
+    "examples": ["Ei, Cuméquecêchama?"]
+  },
+  {
+    "dialect": "Doncêé",
+    "meanings": ["De onde você é? "],
+    "examples": ["Doncêé sô?"]
+  },
+  {
+    "dialect": "Dêsabençôi",
+    "meanings": ["Deus te abençoe"],
+    "examples": ["Dêsabençôi vei!"]
+  },
+  {
+    "dialect": "Doidimais",
+    "meanings": ["Doido demais"],
+    "examples": ["Doidimais isso ai."]
+  },
+  {
+    "dialect": "Uai",
+    "meanings": ["interjeição de espanto", "espanto, admiração, interrogação"],
+    "examples": ["uai é uai, uai!"]
+  },
+  {
+    "dialect": "Trem",
+    "meanings": ["interjeição que pode ser utilizada para qualquer coisa"],
+    "examples": ["Amigo, pega esse trem ai pra mim."]
+  },
+  {
+    "dialect": "Arreda",
+    "meanings": ["chega pra lá"],
+    "examples": ["Arreda daqui"]
+  },
+  {
+    "dialect": "Cadin",
+    "meanings": ["um pouco"],
+    "examples": ["Coloca um cadin de leite."]
+  },
+  {
+    "dialect": "Cê tá bão?",
+    "meanings": ["Você está bem?"],
+    "examples": ["Cê tá bão mano?"]
+  },
+  {
+    "dialect": "Intojo",
+    "meanings": ["chatice"],
+    "examples": ["Esse cara é um intojo"]
+  },
+  {
+    "dialect": "Inventá moda",
+    "meanings": ["agir de modo inusitado"],
+    "examples": ["João, não inventa moda não"]
+  },
+  {
+    "dialect": "Manota",
+    "meanings": ["mico"],
+    "examples": ["Cê deu mo manota"]
+  },
+  {
+    "dialect": "Nó",
+    "meanings": ["espanto, pena", "varia dependendo a intonação"],
+    "examples": ["Nóóó doidimais"]
+  },
+  {
+    "dialect": "Rachá os bico",
+    "meanings": ["rir muito"],
+    "examples": ["Raxei os bico do cê"]
+  },
+  {
+    "dialect": "Sô",
+    "meanings": ["qualquer pessoa"],
+    "examples": ["Sai dai sô"]
+  },
+  {
+    "dialect": "Sá",
+    "meanings": ["feminino de sô"],
+    "examples": ["Sá menina é bunita"]
+  },
+  {
+    "dialect": "Varado di fome",
+    "meanings": ["com muita fome"],
+    "examples": ["Tô varado di fome"]
+  },
+  {
+    "dialect": "Prus côco",
+    "meanings": ["espanto, pena", "varia dependendo a intonação"],
+    "examples": ["Nóóó doidimais"]
+  },
+  {
+    "dialect": "Dá os trem prusôtrô",
+    "meanings": ["Dar as coisas para os outros = doar as coisas"],
+    "examples": ["Maria, você deu meus trem prusôtrô?"]
+  }
+]
