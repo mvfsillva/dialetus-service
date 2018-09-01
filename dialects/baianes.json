@@ -43,5 +43,75 @@
     "dialect": "To na bruxa!",
     "meanings": ["irritado", "impaciente", "intolerante"],
     "examples": ["Hoje eu to na bruxa!!"]
+  },
+  {
+    "dialect": "Virado no cão!",
+    "meanings": ["muito irritado", "puto da vida", "cheio de ódio"],
+    "examples": ["Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"]
+  },
+  {
+    "dialect": "Abadá",
+    "meanings": ["camisa de bloco", "mesma camisa", "camisa de academia"],
+    "examples": ["Oxe, esse abadá denovo man?", "Oh o cara, se achando com o abadá de 10 conto dele!"]
+  },
+  {
+    "dialect": "Axé",
+    "meanings": ["energia vital", "força sagrada dos orixás", "objeto em que se fixa essa energia", "cumprimento que exprime votos de felicidade"],
+    "examples": ["Muito axé na sua vida man!"]
+  },
+  {
+    "dialect": "Oxente",
+    "meanings": ["surpresa", "admiração"],
+    "examples": ["Oxente mainha!"]
+  },
+  {
+    "dialect": "Porreta",
+    "meanings": ["muito legal", "especial"],
+    "examples": ["Porreta isso ai viu!"]
+  },
+  {
+    "dialect": "Baba",
+    "meanings": ["Jogar bola", "Jogar futebol"],
+    "examples": ["Vamo bater um baba?"]
+  },
+  {
+    "dialect": "Migué",
+    "meanings": ["Mentira", "Contador de história", "Pescador"],
+    "examples": ["Deixe de migué misera!"]
+  },
+  {
+    "dialect": "Aooooonde",
+    "meanings": ["Não", "jamais", "ironia"],
+    "examples": ["Aooooonde que eu vou subir essa ladeira!"]
+  },
+  {
+    "dialect": "De hooooje",
+    "meanings": ["Faz bastante tempo"],
+    "examples": ["De hooooje que comprei meu abadá de Ivete!"]
+  },
+  {
+    "dialect": "Colé de merma",
+    "meanings": ["O que foi?", "Qual é?"],
+    "examples": ["Colé de merma pivete?"]
+  },
+  {
+    "dialect": "De keké",
+    "meanings": ["de quebrada", "tranquilo"],
+    "examples": ["Tá de keké sacana!"]
+  },
+  {
+    "dialect": "Dissssssgraça",
+    "meanings": ["o pior xingamento de todos"],
+    "examples": ["Oh sinha Dissssssgraça venha cá vá!!"]
+  },
+  {
+    "dialect": "De lenhar",
+    "meanings": ["muito bom", "muito ruim"],
+    "examples": ["Pooooora, de lenhar essa música pivete!", "Pooorra vei esse Pablo do arrocha é de lenhar o coração!"]
+  },
+  {
+    "dialect": "Quem vai é coelho",
+    "meanings": ["não tenho coragem", "não irei a canto algum"],
+    "examples": ["Oxeeee, quem vai é coelho entrar nesse matagal aew!"]
   }
 ]
