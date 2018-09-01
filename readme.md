@@ -4,7 +4,7 @@
 
 ## 📃 API
 
-All endpoints live under the URL https://dialetus-services.now.sh and then generally follow the REST architecture.
+All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
 
