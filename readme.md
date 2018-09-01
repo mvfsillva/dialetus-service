@@ -4,6 +4,18 @@
 
 ## 📃 API
 
+All endpoints live under the URL https://dialetus-services.now.sh and then generally follow the REST architecture.
+
+All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
+
+### GET /dialect
+
+#### List of dialects
+
+```bash
+GET /dialect
+```
+
 ## Respect earns Respect 👏
 
 Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
@@ -24,12 +36,6 @@ Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
 ## Contributors 🎉
 
 Please take a look at the [contributing guide](.github/contributing.md) and [roadmap](roadmap.md) to better understand what to work on.
-
-## Contributors
-
-Thanks goes to these people ([emoji key][emojis]):
-
-
 
 
 ## FAQ
