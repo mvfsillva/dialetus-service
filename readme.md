@@ -3,7 +3,7 @@
 
 # How did the idea come about?
 
- The idea came about through the meeting of friends who only knew each other through the internet, each one with its linguistic-cultural traits, we thought of creating an informal dictionary for the idiomatic expressions that each Brazilian region possessed, so the project was totally collaborative, bringing cultural diversity from each one of us, being able, to deepen in the our Brazilian's daily culture .
+ The idea came about through the meeting of friends who only knew each other through the internet, each one with its linguistic-cultural traits, we thought of creating an informal dictionary for the idiomatic expressions that each Brazilian region possessed, so the project was totally collaborative, bringing cultural diversity from each one of us, being able, to deepen in the our Brazilian's daily culture.
 
 ## 📃 API
 
