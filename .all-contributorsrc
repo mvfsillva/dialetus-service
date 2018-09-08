@@ -1,0 +1,22 @@
+{
+  "projectName": "dialetus-service",
+  "projectOwner": "mvfsillva",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": true,
+  "contributors": [
+    {
+      "login": "mvfsillva",
+      "name": "Marcus Silva",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/4579340?v=4",
+      "profile": "https://github.com/mvfsillva",
+      "contributions": [
+        "code"
+      ]
+    }
+  ]
+}
