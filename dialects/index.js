@@ -3,4 +3,5 @@
 module.exports = Object.freeze({
   baianes: require('./baianes.json'),
   mineires: require('./mineires.json'),
+  paranes: require('./paranes.json'),
 })
