@@ -1,5 +1,6 @@
 # Dialetus Service
 [![CircleCI](https://circleci.com/gh/mvfsillva/dialetus-service.svg?style=svg&circle-token=1e9adb58a5664ddd2c80e17f641775e2cbb6346f)](https://circleci.com/gh/mvfsillva/dialetus-service)
+[![All Contributors](https://img.shields.io/badge/all_contributors-4-orange.svg?style=flat-square)](#contributors)
 
 # How did the idea come about?
 
@@ -29,22 +30,26 @@ Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
 - Focusing on what is best for the community
 - Showing empathy towards other community members
 
-## Creators 😎
-[![Marcus Silva](https://avatars2.githubusercontent.com/u/4579340?v=3&s=100)](https://github.com/mvfsillva)
-[![Angelmario Santana](https://avatars2.githubusercontent.com/u/7683909?v=3&s=100)](https://github.com/anfsantana)
-[![Jader Gomes](https://avatars2.githubusercontent.com/u/15023006?v=3&s=100)](https://github.com/jdrgomes)
-
-## Contributing to Dialetus Service
-
-## Contributors 🎉
-
+## Contribute 
 Please take a look at the [contributing guide](.github/contributing.md) and [roadmap](roadmap.md) to better understand what to work on.
 
+## Authors 😎
 
-## FAQ
+- Marcus Silva ([@mvfsillva](https://github.com/mvfsillva))
+- Angelmario Santana ([@anfsantana](https://github.com/anfsantana))
+- Jader Gomes ([@jdrgomes](https://github.com/jdrgomes))
+
+## Contributors 🎉
+Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore -->
+| [<img src="https://avatars0.githubusercontent.com/u/4579340?v=4" width="100px;"/><br /><sub><b>Marcus Silva</b></sub>](https://github.com/mvfsillva)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=mvfsillva "Code") [📖](https://github.com/mvfsillva/dialetus-service/commits?author=mvfsillva "Documentation") [👀](#review-mvfsillva "Reviewed Pull Requests") | [<img src="https://avatars2.githubusercontent.com/u/7683909?v=4" width="100px;"/><br /><sub><b>Angelmário Santana</b></sub>](https://github.com/anfsantana)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=anfsantana "Code") | [<img src="https://avatars2.githubusercontent.com/u/1703020?v=4" width="100px;"/><br /><sub><b>Rodolfo Silva</b></sub>](http://www.rodolfosilva.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=RodolfoSilva "Code") | [<img src="https://avatars2.githubusercontent.com/u/1204692?v=4" width="100px;"/><br /><sub><b>Bruno Pulis</b></sub>](http://www.brunopulis.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=brunopulis "Code") |
+| :---: | :---: | :---: | :---: |
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
-Dialetus is released under the MIT license.
+Dialetus is released under the [MIT license](license).
 
 Copyright © 2018.
