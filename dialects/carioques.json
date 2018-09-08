@@ -1,0 +1,42 @@
+[
+  {
+    "dialect": "Bolado",
+    "meanings": ["Quando a gente fica preocupado com algo ou com alguém ou não entendeu alguma situação."],
+    "examples": ["Fiquei bolado com minha nota baixa na escola.", "Estou bolado com meu irmão."]
+  },
+  {
+    "dialect": "Birita",
+    "meanings": ["Bebida alcoólica"],
+    "examples": ["Vamos no boteco tomar uma birita?"]
+  },
+  {
+    "dialect": "Caô",
+    "meanings": ["Mentira. Aquele que conta a mentira é o caozeiro"],
+    "examples": ["Ela disse que tem um carro, mas é caô",  "Aquele menino é um caozeiro."]
+  },
+  {
+    "dialect": "Cara",
+    "meanings": ["Termo usado para denominar ou se referir a uma pessoa de maneira informal. Colega, amigo. Usado tipicamente para se referir a homens, mas também usado para mulheres. Outra gírias com o mesmo significado: moleque, maluco, campeão, mané."],
+    "examples": ["Um cara me disse que essa cerveja é muito gostosa",  "Cara, eu não sei se vou poder viajar com você"]
+  },
+  {
+    "dialect": "Cerva",
+    "meanings": ["Forma reduzida para cerveja"],
+    "examples": ["Estou doido para tomar uma cerva"]
+  },
+  {
+    "dialect": "Coé",
+    "meanings": ["Contração da expressão qual é. É uma forma informal de se cumprimentar uma pessoa"],
+    "examples": ["Coé, tudo bem?"]
+  },
+  {
+    "dialect": "Estar na pista",
+    "meanings": ["Estar solteiro"],
+    "examples": ["Terminei o meu namoro. Agora estou na pista."]
+  },
+  {
+    "dialect": "Mó",
+    "meanings": ["Forma informal e condensada de dizer maior. Expressão para enfatizar, engrandecer"],
+    "examples": ["O sol hoje estava mó quente"]
+  }
+]
