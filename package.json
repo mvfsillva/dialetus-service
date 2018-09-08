@@ -9,9 +9,12 @@
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server",
     "lint": "xo --quiet",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate"
   },
   "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
     "eslint-config-prettier": "^3.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
