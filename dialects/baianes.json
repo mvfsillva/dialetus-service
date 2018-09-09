@@ -47,16 +47,26 @@
   {
     "dialect": "Virado no cão!",
     "meanings": ["muito irritado", "puto da vida", "cheio de ódio"],
-    "examples": ["Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"]
+    "examples": [
+      "Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"
+    ]
   },
   {
     "dialect": "Abadá",
     "meanings": ["camisa de bloco", "mesma camisa", "camisa de academia"],
-    "examples": ["Oxe, esse abadá denovo man?", "Oh o cara, se achando com o abadá de 10 conto dele!"]
+    "examples": [
+      "Oxe, esse abadá denovo man?",
+      "Oh o cara, se achando com o abadá de 10 conto dele!"
+    ]
   },
   {
     "dialect": "Axé",
-    "meanings": ["energia vital", "força sagrada dos orixás", "objeto em que se fixa essa energia", "cumprimento que exprime votos de felicidade"],
+    "meanings": [
+      "energia vital",
+      "força sagrada dos orixás",
+      "objeto em que se fixa essa energia",
+      "cumprimento que exprime votos de felicidade"
+    ],
     "examples": ["Muito axé na sua vida man!"]
   },
   {
@@ -73,6 +83,32 @@
     "dialect": "Baba",
     "meanings": ["Jogar bola", "Jogar futebol"],
     "examples": ["Vamo bater um baba?"]
+  },
+  {
+    "dialect": "Pivete",
+    "meanings": ["Forma proxima de chamar amigo", "meliante"],
+    "examples": [
+      "Você é meu pivete de ouro",
+      "Olha ali os pivete querendo roubar"
+    ]
+  },
+  {
+    "dialect": "Barril",
+    "meanings": ["Problema", "Situação Complicada"],
+    "examples": ["Isso ai é barril vey", "Barril beber cerveja quente"]
+  },
+  {
+    "dialect": "Barril Dobrado",
+    "meanings": [
+      "Problema muito grande",
+      "Situação muito complicada",
+      "Pessoa de grande Qualiadde"
+    ],
+    "examples": [
+      "Isso ai é barril vey",
+      "Você é barril dobrado meu pivete",
+      "Eu sou barril dobrado"
+    ]
   },
   {
     "dialect": "Migué",
@@ -107,11 +143,13 @@
   {
     "dialect": "De lenhar",
     "meanings": ["muito bom", "muito ruim"],
-    "examples": ["Pooooora, de lenhar essa música pivete!", "Pooorra vei esse Pablo do arrocha é de lenhar o coração!"]
+    "examples": [
+      "Pooooora, de lenhar essa música pivete!",
+      "Pooorra vei esse Pablo do arrocha é de lenhar o coração!"
+    ]
   },
   {
     "dialect": "Quem vai é coelho",
-    "meanings": ["não tenho coragem", "não irei a canto algum"],
-    "examples": ["Oxeeee, quem vai é coelho entrar nesse matagal aew!"]
+    "meanings": ["não tenho coragem", "não irei a canto algum"]
   }
 ]
