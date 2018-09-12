@@ -5,6 +5,18 @@
   "repository": "git@github.com:mvfsillva/dialetus-service.git",
   "author": "Marcus Silva <mvfsillva@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "dialetus",
+    "dialects",
+    "dialect",
+    "brazil",
+    "dictionary",
+    "brasil",
+    "dialetos",
+    "girias",
+    "dicionário",
+    "API"
+  ],
   "scripts": {
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server",
