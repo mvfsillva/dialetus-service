@@ -23,10 +23,10 @@ GET /dialect
 GET /dialects
 
 # /dialect/:region
-GET /dialect/`baianes`
-GET /dialect/`mineires`
-GET /dialect/`paranes`
-GET /dialect/`carioques`
+GET /dialect/baianes
+GET /dialect/mineires
+GET /dialect/paranes
+GET /dialect/carioques
 ```
 
 ## Respect earns Respect 👏
