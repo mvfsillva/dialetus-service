@@ -1,0 +1,62 @@
+[
+    {
+        "dialect": "Boe",
+        "meanings": ["Garoto", "Garota", "Menino", "Menina"],
+        "examples": ["E aí boe, beleza?", "Se liga nessa boe aí!"]
+    },
+    {
+        "dialect": "Galado",
+        "meanings": ["Pode ser utilizado no sentido de elogio ou xingamento"],
+        "examples": ["Esse ome é um galado mesmo, viu boe?", "Esse boy é um galado, tá me devendo 10R$ e ainda não me pagou!" ]
+    },
+    {
+        "dialect": "Bom ki só",
+        "meanings": ["Algo foi muito bom"],
+        "examples": ["- E aí, a festa foi boa? - boe, foi bom ki só!!! Peguei geral! HAHAH"]
+    },
+    {
+        "dialect": "Rasga",
+        "meanings": ["Quando você quer que alguém conte um segredo ou alguma coisa", "Quando você quer que a pessoa fale tudo"],
+        "examples": ["- Eu tenho uma coisa para te contar! - Vai, rasga!"]
+    },
+    {
+        "dialect": "Vou chegar",
+        "meanings": ["Quando alguém está em algum lugar e quer ir EMBORA"],
+        "examples": ["Ei, a conversa está boa mas eu vou chegar! Valeu!"]
+    },
+    {
+        "dialect": "Não tem parêa não",
+        "meanings": ["Quando alguma coisa é muito boa", "Algo é tão bom que é único"],
+        "examples": ["O filme foi muito bom, não tem parêa não!", "Aquela boy é linda demais, não tem parêa não"]
+    },
+    {
+        "dialect": "De rocha",
+        "meanings": ["Quando você quer ressaltar/afirmar que algo é verdade."],
+        "examples": ["- Tu vai mesmo para festa? - Vou sim, de rocha"]
+    },
+    {
+        "dialect": "Sibito baleado",
+        "meanings": ["Quando você quer dizer que alguém é muito magro"],
+        "examples": ["Cara, aquele boe é um sibito baleado!"]
+    },
+    {
+        "dialect": "Gaiato",
+        "meanings": ["Quando alguém é tira brincadeira com outras pessoas mas elas não gostam"],
+        "examples": ["Deixe de ser gaiato, isso não tem nada a vê!"]
+    },
+    {
+        "dialect": "Avexado",
+        "meanings": ["Alguém que faz as coisas rápido demais ou nas pressas"],
+        "examples": ["Deixe de ser avexado, vai dá tempo irmos ao cinema."]
+    },
+    {
+        "dialect": "Avexa",
+        "meanings": ["Quando você quer que alguém faça algo mais rápido."],
+        "examples": ["Maria, avexa aí que eu quero utilizar o banheiro!!!"]
+    },
+    {
+        "dialect": "Cagado",
+        "meanings": ["Alguém que tem muita sorte"],
+        "examples": ["Rafael é um cagado, achou 10R$ hoje cedo."]
+    }
+]
