@@ -93,5 +93,15 @@
     "dialect": "Dá os trem prusôtrô",
     "meanings": ["Dar as coisas para os outros = doar as coisas"],
     "examples": ["Maria, você deu meus trem prusôtrô?"]
+  },
+  {
+    "dialect": "Pondioins",
+    "meanings": ["Ponto de ônibus"],
+    "examples": ["Vou embora, vou ali no pondioins"]
+  },
+  {
+    "dialect": "Oins",
+    "meanings": ["Ônibus"],
+    "examples": ["Maria, você já pegou o oins"]
   }
 ]
