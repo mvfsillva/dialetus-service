@@ -151,5 +151,10 @@
   {
     "dialect": "Quem vai é coelho",
     "meanings": ["não tenho coragem", "não irei a canto algum"]
+  },
+  {
+    "dialect": "Queixar",
+    "meanings": ["Paquerar", "flertar"],
+    "examples": ["Vou queixar fulana no reg hoje a noite pivete!"]
   }
 ]
