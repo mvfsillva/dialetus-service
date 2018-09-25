@@ -143,5 +143,93 @@
          "Que resenha é essa?",
          "Qual a resenha de hoje?"
       ]
+   },
+   {
+      "dialect":"Grea",
+      "meanings":[
+         "Situação muito engraçada."
+      ],
+      "examples":[
+         "Fulano, hoje a grea foi muito boa, passamos a tarde rindo."
+      ]
+   },
+   {
+      "dialect":"Malhado",
+      "meanings":[
+         "Pessoa muito conhecida.",
+         "Lugar muito frequentado.",
+         "Pessoa muito zoeira"
+      ],
+      "examples":[
+         "Fulano, não vamos para o Natal Shopping nos fins de semana, está muito malhado.",
+         "Fulana, tu é muito malhada, metade da universidade te conhece."
+      ]
+   },
+   {
+     "dialect":"Malhar",
+     "meanings":[
+         "Zuar",
+         "Zombar",
+         "Rir de alguém.",
+         "Rir de alguma situação.",
+         "Sinônimo de Grea",
+         "Sinônimo de rir"
+     ],
+     "examples":[
+         "Boe, hoje meu chefe tirou o dia pra contar piadas, a malhação foi grande."
+      ]
+   },
+   {
+     "dialect":"Massa",
+     "meanings":[
+         "Alguém legal.",
+         "Algo legal.",
+         "Bacana"
+     ],
+     "examples":[
+         "Cara, hoje a aula de violão foi massa demais, aprendemos várias músicas."
+      ]
+   },
+   {
+     "dialect":"Arrudiar",
+     "meanings":[
+         "Dar a volta."
+      ],
+      "examples":[
+         "Boezão, pare de arrudeio nessa conversa, e conte logo o que tem pra dizer.",
+         "Mãe, como saí mais cedo da aula, vou pegar o ônibus arrudiando hoje."
+      ]
+   },
+   {    
+     "dialect":"Mangar",
+     "meanings":[
+         "Zombar.",
+         "Rir de."
+      ],
+     "examples":[
+        "Meu amigo, manguei demais daquele teu amigo hoje, o bicho só falando coisa sem noção."
+      ]
+   },
+   {
+     "dialect":"Pegar Ar",
+     "meanings":[
+         "Ficar com raiva.",
+         "Tirar a paciência de alguém."
+      ],
+     "examples":[
+        "Boe, pare de tirar onda com teu amigo que ele tá pegando ar com tu visse.",
+        "Um aluno mexeu tanto com o professor que ele pegou ar e expulsou o aluno de sala."
+      ]
+   },
+   {
+     "dialect":"Deixe de Guerra",
+     "meanings":[
+         "Deixe de brincadeira",
+         "Deixe de brincar sobre isso."
+      ],
+     "examples":[
+         "Boe, deixe de guerra que a professora deu zero pra turma inteira.",
+         "Não, boe, deixe de guerra que as férias vão atrasar."
+      ]
    }
 ]
