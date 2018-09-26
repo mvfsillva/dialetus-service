@@ -231,5 +231,47 @@
          "Boe, deixe de guerra que a professora deu zero pra turma inteira.",
          "Não, boe, deixe de guerra que as férias vão atrasar."
       ]
+   },
+   {
+      "dialect":"Moído",
+      "meanings":[
+         "Confusão",
+         "Com dor"
+      ],
+      "examples":[
+         "Teve briga na festa ontem. Pense num moído grande!",
+         "Eu fiz academia ontem e tô todo moído."
+      ]
+   },
+   {
+      "dialect":"Frouxo",
+      "meanings":[
+         "medroso"
+      ],
+      "examples":[
+         "Aquele boe é muito frouxo."
+      ]
+   },
+   {
+      "dialect":"Pia",
+      "meanings":[
+         "Olha",
+         "Veja",
+         "Espia"
+      ],
+      "examples":[
+         "Pia onde vai Zezinho."
+      ]
+   },
+   {
+      "dialect":"Caninga",
+      "meanings":[
+         "Chato",
+         "Incomodar retidas vezes"
+      ],
+      "examples":[
+         "Isso é uma caninga da mulesta desse menino",
+         "Vai caningar outra pessoa, vai!"
+      ]
    }
 ]
