@@ -2,7 +2,7 @@
 
 module.exports = Object.freeze({
   baianes: require('./baianes.json'),
-  natales: require('./natales.json'),
+  potiguares: require('./potiguares.json'),
   mineires: require('./mineires.json'),
   paranes: require('./paranes.json'),
   carioques: require('./carioques.json'),

@@ -27,7 +27,7 @@ GET /dialect/baianes
 GET /dialect/mineires
 GET /dialect/paranes
 GET /dialect/carioques
-GET /dialect/natales
+GET /dialect/potiguares
 ```
 
 ## Respect earns Respect 👏
