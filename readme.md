@@ -28,6 +28,7 @@ GET /dialect/mineires
 GET /dialect/paranes
 GET /dialect/carioques
 GET /dialect/potiguares
+GET /dialect/rondones
 ```
 
 ## Respect earns Respect 👏
