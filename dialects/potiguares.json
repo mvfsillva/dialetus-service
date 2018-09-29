@@ -273,5 +273,38 @@
          "Isso é uma caninga da mulesta desse menino",
          "Vai caningar outra pessoa, vai!"
       ]
+   },
+   {
+      "dialect":"Sostô",
+      "meanings":[
+         "Quem te viu quem te vê",
+         "Decepção",
+         "Me poupe!"
+      ],
+      "examples":[
+         "Sostô dessas suas besteiras meu filho!",
+         "Quando o clima estava frio você reclamava, agora que está calor, você continua reclamando, sostô viu!"
+      ]
+   },
+   {
+      "dialect":"Estribado",
+      "meanings":[
+         "Rico.",
+         "Alguém que está gastando muito dinheiro."
+      ],
+      "examples":[
+         "Fulaninho hoje tá estribado, pagou a rodada de chopp para todo mundo no happy hour.",
+         "Meu irmão ficou estribado depois que começou a receber em dólar."
+      ]
+   },
+   {
+      "dialect":"Baixa da égua",
+      "meanings":[
+         "Lugar muito distânte"
+      ],
+      "examples":[
+         "Tive que andar até a baixa da égua hoje atrás de uma pizzaria aberta.",
+         "Boy, bati lá na baixa da égua hoje pra participar de um congresso."
+      ]
    }
 ]
