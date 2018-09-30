@@ -13,14 +13,101 @@
 All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
+### GET /regions
 
-### GET /dialect
+List all regions available with the total mapped dialects.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.now.sh/regions
+```
+
+#### Response
+
+```json
+[
+  {
+    "name": "baianes",
+    "total": 27
+  },
+  {
+    "name": "potiguares",
+    "total": 30
+  },
+  {
+    "name": "mineires",
+    "total": 21
+  },
+  {
+    "name": "paranes",
+    "total": 53
+  },
+  {
+    "name": "carioques",
+    "total": 8
+  },
+  {
+    "name": "rondones",
+    "total": 9
+  }
+]
+```
+
+### GET /regions/:region/dialects
+
+List all dialects mapped.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.now.sh/regions/baianes/dialects
+```
+
+#### Response
+
+```json
+[
+  {
+    "dialect": "Relaxe mô fiu.",
+    "meanings": [
+      "Sem problemas",
+      "Fique tranquilo"
+    ],
+    "examples": [
+      "Ô vei, relaxe mô fiu todo nervoso ele."
+    ]
+  },
+  {
+    "dialect": "É bala!",
+    "meanings": [
+      "algo interessante",
+      "massa"
+    ],
+    "examples": [
+      "Que computador bala!"
+    ]
+  },
+  {
+    "dialect": "Comer água!",
+    "meanings": [
+      "Vodka",
+      "Cerveja",
+      "Qualquer bebida que contenha álcool"
+    ],
+    "examples": [
+      "Vamo pro reg comer água galera!"
+    ]
+  },
+]
+```
 
 #### List of dialects
 
+### GET /dialect
+
 ```bash
 GET /dialect
-GET /dialects
 
 # /dialect/:region
 GET /dialect/baianes
