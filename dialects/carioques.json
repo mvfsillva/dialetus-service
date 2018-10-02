@@ -38,5 +38,30 @@
     "dialect": "Mó",
     "meanings": ["Forma informal e condensada de dizer maior. Expressão para enfatizar, engrandecer"],
     "examples": ["O sol hoje estava mó quente"]
+  },
+  {
+    "dialect": "Deu Ruim",
+    "meanings": ["Aquilo que não deu certo"],
+    "examples": ["Aquele meu PR que subi, deu ruim."]
+  },
+  {
+    "dialect": "Partiu",
+    "meanings": ["Momento certo pra iniciar uma ação!"],
+    "examples": ["Partiu praia?"]
+  },
+  {
+    "dialect": "Foda",
+    "meanings": ["Pode indicar dificuldade, ou algo bom, ou algo impressionante!"],
+    "examples": ["Esse teu código ficou foda!"]
+  },
+  {
+    "dialect": "Fechou",
+    "meanings": ["Pode ser?", "Combinado?"],
+    "examples": ["Eu te encontro em Ipanema no posto 10, fechou?"]
+  },
+  {
+    "dialect": "Vacilar",
+    "meanings": ["Cometer um erro. Desapontar alguém."],
+    "examples": ["Maria vacilou comigo, porque ela me deixou esperando um tempão por ela de novo."]
   }
 ]
