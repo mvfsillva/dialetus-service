@@ -137,7 +137,7 @@ Please take a look at the [contributing guide](.github/contributing.md).
 - Marcus Silva ([@mvfsillva](https://github.com/mvfsillva))
 - Angelmario Santana ([@anfsantana](https://github.com/anfsantana))
 - Jader Gomes ([@jdrgomes](https://github.com/jdrgomes))
-- Rodolfo Silva ([@jdrgomes](https://github.com/RodolfoSilva))
+- Rodolfo Silva ([@RodolfoSilva](https://github.com/RodolfoSilva))
 
 ## Contributors 🎉
 Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
