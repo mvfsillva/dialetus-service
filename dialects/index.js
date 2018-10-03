@@ -7,4 +7,5 @@ module.exports = Object.freeze({
   paranes: require('./paranes.json'),
   carioques: require('./carioques.json'),
   rondones: require('./rondones.json'),
+  cearences: require('./cearences.json'),
 })
