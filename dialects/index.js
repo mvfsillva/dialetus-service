@@ -8,4 +8,5 @@ module.exports = Object.freeze({
   carioques: require('./carioques.json'),
   rondones: require('./rondones.json'),
   cearences: require('./cearences.json'),
+  catarines: require('./catarines.json'),
 })
