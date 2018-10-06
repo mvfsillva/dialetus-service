@@ -52,6 +52,10 @@ $ curl https://dialetus-service.now.sh/regions
     "total": 9
   },
   {
+    "name": "pernambuques",
+    "total": 11
+  },
+  {
     "name": "catarines",
     "total": 8
   }
@@ -121,6 +125,7 @@ GET /dialect/carioques
 GET /dialect/potiguares
 GET /dialect/rondones
 GET /dialect/cearences
+GET /dialect/pernambuques
 GET /dialect/catarines
 ```
 
