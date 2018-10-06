@@ -1,0 +1,42 @@
+[
+    {
+        "dialect": " Tax tolo?",
+        "meanings": ["Admiração", "Espanto"],
+        "examples": ["Tax tolo? Brinca com isso não."]
+    },
+    {
+        "dialect": "Se quex, quex, se não quex, dix",
+        "meanings": ["Indeciso"],
+        "examples": ["Só vou falar uma vez, se quex, quex, se não quex, dix."]
+    },
+    {
+        "dialect": "Boca-mole",
+        "meanings": ["Tapada", "Lento", "Disperso"],
+        "examples": ["Tu deixou o cachorro fugir, seu boca-mole?"]
+    },
+    {
+        "dialect": "Dar uma coça",
+        "meanings": ["Bater", "Apanhar", "Surra"],
+        "examples": ["Vem que eu te dou uma coça."]
+    },
+    {
+        "dialect": "Tu diz?",
+        "meanings": ["Afirmação", "Espanto", "Dúvida"],
+        "examples": ["Tu tas brincando, tu diz mesmo?"]
+    },
+    {
+        "dialect": "Matasse a pau!",
+        "meanings": ["Acertar", "Conseguir"],
+        "examples": ["Acertou na mosca, matasse a pau!"]
+    },
+    {
+        "dialect": "Istepô",
+        "meanings": ["Desgraçado", "Mentiroso"],
+        "examples": ["Venha cá, seu istepô!"]
+    },
+    {
+        "dialect": "Arrombassi",
+        "meanings": ["Espanto"],
+        "examples": ["Tu arrombassi isso aqui, foi?"]
+    }
+]
