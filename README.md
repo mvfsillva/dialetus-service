@@ -50,6 +50,10 @@ $ curl https://dialetus-service.now.sh/regions
   {
     "name": "rondones",
     "total": 9
+  },
+  {
+    "name": "catarines",
+    "total": 8
   }
 ]
 ```
@@ -117,6 +121,7 @@ GET /dialect/carioques
 GET /dialect/potiguares
 GET /dialect/rondones
 GET /dialect/cearences
+GET /dialect/catarines
 ```
 
 ## Respect earns Respect 👏
