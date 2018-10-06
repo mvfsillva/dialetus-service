@@ -77,6 +77,7 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects
 ```json
 [
   {
+    "slug": "relaxe-mo-fiu",
     "dialect": "Relaxe mô fiu.",
     "meanings": [
       "Sem problemas",
@@ -87,6 +88,7 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects
     ]
   },
   {
+    "slug": "e-bala",
     "dialect": "É bala!",
     "meanings": [
       "algo interessante",
@@ -97,6 +99,7 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects
     ]
   },
   {
+    "slug": "comer-agua",
     "dialect": "Comer água!",
     "meanings": [
       "Vodka",
@@ -108,6 +111,32 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects
     ]
   },
 ]
+```
+
+### GET /regions/:region/dialects/:slug
+
+Get a dialect by slug.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.now.sh/regions/baianes/dialects/relaxe-mo-fiu
+```
+
+#### Response
+
+```json
+{
+  "slug": "relaxe-mo-fiu",
+  "dialect": "Relaxe mô fiu.",
+  "meanings": [
+    "Sem problemas",
+    "Fique tranquilo"
+  ],
+  "examples": [
+    "Ô vei, relaxe mô fiu todo nervoso ele."
+  ]
+}
 ```
 
 #### List of dialects
