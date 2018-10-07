@@ -1,7 +1,7 @@
 const chai = require('chai')
 const app = require('../../app')
 
-describe('Integration: Default endpoint', () => {
+describe('Integration: Dialect Regions endpoint', () => {
   let server
   const expectedResponse = [
     {
