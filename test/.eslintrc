@@ -1,0 +1,19 @@
+{
+  "env": {
+    "mocha": true,
+  },
+  "globals": {
+    "sinon": false,
+    "chai": false,
+    "assert": false,
+    "expect": false,
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      2,
+      {
+        "devDependencies": true
+      }
+    ]
+  }
+}

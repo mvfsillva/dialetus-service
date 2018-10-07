@@ -23,14 +23,26 @@
     "lint": "xo --quiet",
     "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/unit/mocha.opts",
+    "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.0",
+    "cross-env": "^5.2.0",
     "eslint-config-prettier": "^3.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.0",
     "nodemon": "^1.18.3",
+    "nyc": "^13.0.1",
+    "proxyquire": "^2.1.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0",
     "supertest": "^3.1.0",
     "xo": "^0.22.0"
   },
@@ -56,7 +68,12 @@
     "globals": [
       "it",
       "describe",
-      "before"
+      "before",
+      "after",
+      "afterEach",
+      "assert",
+      "sinon",
+      "expect"
     ],
     "rules": {
       "prefer-promise-reject-errors": 0,
