@@ -1,7 +1,6 @@
 const express = require('express')
 const bodyParser = require('body-parser')
 const expressValidator = require('express-validator')
-const cors = require('cors')
 
 require('dotenv').load()
 
@@ -12,7 +11,12 @@ const logger = require('./logger')
 const app = express()
 
 app.config = config
-app.use(cors())
+
+if (process.env.NODE_ENV !== 'production') {
+  const cors = require('cors')
+  app.use(cors())
+}
+
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
 app.use(expressValidator())
