@@ -14,7 +14,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'catarines',
-      total: 8,
+      total: 22,
     },
     {
       name: 'cearences',
@@ -30,7 +30,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'pernambuques',
-      total: 12,
+      total: 15,
     },
     {
       name: 'potiguares',
