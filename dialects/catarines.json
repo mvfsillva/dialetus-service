@@ -38,5 +38,75 @@
         "dialect": "Arrombassi",
         "meanings": ["Espanto"],
         "examples": ["Tu arrombassi isso aqui, foi?"]
+    },
+    {
+        "dialect": "Caxão pro Bili",
+        "meanings": ["Algo deu errado"],
+        "examples": ["Sabe aquela parada que estávamos aguardando? Pois é caixão pro billy, ferrou!"]
+    },
+    {
+        "dialect": "Éééééégua",
+        "meanings": ["Espanto", "Comovido"],
+        "examples": ["Éééééégua, tu viu aquilo?"]
+    },
+    {
+        "dialect": "Éééésqua",
+        "meanings": ["Espanto", "Comovido"],
+        "examples": ["Éééésqua, o que aconteceu aqui?"]
+    },
+    {
+        "dialect": "Meu Canário",
+        "meanings": ["Espanto"],
+        "examples": ["Meu Canário, agora ferrou tudo!"]
+    },
+    {
+        "dialect": "Tacá-lo pau",
+        "meanings": ["Depressa", "Rápido"],
+        "examples": ["Tacá-le pau nesse carrinho, Marcos."]
+    },
+    {
+        "dialect": "Zarco",
+        "meanings": ["Ônibus"],
+        "examples": ["Vamos de zarco hoje."]
+    },
+    {
+        "dialect": "Zica",
+        "meanings": ["Bicicleta"],
+        "examples": ["Tu vai de zica?"]
+    },
+    {
+        "dialect": "Pila",
+        "meanings": ["Dinheiro"],
+        "examples": ["Quantos pila deu?"]
+    },
+    {
+        "dialect": "Ninja",
+        "meanings": ["Sabedoria", "Esperto"],
+        "examples": ["Esse cara é um ninja!"]
+    },
+    {
+        "dialect": "Visse",
+        "meanings": ["Ver", "Saber"],
+        "examples": ["Tu visse o que aconteceu ontem?"]
+    },
+    {
+        "dialect": "Dipé",
+        "meanings": ["A pé", "Andar"],
+        "examples": ["Vim dipé."]
+    },
+    {
+        "dialect": "Bobiça",
+        "meanings": ["Brincadeira"],
+        "examples": ["Para de bobiça e conta logo."]
+    },
+    {
+        "dialect": "Jaguara",
+        "meanings": ["Cafajeste", "Sem vergonha"],
+        "examples": ["Uhhh seu jaguara, sai daqui!"]
+    },
+    {
+        "dialect": "Abobado",
+        "meanings": ["Bobo", "Tolo"],
+        "examples": ["Mas tu é um abobado mesmo."]
     }
 ]
