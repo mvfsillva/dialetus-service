@@ -25,7 +25,8 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/unit/mocha.opts",
-    "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
+    "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts",
+    "test": "yarn test:unit && test:integration"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
@@ -83,6 +84,7 @@
   "lint-staged": {
     "*.js": [
       "yarn lint",
+      "yarn test",
       "prettier --semi false --single-quote --trailing-comma --write",
       "git add"
     ]
