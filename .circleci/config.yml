@@ -45,10 +45,10 @@ jobs:
       - attach_workspace:
           at: ~/workspace
       - run:
-          name: Test service and generate coverage report
+          name: Running unit and integration tests
           command: |
-            npm run test:coverage --ci
-            npm run coveralls
+            npm run test:unit
+            npm run test:integration
       - persist_to_workspace:
           <<: *to_persist
 
@@ -58,5 +58,8 @@ workflows:
     jobs:
       - checkout
       - lint:
+          requires:
+            - checkout
+      - test:
           requires:
             - checkout
