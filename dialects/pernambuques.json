@@ -62,6 +62,11 @@
   {
     "dialect": "Tabacudo",
     "meanings": ["Bobo", "Idiota"],
-    "examples": ["Que menino tabacudo da gota!"]
+    "examples": ["Que menino tabacudo da gota!", "Sai daê, tabacudo"]
+  },
+  {
+    "dialect": "Pala",
+    "meanings": ["Caô", "Fake News"],
+    "examples": ["Que pala do c*rai!!!"]
   }
 ]
