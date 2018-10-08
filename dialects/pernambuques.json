@@ -40,6 +40,11 @@
     "examples": ["José entregou a gente, esse boy é muito cabueta."]
   },
   {
+    "dialect": "Dispense",
+    "meanings": ["Não faça isso", "Pare com isso"],
+    "examples": ["Ei po, dispense!"]
+  },
+  {
     "dialect": "Gazea",
     "meanings": ["Matar aula", "Faltar no compromisso"],
     "examples": ["Vamo gazear essa aula?", "Eu vi que você gazeeou hoje, viu?"]
@@ -48,6 +53,11 @@
     "dialect": "Marromenos",
     "meanings": ["Mais ou menos"],
     "examples": ["Não gostei desse bolo, ta marromenos."]
+  },
+  {
+    "dialect": "Pala",
+    "meanings": ["Caô", "Fake News"],
+    "examples": ["Que pala do c*rai!!!"]
   },
   {
     "dialect": "Peguento",
@@ -63,10 +73,5 @@
     "dialect": "Tabacudo",
     "meanings": ["Bobo", "Idiota"],
     "examples": ["Que menino tabacudo da gota!", "Sai daê, tabacudo"]
-  },
-  {
-    "dialect": "Pala",
-    "meanings": ["Caô", "Fake News"],
-    "examples": ["Que pala do c*rai!!!"]
   }
 ]
