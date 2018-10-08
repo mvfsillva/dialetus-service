@@ -57,7 +57,7 @@ $ curl https://dialetus-service.now.sh/regions
   },
   {
     "name": "catarines",
-    "total": 8
+    "total": 22
   }
 ]
 ```
