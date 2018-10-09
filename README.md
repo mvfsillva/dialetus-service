@@ -29,7 +29,7 @@ $ curl https://dialetus-service.now.sh/regions
 [
   {
     "name": "baianes",
-    "total": 27
+    "total": 30
   },
   {
     "name": "potiguares",

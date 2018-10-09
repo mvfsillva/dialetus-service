@@ -156,5 +156,20 @@
     "dialect": "Queixar",
     "meanings": ["Paquerar", "flertar"],
     "examples": ["Vou queixar fulana no reg hoje a noite pivete!"]
+  },
+  {
+    "dialect": "Lá ele",
+    "meanings": ["De jeito nenhum", "Sai fora!", "Eu não!"],
+    "examples": ["Que história é essa rapaz? Lá ele!", "Tudo tu leva na maldade, pivete? Lá ele!"]
+  },
+  {
+    "dialect": "Se pique",
+    "meanings": ["Vai embora", "Sai daqui!"],
+    "examples": ["Tá fazendo o quê nessa quebrada, pivete? Se pique!", "Se pique que tu tá atrasado!"]
+  },
+  {
+    "dialect": "Pegou ar",
+    "meanings": ["Se irritou", "Se estressou"],
+    "examples": ["Na hora que o cara chamou ele de corno, ele pegou ar."]
   }
 ]
