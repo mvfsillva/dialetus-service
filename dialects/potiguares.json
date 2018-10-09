@@ -134,6 +134,50 @@
       ]
    },
    {
+      "dialect":"Toco de amarrar cachorro",
+      "meanings":[
+         "Apelido dado a uma pessoa baixa/estatura pequena"
+      ],
+      "examples":[
+         "Ela parece um toco de amarrar cachorro!"
+      ]
+   },
+   {
+      "dialect":"Infeliz das costas oca",
+      "meanings":[
+         "Um insulto, ou ofensa para se referir a alguém que te fez raiva",
+         "imundo",
+         "peste",
+         "condenado"
+      ],
+      "examples":[
+         "Ah meus Deus, esse menino é um infeliz das costas oca."
+      ]
+   },
+   {
+      "dialect":"Fuderoso",
+      "meanings":[
+         "Uma pessoa top.",
+         "Algo muito bom.",
+         "Uma coisa foda"
+      ],
+      "examples":[
+         "Esse omi é fuderoso.",
+         "Esse jogo ta fuderoso."
+      ]
+   },
+   {
+      "dialect":"Deixe quieto",
+      "meanings":[
+         "Não comentar sobre o assunto.",
+         "Abafar o caso.",
+         "Não fazer mais aquilo"
+      ],
+      "examples":[
+         "1 - Ei, eu vou falar com aquela boyzinha agora. 2 - Omi, deixe quieto.",
+      ]
+   },
+   {
       "dialect":"Resenha",
       "meanings":[
          "Substantivo que denomina as últimas fofocas, novidades.",
