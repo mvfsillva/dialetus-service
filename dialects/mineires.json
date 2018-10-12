@@ -103,5 +103,30 @@
     "dialect": "Oins",
     "meanings": ["Ônibus"],
     "examples": ["Maria, você já pegou o oins"]
+  },
+  {
+    "dialect": "Ah neein",
+    "meanings": ["Não, nunca, jamais"],
+    "examples": ["Você vai ir aquela festa? Ah neein."]
+  },
+  {
+    "dialect": "Copo sujo",
+    "meanings": ["Estabelecimento conhecido como a casa do boteco lagoinha. Famoso bar antigo"],
+    "examples": ["Vamos ali tomar uma cerveja no copo sujo?"]
+  },
+  {
+    "dialect": "Crendeuspai",
+    "meanings": ["Acrônimo de Crem Deus Pai. Interjeição utilizada para exprimir espanto"],
+    "examples": ["Crendeuspai, o que é isso!"]
+  },
+  {
+    "dialect": "Doncovim",
+    "meanings": ["Acrônimo de De onde eu vim."],
+    "examples": ["Estou perdido, não sei doncovim."]
+  },
+  {
+    "dialect": "Garrado",
+    "meanings": ["Farei com certeza."],
+    "examples": ["Vai a festa hoje? Tô garrado!"]
   }
 ]
