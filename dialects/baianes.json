@@ -1,87 +1,89 @@
 [
   {
-    "dialect": "Relaxe mô fiu.",
-    "meanings": ["Sem problemas", "Fique tranquilo"],
-    "examples": ["Ô vei, relaxe mô fiu todo nervoso ele."]
+    "dialect": "Relaxe mô fiu",
+    "meanings": ["Sem problemas", "Fique tranquilo", "Esfriar a cabeça"],
+    "examples": ["Relaxe mô fiu, vai ficar de boa."]
   },
   {
-    "dialect": "É bala!",
-    "meanings": ["algo interessante", "massa"],
+    "dialect": "É bala",
+    "meanings": ["Interessante", "Atrai a atenção ou desperta curiosidade"],
     "examples": ["Que computador bala!"]
   },
   {
-    "dialect": "REG!",
-    "meanings": ["Chamar os amigos para a balada"],
-    "examples": ["Vamo pro reg galera?"]
+    "dialect": "Regui",
+    "meanings": ["Reunião com os amigos", "Balada", "Festa"],
+    "examples": ["Ô mizera, bora pro regui logo vá!"]
   },
   {
-    "dialect": "Num tô comeno reggae!",
+    "dialect": "Num tô comeno regui",
     "meanings": ["Não acreditar em algo", "Não se importar"],
-    "examples": ["Num tô comeno reggae não viu pae!"]
+    "examples": ["Num tô comeno regui não viu pae."]
   },
   {
-    "dialect": "Rumaláporra!",
+    "dialect": "Rumaláporra, Rumáladisgraça ou Picá a porra",
     "meanings": ["Agir violentamente contra alguém ou algo"],
     "examples": ["Vou rumaláporra nele vuhhh!"]
   },
   {
-    "dialect": "Comer água!",
-    "meanings": ["Vodka", "Cerveja", "Qualquer bebida que contenha álcool"],
-    "examples": ["Vamo pro reg comer água galera!"]
+    "dialect": "Cumê água",
+    "meanings": ["Consumo de bebida alcoólica"],
+    "examples": ["Vamo pro regui cumê água vei"]
   },
   {
-    "dialect": "Pega a visão!",
+    "dialect": "Pega a visão",
     "meanings": ["Sinal de alerta", "Presta atenção"],
     "examples": ["Pega a visão que lá vem a corda do chiclete!"]
   },
   {
-    "dialect": "Canguinha!",
+    "dialect": "Canguinha",
     "meanings": ["Pão duro"],
-    "examples": ["Deixe de ser canguinha veiii!"]
+    "examples": ["Deixe de ser canguinha vei"]
   },
   {
-    "dialect": "To na bruxa!",
-    "meanings": ["irritado", "impaciente", "intolerante"],
-    "examples": ["Hoje eu to na bruxa!!"]
+    "dialect": "Tô na bruxa",
+    "meanings": ["Irritado", "Impaciente", "Intolerante"],
+    "examples": ["Vixeee, ela ta na bruxa hoje."]
   },
   {
-    "dialect": "Virado no cão!",
-    "meanings": ["muito irritado", "puto da vida", "cheio de ódio"],
+    "dialect": "Cheio de ódio",
+    "meanings": ["Com muita raiva", "Sem acordo de pacificação", "Fora de si"],
+    "examples": ["Tô cheio de ódio vu mizera, se saia de minha frante logo vá!"]
+  },
+  {
+    "dialect": "Virado no cão",
+    "meanings": ["Mal humorado", "Aborrecido"],
     "examples": [
       "Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"
     ]
   },
   {
     "dialect": "Abadá",
-    "meanings": ["camisa de bloco", "mesma camisa", "camisa de academia"],
-    "examples": [
-      "Oxe, esse abadá denovo man?",
-      "Oh o cara, se achando com o abadá de 10 conto dele!"
-    ]
+    "meanings": ["Camisa de foliões de blocos carnavalescos", "Blusa ou bata larga e solta"],
+    "examples": ["Oh o cara, se achando com o abadá de 10 conto."]
   },
   {
     "dialect": "Axé",
     "meanings": [
-      "energia vital",
-      "força sagrada dos orixás",
-      "objeto em que se fixa essa energia",
-      "cumprimento que exprime votos de felicidade"
+      "Energia vital",
+      "Força sagrada dos orixás",
+      "Objeto em que se fixa essa energia",
+      "Cumprimento que exprime votos de felicidade"
     ],
-    "examples": ["Muito axé na sua vida man!"]
+    "examples": ["Muito axé na sua vida."]
   },
   {
     "dialect": "Oxente",
-    "meanings": ["surpresa", "admiração"],
+    "meanings": ["Surpresa", "Admiração"],
     "examples": ["Oxente mainha!"]
   },
   {
     "dialect": "Porreta",
-    "meanings": ["muito legal", "especial"],
+    "meanings": ["Muito legal"],
     "examples": ["Porreta isso ai viu!"]
   },
   {
-    "dialect": "Baba",
-    "meanings": ["Jogar bola", "Jogar futebol"],
+    "dialect": "Batê o baba",
+    "meanings": ["Jogar bola", "Prática de esporte com amigos"],
     "examples": ["Vamo bater um baba?"]
   },
   {
@@ -95,19 +97,18 @@
   {
     "dialect": "Barril",
     "meanings": ["Problema", "Situação Complicada"],
-    "examples": ["Isso ai é barril vey", "Barril beber cerveja quente"]
+    "examples": ["Isso ai é barril vei", "Barril beber cerveja quente vu"]
   },
   {
     "dialect": "Barril Dobrado",
     "meanings": [
       "Problema muito grande",
       "Situação muito complicada",
-      "Pessoa de grande Qualiadde"
+      "Pessoa de grande qualiadde"
     ],
     "examples": [
-      "Isso ai é barril vey",
       "Você é barril dobrado meu pivete",
-      "Eu sou barril dobrado"
+      "Veveta é barril dobrado"
     ]
   },
   {
@@ -117,7 +118,7 @@
   },
   {
     "dialect": "Aooooonde",
-    "meanings": ["Não", "jamais", "ironia"],
+    "meanings": ["Não", "Jamais", "Ironia"],
     "examples": ["Aooooonde que eu vou subir essa ladeira!"]
   },
   {
@@ -131,14 +132,14 @@
     "examples": ["Colé de merma pivete?"]
   },
   {
-    "dialect": "De keké",
-    "meanings": ["de quebrada", "tranquilo"],
+    "dialect": "De keké ou De quebrada",
+    "meanings": ["Despreocupado", "Tranquilo", "Sereno"],
     "examples": ["Tá de keké sacana!"]
   },
   {
     "dialect": "Dissssssgraça",
-    "meanings": ["o pior xingamento de todos"],
-    "examples": ["Oh sinha Dissssssgraça venha cá vá!!"]
+    "meanings": ["Expressar raiva ou espanto", "Xingamento"],
+    "examples": ["Oh sinha Dissssssgraça venha cá vá!"]
   },
   {
     "dialect": "De lenhar",
@@ -150,12 +151,12 @@
   },
   {
     "dialect": "Quem vai é coelho",
-    "meanings": ["não tenho coragem", "não irei a canto algum"]
+    "meanings": ["Não tenho coragem", "Não irei a canto algum"]
   },
   {
-    "dialect": "Queixar",
-    "meanings": ["Paquerar", "flertar"],
-    "examples": ["Vou queixar fulana no reg hoje a noite pivete!"]
+    "dialect": "Quexá",
+    "meanings": ["Paquerar", "Flertar"],
+    "examples": ["Vou quexá ela no regui hoje pivete!"]
   },
   {
     "dialect": "Lá ele",
@@ -171,5 +172,48 @@
     "dialect": "Pegou ar",
     "meanings": ["Se irritou", "Se estressou"],
     "examples": ["Na hora que o cara chamou ele de corno, ele pegou ar."]
+  },
+  {
+    "dialect": "Comediando",
+    "meanings": ["Fazer de bobo", "Tirar um sarro", "Mangar"],
+    "examples": ["Ô vei, ta me comediando né mizera?!"]
+  },
+  {
+    "dialect": "Se bote",
+    "meanings": ["Chamada para briga", "Combate físico"],
+    "examples": ["Se bote aí vá sua disgraçaaaaa"]
+  },
+  {
+    "dialect": "Se plante",
+    "meanings": ["Atenção", "Sinal de alerta"],
+    "examples": ["Deixe de besteira, se plante logo aí."]
+  },
+  {
+    "dialect": "Me saí logo",
+    "meanings": ["Evitar situação", "Ir embora"],
+    "examples": ["Quando eu vi as novinhas, me saí foi logo pra nao da ruim com a federal."]
+  },
+  {
+    "dialect": "Lasquei em banda",
+    "meanings": ["Sem pena", "Abrupto"],
+    "examples": ["Oxe man, lasquei foi em banda mermo, quis nem saber."]
+  },
+  {
+    "dialect": "Ó paí ó",
+    "meanings": ["Preste atenção", "Observar algo ou uma situação"],
+    "examples": ["Ó paí ó mainha, ele comeu minha mortadela toda."]
+  },
+  {
+    "dialect": "Eu quero prova e R$ 1,00 de Big-Big",
+    "meanings": ["Muito difícil de acreditar"],
+    "examples": ["Eu quero prova e R$ 1,00 de Big-Big que aquela coisa linda ficou com você sua mizera."]
+  },
+  {
+    "dialect": "Auê ou Fuzuê",
+    "meanings": ["Baderna", "Barulho", "Confusão"],
+    "examples": [
+      "Ei, ó o auê aí ô", 
+      "Que Fuzuê é esse aqui em casa mermo?!"
+    ]
   }
 ]
