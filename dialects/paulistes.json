@@ -1,0 +1,61 @@
+[
+  {
+    "dialect": "Coxinha",
+    "meanings": ["Policial"],
+    "examples": ["Ali na calçada, já vem outros dois coxinhas"]
+  },
+  {
+    "dialect": "Se pá",
+    "meanings": ["Talvez", "Se der"],
+    "examples": ["Se pá eu apareço aí hoje à noite"]
+  },
+  {
+    "dialect": "Miar",
+    "meanings": ["Nao dar certo", "Ruim"],
+    "examples": [
+      "Se chover, o rolê de hoje vai miar",
+      "A balada ontem estava miada"
+    ]
+  },
+  {
+    "dialect": "Salve",
+    "meanings": ["Oi", "Cumprimento"],
+    "examples": ["Quero mandar um salve para a minha mãe, meu pai e os manos da minha quebrada"]
+  },
+  {
+    "dialect": "Osso",
+    "meanings": ["Difícil"],
+    "examples": ["A prova hoje tava muito osso!"]
+  },
+  {
+    "dialect": "Padoca",
+    "meanings": ["Padaria"],
+    "examples": ["Borá ali na padoca depois?"]
+  },
+  {
+    "dialect": "Pingado",
+    "meanings": ["Café com leite"],
+    "examples": ["Borá ali na padoca tomar um pingado e comer um pão na chapa?"]
+  },
+  {
+    "dialect": "Bagulho",
+    "meanings": ["Qualquer tipo de objeto (lapis, papel, celular)"],
+    "examples": [
+      "Empresta esse bagulho ai pra mim?",
+      "Passa essa bagulho ai mano!"
+    ]
+  },
+  {
+    "dialect": "Pisante",
+    "meanings": ["Tênis", "Calçado"],
+    "examples": [
+      "Se liga no meu novo pisante mano",
+      "Olha o pisante daquele maluco!"
+    ]
+  },
+  {
+    "dialect": "Quebrada",
+    "meanings": ["Vizinhança", "Bairro"],
+    "examples": ["Cola aí na minha quebrada amanhã"]
+  }
+]
