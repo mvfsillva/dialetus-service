@@ -8,6 +8,11 @@
 
  The idea came about through the meeting of friends who only knew each other through the internet, each one with its linguistic-cultural traits, we thought of creating an informal dictionary for the idiomatic expressions that each Brazilian region possessed, so the project was totally collaborative, bringing cultural diversity from each one of us, being able, to deepen in the our Brazilian's daily culture.
 
+## Projects using the dialects-service
+
+ - [dialetus web](https://github.com/mvfsillva/dialetus)
+ - [dialetus-cli](https://github.com/bukinoshita/dialetus-cli) by [Bu Kinoshita](https://github.com/bukinoshita)
+
 ## 📃 API
 
 All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
@@ -163,11 +168,6 @@ GET /dialect/pernambuques
 GET /dialect/catarines
 GET /dialect/gauches
 ```
-
-## Projects using the dialects-service
-
- - [dialetus web](https://github.com/mvfsillva/dialetus)
- - [dialetus-cli](https://github.com/bukinoshita/dialetus-cli) by [Bu Kinoshita](https://github.com/bukinoshita)
 
 ## Respect earns Respect 👏
 
