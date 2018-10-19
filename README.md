@@ -13,6 +13,7 @@
 All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
+
 ### GET /regions
 
 List all regions available with the total mapped dialects.
@@ -162,6 +163,11 @@ GET /dialect/pernambuques
 GET /dialect/catarines
 GET /dialect/gauches
 ```
+
+## Projects using the dialects-service
+
+ - [dialetus web](https://github.com/mvfsillva/dialetus)
+ - [dialetus-cli](https://github.com/bukinoshita/dialetus-cli) by [Bu Kinoshita](https://github.com/bukinoshita)
 
 ## Respect earns Respect 👏
 
