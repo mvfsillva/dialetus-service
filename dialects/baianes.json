@@ -225,5 +225,10 @@
     "dialect": "Abrir o gás",
     "meanings": ["Ir embora", "Sair"],
     "examples": ["Man, já está tarde. Vou abrir o gás"]
+  },
+  {
+    "dialect": "Desgraça",
+    "meanings": ["Adiciona intensidade a frase"],
+    "examples": ["Essa desgraça está muito foda", "Tira a mão dessa desgraça aí!", "Porquê você mecheu nessa desgraça?"]
   }
 ]
