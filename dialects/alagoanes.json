@@ -1,0 +1,346 @@
+[
+  {
+    "dialect": "Arengar",
+    "meanings": ["Brigar", "Implicar"],
+    "examples": ["Não venha arengar comigo."]
+  },
+  {
+    "dialect": "Aperreio",
+    "meanings": ["Desespero", "Agonia"],
+    "examples": ["Que aperreio é esse mulher!"]
+  },
+  {
+    "dialect": "Amostrada",
+    "meanings": ["Pessoa metida"],
+    "examples": ["Você é amostrada demais."]
+  },
+  {
+    "dialect": "Abestado",
+    "meanings": ["Bobo", "Leso", "Tolo."],
+    "examples": ["Ele é abestado."]
+  },
+  {
+    "dialect": "Abestaiado",
+    "meanings": ["Bobo", "Leso", "Tolo."],
+    "examples": ["Aquele menino é abestaiado."]
+  },
+  {
+    "dialect": "Amancebado",
+    "meanings": ["Casal ou pessoa que vive junto, mas não casou civilmente."],
+    "examples": ["Raquel e Marcos estão amacebados."]
+  },
+  {
+    "dialect": "Arretado",
+    "meanings": ["Massa", "Bacana", "Legal"],
+    "examples": ["Jorge é arretado."]
+  },
+  {
+    "dialect": "Avalie",
+    "meanings": ["Imagine!"]
+  },
+  {
+    "dialect": "Avexado",
+    "meanings": ["Apressado"],
+    "examples": ["Você é muito avexado!"]
+  },
+  {
+    "dialect": "Avia!",
+    "meanings": ["Corra", "Se apresse!"]
+  },
+  {
+    "dialect": "Avia, macho!",
+    "meanings": ["Corra", "Se apresse!"]
+  },
+  {
+    "dialect": "Azogado",
+    "meanings": ["Pessoa inquieta"],
+    "examples": ["João é azogado."]
+  },
+  {
+    "dialect": "Brenha",
+    "meanings": ["Lugar longe de difícil acesso", "Escuro"],
+    "examples": ["Rogério mora na brenha."]
+  },
+  {
+    "dialect": "Baixa da égua",
+    "meanings": ["Lugar longe de difícil acesso", "Escuro"],
+    "examples": ["Meu tio mora na baixa da égua."]
+  },
+  {
+    "dialect": "Bruguelo",
+    "meanings": ["Criança pequena"],
+    "examples": ["O filho do meu amigo é bruguelo."]
+  },
+  {
+    "dialect": "Buguelo",
+    "meanings": ["Criança pequena"],
+    "examples": ["A filha do meu primo é buguelo."]
+  },
+  {
+    "dialect": "Bulir",
+    "meanings": ["Mexer em alguma coisa"],
+    "examples": ["Pare de bulir ai menino!"]
+  },
+  {
+    "dialect": "Brocoió",
+    "meanings": ["Idiota, Burro."],
+    "examples": ["Aquela mulher é brocoió."]
+  },
+  {
+    "dialect": "Buchuda",
+    "meanings": ["Mulher grávida."],
+    "examples": ["Minha prima esta buxuda."]
+  },
+  {
+    "dialect": "Chimbra",
+    "meanings": ["Bola de gude"],
+    "examples": ["As crianças brincam com as chimbras."]
+  },
+  {
+    "dialect": "Cabra mole",
+    "meanings": ["Medroso"],
+    "examples": ["Marcelo é um cabra mole."]
+  },
+  {
+    "dialect": "Frouxo",
+    "meanings": ["Medroso"],
+    "examples": ["Deixa de ser frouxo homem!"]
+  },
+  {
+    "dialect": "Caba de pêia",
+    "meanings": ["Homem safado"],
+    "examples": ["O marido da minha irmã é um caba de pêia."]
+  },
+  {
+    "dialect": "Catenga",
+    "meanings": ["Lagartixa"],
+    "examples": ["A catenga esta andando na parede."]
+  },
+  {
+    "dialect": "Cagado",
+    "meanings": ["Pessoa que tem muita sorte"],
+    "examples": ["Você nasceu cagado!"]
+  },
+  {
+    "dialect": "Chumbrego",
+    "meanings": ["Amassos de namoro"],
+    "examples": ["Vem cá mulher que vou te dar "]
+  },
+  {
+    "dialect": "Catota",
+    "meanings": ["Meleca de nariz"],
+    "examples": ["Aquela menina tem o costume de tirar catota."]
+  },
+  {
+    "dialect": "Cambito",
+    "meanings": ["Perna fina"],
+    "examples": ["Você malha muito e fica com o cambito."]
+  },
+  {
+    "dialect": "Cão chupando manga",
+    "meanings": ["Pessoa muito feia"],
+    "examples": ["Pense em um cão chumando manga, é aquele homem."]
+  },
+  {
+    "dialect": "Cabuloso",
+    "meanings": ["Chato, pessoa implicante"],
+    "examples": ["Menino cabuloso."]
+  },
+  {
+    "dialect": "Dever",
+    "meanings": ["Tarefa de casa, trabalho da escola"],
+    "examples": ["A mãe mandou a filha fazer o dever."]
+  },
+  {
+    "dialect": "Eita bexiga!",
+    "meanings": ["Caramba!, expressão de desespero"]
+  },
+  {
+    "dialect": "Eita gota!",
+    "meanings": ["Caramba!, expressão de espanto"]
+  },
+  {
+    "dialect": "Encangado",
+    "meanings": ["Junto", "Em cima", "Montado"],
+    "examples": ["Ele saiu encangado comigo.", "Ele esta encangado no muro."]
+  },
+  {
+    "dialect": "Fastio",
+    "meanings": ["Sem fome"],
+    "examples": ["Estou fastio."]
+  },
+  {
+    "dialect": "Farrapão",
+    "meanings": ["Pessoa que não arca com a palavra",
+      "Que falta constantemente a compromissos"]
+  },
+  {
+    "dialect": "Fulero",
+    "meanings": ["Coisa de má qualidade"],
+    "examples": ["O relógio é fuleiro."]
+  },
+  {
+    "dialect": "Safado",
+    "meanings": ["Coisa de má qualidade"],
+    "examples": ["Tenho um amigo Safado."]
+  },
+  {
+    "dialect": "Futucar",
+    "meanings": ["Mexer em algo"],
+    "examples": ["Pare de me futucar!"]
+  },
+  {
+    "dialect": "Gaia",
+    "meanings": ["Chifre"],
+    "examples": ["A minha namorada me colocou uma gaia."]
+  },
+  {
+    "dialect": "Galalau",
+    "meanings": ["Pessoa muito alta"],
+    "examples": ["Ele é galalau."]
+  },
+  {
+    "dialect": "Galega",
+    "meanings": ["Loira"],
+    "examples": ["Minha irmã pe galega."]
+  },
+  {
+    "dialect": "Iapois",
+    "meanings": ["Certamente", "Isso mesmo"],
+    "examples": ["Iapois, vou na praia!"]
+  },
+  {
+    "dialect": "Invocado",
+    "meanings": ["Pessoa que está com raiva"],
+    "examples": ["Ele esta invocado hoje."]
+  },
+  {
+    "dialect": "Inhaca",
+    "meanings": ["Catinga de suor", "Mau cheiro"],
+    "examples": ["O homem encostou em min com uma inhaca."]
+  },
+  {
+    "dialect": "Laranja cravo",
+    "meanings": ["Tangerina"],
+    "examples": ["Vou chupar uma laranja cravo."]
+  },
+  {
+    "dialect": "Liso",
+    "meanings": ["Pessoa que está sem dinheiro"],
+    "examples": ["Não fui pago esse mẽs, estou liso."]
+  },
+  {
+    "dialect": "Lomba",
+    "meanings": ["Resenha", "Algo engraçado"],
+    "examples": ["Isto é lomba."]
+  },
+  {
+    "dialect": "Migué",
+    "meanings": ["Mentira"],
+    "examples": ["Maior migué."]
+  },
+  {
+    "dialect": "Morgado",
+    "meanings": ["Desanimado"],
+    "examples": ["Hoje estou morgado para fazer a tarefa."]
+  },
+  {
+    "dialect": "Mangar",
+    "meanings": ["Rir de alguém"],
+    "examples": ["Ela mangou de min."]
+  },
+  {
+    "dialect": "Maloqueiro",
+    "meanings": ["Vagabundo"],
+    "examples": ["Seu molequeiro."]
+  },
+  {
+    "dialect": "Muriçoca",
+    "meanings": ["Pernilongo"],
+    "examples": ["A muriçoca picou a menina várias vezes na perna."]
+  },
+  {
+    "dialect": "Macaxeira",
+    "meanings": ["Aipim"],
+    "examples": ["Hoje tem macaxeira com ovo frito  no café da manhã."]
+  },
+  {
+    "dialect": "Munguzá",
+    "meanings": ["Canjica"],
+    "examples": ["Ele vende um mungunzá gostoso."]
+  },
+  {
+    "dialect": "Muganga",
+    "meanings": ["Performance ou atitude de palhaço", "Palhaçada"],
+    "examples": ["Ele sempre faz muganga."]
+  },
+  {
+    "dialect": "Parceiro",
+    "meanings": ["Amigo", "Colega"],
+    "examples": ["Meu parceiro venceu a prova de natação."]
+  },
+  {
+    "dialect": "Peidado",
+    "meanings": ["Indignado"],
+    "examples": ["Moises acordou peidado hoje."]
+  },
+  {
+    "dialect": "Pirangueiro",
+    "meanings": ["Mão de vaca"],
+    "examples": ["Meu pai é pirangueiro."]
+  },
+  {
+    "dialect": "Peba",
+    "meanings": ["Algo que é ruim", "De má qualidade"],
+    "examples": ["O sapato que ela compro é peba."]
+  },
+  {
+    "dialect": "Paia",
+    "meanings": ["Algo que é ruim", "De má qualidade"],
+    "examples": ["O bolo vendido naquela padaria é paia."]
+  },
+  {
+    "dialect": "Pocar",
+    "meanings": ["Romper", "Estourar"],
+    "examples": ["A criança pocou a bola."]
+  },
+  {
+    "dialect": "Pomba leza",
+    "meanings": ["Pessoa desligada"],
+    "examples": ["Sua pomba lesa, perdeu o horário do onibus."]
+  },
+  {
+    "dialect": "Quenga",
+    "meanings": ["Prostituta"],
+    "examples": ["Aquela mulher é uma quenga."]
+  },
+  {
+    "dialect": "Ronxa",
+    "meanings": ["Roxo", "Mancha de pancada no corpo"],
+    "examples": ["Apareceu uma ronxa na minha perna."]
+  },
+  {
+    "dialect": "Reinão",
+    "meanings": ["Criança danada", "Levada"],
+    "examples": ["Que reinão essa criança."]
+  },
+  {
+    "dialect": "Rafamé",
+    "meanings": ["Malandro"],
+    "examples": ["O rafamé robou a bolsa da senhora."]
+  },
+  {
+    "dialect": "Resenha",
+    "meanings": ["Coisa engraçada"],
+    "examples": ["Os jovem estavam na resenha a tarde toda."]
+  },
+  {
+    "dialect": "Resenheiro",
+    "meanings": ["Pessoa que gosta de zoar", "Tirar onda"],
+    "examples": ["Ricardo é resenheiro."]
+  },
+  {
+    "dialect": "Vôte!",
+    "meanings": ["Expressão de espanto"]
+  }
+]
