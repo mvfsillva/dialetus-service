@@ -215,5 +215,15 @@
       "Ei, ó o auê aí ô", 
       "Que Fuzuê é esse aqui em casa mermo?!"
     ]
+  },
+  {
+    "dialect": "Mizerê",
+    "meanings": ["Alguém muito bom em alguma coisa."],
+    "examples": ["Pivete, você é miserê!"]
+  },
+  {
+    "dialect": "Abrir o gás",
+    "meanings": ["Ir embora", "Sair"],
+    "examples": ["Man, já está tarde. Vou abrir o gás"]
   }
 ]
