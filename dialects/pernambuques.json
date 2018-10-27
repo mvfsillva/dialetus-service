@@ -10,6 +10,11 @@
     "examples": ["Tu é muito abestalhado, visse?", "Deixe de ser abestalhado e cresça!"]
   },
   {
+    "dialect": "Avexado",
+    "meanings": ["Envergonhado", "Tímido", "Retraído"],
+    "examples": ["Vem pra cá, deixa de ser avexado!", "Oxe, que menino avexado."]
+  },
+  {
     "dialect": "Avoado",
     "meanings": ["Pessoa distraída"],
     "examples": ["Esse rapaz é muito avoado!"]
@@ -33,6 +38,11 @@
     "dialect": "Borocochô",
     "meanings": ["Triste", "Para baixo"],
     "examples": ["João está todo borocochê hoje."]
+  },
+  {
+    "dialect": "Bulir",
+    "meanings": ["Mexer em algo"],
+    "examples": ["Para de bulir nesse celular.", "Estão bulindo nas tuas coisas"]
   },
   {
     "dialect": "Cabueta",
