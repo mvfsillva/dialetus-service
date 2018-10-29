@@ -63,5 +63,15 @@
     "dialect": "Vacilar",
     "meanings": ["Cometer um erro. Desapontar alguém."],
     "examples": ["Maria vacilou comigo, porque ela me deixou esperando um tempão por ela de novo."]
+  },
+  {
+    "dialect": "Tipo",
+    "meanings": ["por exemplo."],
+    "examples": ["Tipo, ele me ligou do na-da! Tipo, muito inesperado"]
+  },
+  {
+    "dialect": "Já é",
+    "meanings": ["Sim, ok, combinado"],
+    "examples": ["Pedro,vamos sair hoje?” Se a resposta é positiva: “Já é”"]
   }
 ]
