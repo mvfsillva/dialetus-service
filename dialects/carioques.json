@@ -63,5 +63,10 @@
     "dialect": "Vacilar",
     "meanings": ["Cometer um erro. Desapontar alguém."],
     "examples": ["Maria vacilou comigo, porque ela me deixou esperando um tempão por ela de novo."]
+  },
+  {
+    "dialect": "Se Liga",
+    "meanings": ["Pedido para que haja atenção em algo ou no que está sendo falado."],
+    "examples": ["Se liga, você vai embora que horas?"]
   }
 ]
