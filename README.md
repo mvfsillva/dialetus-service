@@ -32,44 +32,43 @@ $ curl https://dialetus-service.now.sh/regions
 #### Response
 
 ```json
-[
-  {
-    "name": "baianes",
-    "total": 30
-  },
-  {
-    "name": "potiguares",
-    "total": 30
-  },
-  {
-    "name": "mineires",
-    "total": 21
-  },
-  {
-    "name": "paranes",
-    "total": 53
-  },
-  {
-    "name": "carioques",
-    "total": 8
-  },
-  {
-    "name": "rondones",
-    "total": 9
-  },
-  {
-    "name": "pernambuques",
-    "total": 11
-  },
-  {
-    "name": "catarines",
-    "total": 22
-  },
-  {
-    "name": "gauches",
-    "total": 18
-  }
-]
+[{
+  "name": "alagoanes",
+  "total": 64
+}, {
+  "name": "baianes",
+  "total": 41
+}, {
+  "name": "carioques",
+  "total": 14
+}, {
+  "name": "catarines",
+  "total": 22
+}, {
+  "name": "cearences",
+  "total": 10
+}, {
+  "name": "gauches",
+  "total": 18
+}, {
+  "name": "mineires",
+  "total": 26
+}, {
+  "name": "paranes",
+  "total": 53
+}, {
+  "name": "paulistes",
+  "total": 16
+}, {
+  "name": "pernambuques",
+  "total": 17
+}, {
+  "name": "potiguares",
+  "total": 34
+}, {
+  "name": "rondones",
+  "total": 9
+}]
 ```
 
 ### GET /regions/:region/dialects
