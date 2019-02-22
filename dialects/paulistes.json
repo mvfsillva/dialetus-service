@@ -57,5 +57,20 @@
     "dialect": "Quebrada",
     "meanings": ["Vizinhança", "Bairro"],
     "examples": ["Cola aí na minha quebrada amanhã"]
+  },
+  {
+    "dialect": "Rapeizi",
+    "meanings": ["Rapaziada", "Galera"],
+    "examples": ["Eae rapeizi, como vocês estão?"]
+  },
+  {
+    "dialect": "Zica",
+    "meanings": ["Legal", "Algo foda"],
+    "examples": ["Essa parada ta muito zica!"]
+  },
+  {
+    "dialect": "Cola ai",
+    "meanings": ["Vem cá", "Chega mais"],
+    "examples": ["Ae mano cola ae"]
   }
 ]
