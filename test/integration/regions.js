@@ -5,12 +5,16 @@ describe('Integration: Dialect Regions endpoint', () => {
   let server
   const expectedResponse = [
     {
+      name: 'alagoanes',
+      total: 64,
+    },
+    {
       name: 'baianes',
-      total: 27,
+      total: 41,
     },
     {
       name: 'carioques',
-      total: 13,
+      total: 14,
     },
     {
       name: 'catarines',
@@ -21,20 +25,28 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 10,
     },
     {
+      name: 'gauches',
+      total: 18,
+    },
+    {
       name: 'mineires',
-      total: 21,
+      total: 26,
     },
     {
       name: 'paranes',
       total: 53,
     },
     {
+      name: 'paulistes',
+      total: 16,
+    },
+    {
       name: 'pernambuques',
-      total: 15,
+      total: 17,
     },
     {
       name: 'potiguares',
-      total: 30,
+      total: 34,
     },
     {
       name: 'rondones',
