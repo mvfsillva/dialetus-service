@@ -35,21 +35,14 @@
     "examples": ["Jorge é arretado."]
   },
   {
-    "dialect": "Avalie",
-    "meanings": ["Imagine!"]
-  },
-  {
     "dialect": "Avexado",
     "meanings": ["Apressado"],
     "examples": ["Você é muito avexado!"]
   },
   {
     "dialect": "Avia!",
-    "meanings": ["Corra", "Se apresse!"]
-  },
-  {
-    "dialect": "Avia, macho!",
-    "meanings": ["Corra", "Se apresse!"]
+    "meanings": ["Corra", "Se apresse!"],
+    "examples": ["Avia, macho!"]
   },
   {
     "dialect": "Azogado",
@@ -152,14 +145,6 @@
     "examples": ["A mãe mandou a filha fazer o dever."]
   },
   {
-    "dialect": "Eita bexiga!",
-    "meanings": ["Caramba!, expressão de desespero"]
-  },
-  {
-    "dialect": "Eita gota!",
-    "meanings": ["Caramba!, expressão de espanto"]
-  },
-  {
     "dialect": "Encangado",
     "meanings": ["Junto", "Em cima", "Montado"],
     "examples": ["Ele saiu encangado comigo.", "Ele esta encangado no muro."]
@@ -168,11 +153,6 @@
     "dialect": "Fastio",
     "meanings": ["Sem fome"],
     "examples": ["Estou fastio."]
-  },
-  {
-    "dialect": "Farrapão",
-    "meanings": ["Pessoa que não arca com a palavra",
-      "Que falta constantemente a compromissos"]
   },
   {
     "dialect": "Fulero",
