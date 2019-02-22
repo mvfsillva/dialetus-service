@@ -1,17 +1,29 @@
 [
   {
     "dialect": "Coxinha",
-    "meanings": ["Policial"],
-    "examples": ["Ali na calçada, já vem outros dois coxinhas"]
+    "meanings": [
+      "Policial"
+    ],
+    "examples": [
+      "Ali na calçada, já vem outros dois coxinhas"
+    ]
   },
   {
     "dialect": "Se pá",
-    "meanings": ["Talvez", "Se der"],
-    "examples": ["Se pá eu apareço aí hoje à noite"]
+    "meanings": [
+      "Talvez",
+      "Se der"
+    ],
+    "examples": [
+      "Se pá eu apareço aí hoje à noite"
+    ]
   },
   {
     "dialect": "Miar",
-    "meanings": ["Nao dar certo", "Ruim"],
+    "meanings": [
+      "Nao dar certo",
+      "Ruim"
+    ],
     "examples": [
       "Se chover, o rolê de hoje vai miar",
       "A balada ontem estava miada"
@@ -19,27 +31,46 @@
   },
   {
     "dialect": "Salve",
-    "meanings": ["Oi", "Cumprimento"],
-    "examples": ["Quero mandar um salve para a minha mãe, meu pai e os manos da minha quebrada"]
+    "meanings": [
+      "Oi",
+      "Cumprimento"
+    ],
+    "examples": [
+      "Quero mandar um salve para a minha mãe, meu pai e os manos da minha quebrada"
+    ]
   },
   {
     "dialect": "Osso",
-    "meanings": ["Difícil"],
-    "examples": ["A prova hoje tava muito osso!"]
+    "meanings": [
+      "Difícil"
+    ],
+    "examples": [
+      "A prova hoje tava muito osso!"
+    ]
   },
   {
     "dialect": "Padoca",
-    "meanings": ["Padaria"],
-    "examples": ["Borá ali na padoca depois?"]
+    "meanings": [
+      "Padaria"
+    ],
+    "examples": [
+      "Borá ali na padoca depois?"
+    ]
   },
   {
     "dialect": "Pingado",
-    "meanings": ["Café com leite"],
-    "examples": ["Borá ali na padoca tomar um pingado e comer um pão na chapa?"]
+    "meanings": [
+      "Café com leite"
+    ],
+    "examples": [
+      "Borá ali na padoca tomar um pingado e comer um pão na chapa?"
+    ]
   },
   {
     "dialect": "Bagulho",
-    "meanings": ["Qualquer tipo de objeto (lapis, papel, celular)"],
+    "meanings": [
+      "Qualquer tipo de objeto (lapis, papel, celular)"
+    ],
     "examples": [
       "Empresta esse bagulho ai pra mim?",
       "Passa essa bagulho ai mano!"
@@ -47,7 +78,10 @@
   },
   {
     "dialect": "Pisante",
-    "meanings": ["Tênis", "Calçado"],
+    "meanings": [
+      "Tênis",
+      "Calçado"
+    ],
     "examples": [
       "Se liga no meu novo pisante mano",
       "Olha o pisante daquele maluco!"
@@ -55,22 +89,73 @@
   },
   {
     "dialect": "Quebrada",
-    "meanings": ["Vizinhança", "Bairro"],
-    "examples": ["Cola aí na minha quebrada amanhã"]
+    "meanings": [
+      "Vizinhança",
+      "Bairro"
+    ],
+    "examples": [
+      "Cola aí na minha quebrada amanhã"
+    ]
   },
   {
     "dialect": "Rapeizi",
-    "meanings": ["Rapaziada", "Galera"],
-    "examples": ["Eae rapeizi, como vocês estão?"]
+    "meanings": [
+      "Rapaziada",
+      "Galera"
+    ],
+    "examples": [
+      "Eae rapeizi, como vocês estão?"
+    ]
   },
   {
     "dialect": "Zica",
-    "meanings": ["Legal", "Algo foda"],
-    "examples": ["Essa parada ta muito zica!"]
+    "meanings": [
+      "Legal",
+      "Algo foda"
+    ],
+    "examples": [
+      "Essa parada ta muito zica!"
+    ]
   },
   {
     "dialect": "Cola ai",
-    "meanings": ["Vem cá", "Chega mais"],
-    "examples": ["Ae mano cola ae"]
+    "meanings": [
+      "Vem cá",
+      "Chega mais"
+    ],
+    "examples": [
+      "Ae mano cola ae"
+    ]
+  },
+  {
+    "dialect": "Mano",
+    "meanings": [
+      "menino",
+      "menina",
+      "idoso"
+    ],
+    "examples": [
+      "Mano, se liga nisso aqui!",
+      "Nossa mano, comprei um tenis ontem"
+    ]
+  },
+  {
+    "dialect": "Top",
+    "meanings": [
+      "Algo muito legal ou incrivel"
+    ],
+    "examples": [
+      "Esse suco aqui ta top",
+      "Aquela mina ali e bem top"
+    ]
+  },
+  {
+    "dialect": "Breja",
+    "meanings": [
+      "Cerveja"
+    ],
+    "examples": [
+      "Vamo tomar uma breja hoje a tarde"
+    ]
   }
 ]
