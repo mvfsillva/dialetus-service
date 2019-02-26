@@ -1,5 +1,14 @@
 [
    {
+      "dialect": "Oxe",
+      "variations": [
+         "baianes.Oxente"
+      ],
+      "examples": [
+         "Oxe omi!"
+     ]
+   },
+   {
       "dialect":"Boe",
       "meanings":[
          "Garoto",
