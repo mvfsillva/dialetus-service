@@ -19,7 +19,7 @@
   ],
   "scripts": {
     "start": "NODE_ENV=production node server",
-    "dev": "PORT=8000 nodemon server",
+    "dev": "nodemon server",
     "lint": "xo --quiet",
     "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
