@@ -46,7 +46,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'potiguares',
-      total: 34,
+      total: 35,
     },
     {
       name: 'rondones',
