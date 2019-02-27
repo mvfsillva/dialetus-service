@@ -1,39 +1,65 @@
 {
   "name": "dialetus-service",
-  "version": "0.2.0",
+  "version": "0.15.0",
   "main": "index.js",
   "repository": "git@github.com:mvfsillva/dialetus-service.git",
   "author": "Marcus Silva <mvfsillva@gmail.com>",
   "license": "MIT",
+  "keywords": [
+    "dialetus",
+    "dialects",
+    "dialect",
+    "brazil",
+    "dictionary",
+    "brasil",
+    "dialetos",
+    "girias",
+    "dicionário",
+    "API"
+  ],
   "scripts": {
     "start": "NODE_ENV=production node server",
     "dev": "nodemon server",
     "lint": "xo --quiet",
     "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
-    "contributors:generate": "all-contributors generate"
+    "contributors:generate": "all-contributors generate",
+    "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/unit/mocha.opts",
+    "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
   },
   "devDependencies": {
     "all-contributors-cli": "^5.4.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^4.2.0",
+    "cross-env": "^5.2.0",
     "eslint-config-prettier": "^3.0.1",
     "husky": "^0.14.3",
     "lint-staged": "^7.2.2",
+    "mocha": "^5.2.0",
+    "nock": "^10.0.0",
     "nodemon": "^1.18.3",
+    "nyc": "^13.3.0",
+    "proxyquire": "^2.1.0",
+    "sinon": "^6.3.5",
+    "sinon-chai": "^3.2.0",
     "supertest": "^3.1.0",
     "xo": "^0.22.0"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
-    "cli-table": "^0.3.1",
-    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.4",
+    "deepmerge": "^3.2.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
     "express-validator": "^5.3.0",
+    "glob": "^7.1.3",
     "moment": "^2.22.2",
     "mongo-sanitize": "^1.0.0",
     "mongoose": "^5.2.9",
     "morgan": "^1.9.0",
+    "slugify": "^1.3.1",
     "winston": "^3.0.0"
   },
   "xo": {
@@ -43,7 +69,12 @@
     "globals": [
       "it",
       "describe",
-      "before"
+      "before",
+      "after",
+      "afterEach",
+      "assert",
+      "sinon",
+      "expect"
     ],
     "rules": {
       "prefer-promise-reject-errors": 0,
@@ -53,6 +84,8 @@
   "lint-staged": {
     "*.js": [
       "yarn lint",
+      "yarn test:unit",
+      "yarn test:integration",
       "prettier --semi false --single-quote --trailing-comma --write",
       "git add"
     ]

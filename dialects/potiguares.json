@@ -1,0 +1,363 @@
+[
+   {
+      "dialect": "Oxe",
+      "variations": [
+         "baianes.Oxente"
+      ],
+      "examples": [
+         "Oxe omi!"
+     ]
+   },
+   {
+      "dialect":"Boe",
+      "meanings":[
+         "Garoto",
+         "Garota",
+         "Menino",
+         "Menina"
+      ],
+      "examples":[
+         "E aí boe, beleza?",
+         "Se liga nessa boe aí!"
+      ]
+   },
+   {
+      "dialect":"Galado",
+      "meanings":[
+         "Pode ser utilizado no sentido de elogio ou xingamento"
+      ],
+      "examples":[
+         "Esse ome é um galado mesmo, viu boe?",
+         "Esse boy é um galado, tá me devendo 10R$ e ainda não me pagou!"
+      ]
+   },
+   {
+      "dialect":"Bom ki só",
+      "meanings":[
+         "Algo foi muito bom"
+      ],
+      "examples":[
+         "- E aí, a festa foi boa? - boe, foi bom ki só!!! Peguei geral! HAHAH"
+      ]
+   },
+   {
+      "dialect":"Rasga",
+      "meanings":[
+         "Quando você quer que alguém conte um segredo ou alguma coisa",
+         "Quando você quer que a pessoa fale tudo"
+      ],
+      "examples":[
+         "- Eu tenho uma coisa para te contar! - Vai, rasga!"
+      ]
+   },
+   {
+      "dialect":"Vou chegar",
+      "meanings":[
+         "Quando alguém está em algum lugar e quer ir EMBORA"
+      ],
+      "examples":[
+         "Ei, a conversa está boa mas eu vou chegar! Valeu!"
+      ]
+   },
+   {
+      "dialect":"Não tem parêa não",
+      "meanings":[
+         "Quando alguma coisa é muito boa",
+         "Algo é tão bom que é único"
+      ],
+      "examples":[
+         "O filme foi muito bom, não tem parêa não!",
+         "Aquela boy é linda demais, não tem parêa não"
+      ]
+   },
+   {
+      "dialect":"De rocha",
+      "meanings":[
+         "Quando você quer ressaltar/afirmar que algo é verdade."
+      ],
+      "examples":[
+         "- Tu vai mesmo para festa? - Vou sim, de rocha"
+      ]
+   },
+   {
+      "dialect":"Sibito baleado",
+      "meanings":[
+         "Quando você quer dizer que alguém é muito magro"
+      ],
+      "examples":[
+         "Cara, aquele boe é um sibito baleado!"
+      ]
+   },
+   {
+      "dialect":"Gaiato",
+      "meanings":[
+         "Quando alguém é tira brincadeira com outras pessoas mas elas não gostam"
+      ],
+      "examples":[
+         "Deixe de ser gaiato, isso não tem nada a vê!"
+      ]
+   },
+   {
+      "dialect":"Avexado",
+      "meanings":[
+         "Alguém que faz as coisas rápido demais ou nas pressas"
+      ],
+      "examples":[
+         "Deixe de ser avexado, vai dá tempo irmos ao cinema."
+      ]
+   },
+   {
+      "dialect":"Avexa",
+      "meanings":[
+         "Quando você quer que alguém faça algo mais rápido."
+      ],
+      "examples":[
+         "Maria, avexa aí que eu quero utilizar o banheiro!!!"
+      ]
+   },
+   {
+      "dialect":"Cagado",
+      "meanings":[
+         "Alguém que tem muita sorte"
+      ],
+      "examples":[
+         "Rafael é um cagado, achou 10R$ hoje cedo."
+      ]
+   },
+   {
+      "dialect":"Mermo",
+      "meanings":[
+         "Mesmo"
+      ],
+      "examples":[
+         "Rafael é um cagado mermo."
+      ]
+   },
+   {
+      "dialect":"Mermão",
+      "meanings":[
+         "Sua origem é a redução da expressão \"Meu irmão\". Normalmente usado para expressar algum espanto ou saudação."
+      ],
+      "examples":[
+         "Mermão, vocẽ viu que que resenha?"
+      ]
+   },
+   {
+      "dialect":"Toco de amarrar cachorro",
+      "meanings":[
+         "Apelido dado a uma pessoa baixa/estatura pequena"
+      ],
+      "examples":[
+         "Ela parece um toco de amarrar cachorro!"
+      ]
+   },
+   {
+      "dialect":"Infeliz das costas oca",
+      "meanings":[
+         "Um insulto, ou ofensa para se referir a alguém que te fez raiva",
+         "imundo",
+         "peste",
+         "condenado"
+      ],
+      "examples":[
+         "Ah meus Deus, esse menino é um infeliz das costas oca."
+      ]
+   },
+   {
+      "dialect":"Fuderoso",
+      "meanings":[
+         "Uma pessoa top.",
+         "Algo muito bom.",
+         "Uma coisa foda"
+      ],
+      "examples":[
+         "Esse omi é fuderoso.",
+         "Esse jogo ta fuderoso."
+      ]
+   },
+   {
+      "dialect":"Deixe quieto",
+      "meanings":[
+         "Não comentar sobre o assunto.",
+         "Abafar o caso.",
+         "Não fazer mais aquilo"
+      ],
+      "examples":[
+         "1 - Ei, eu vou falar com aquela boyzinha agora. 2 - Omi, deixe quieto."
+      ]
+   },
+   {
+      "dialect":"Resenha",
+      "meanings":[
+         "Substantivo que denomina as últimas fofocas, novidades.",
+         "Usado como sinônimo para programa, saída"
+      ],
+      "examples":[
+         "Que resenha é essa?",
+         "Qual a resenha de hoje?"
+      ]
+   },
+   {
+      "dialect":"Grea",
+      "meanings":[
+         "Situação muito engraçada."
+      ],
+      "examples":[
+         "Fulano, hoje a grea foi muito boa, passamos a tarde rindo."
+      ]
+   },
+   {
+      "dialect":"Malhado",
+      "meanings":[
+         "Pessoa muito conhecida.",
+         "Lugar muito frequentado.",
+         "Pessoa muito zoeira"
+      ],
+      "examples":[
+         "Fulano, não vamos para o Natal Shopping nos fins de semana, está muito malhado.",
+         "Fulana, tu é muito malhada, metade da universidade te conhece."
+      ]
+   },
+   {
+     "dialect":"Malhar",
+     "meanings":[
+         "Zuar",
+         "Zombar",
+         "Rir de alguém.",
+         "Rir de alguma situação.",
+         "Sinônimo de Grea",
+         "Sinônimo de rir"
+     ],
+     "examples":[
+         "Boe, hoje meu chefe tirou o dia pra contar piadas, a malhação foi grande."
+      ]
+   },
+   {
+     "dialect":"Massa",
+     "meanings":[
+         "Alguém legal.",
+         "Algo legal.",
+         "Bacana"
+     ],
+     "examples":[
+         "Cara, hoje a aula de violão foi massa demais, aprendemos várias músicas."
+      ]
+   },
+   {
+     "dialect":"Arrudiar",
+     "meanings":[
+         "Dar a volta."
+      ],
+      "examples":[
+         "Boezão, pare de arrudeio nessa conversa, e conte logo o que tem pra dizer.",
+         "Mãe, como saí mais cedo da aula, vou pegar o ônibus arrudiando hoje."
+      ]
+   },
+   {    
+     "dialect":"Mangar",
+     "meanings":[
+         "Zombar.",
+         "Rir de."
+      ],
+     "examples":[
+        "Meu amigo, manguei demais daquele teu amigo hoje, o bicho só falando coisa sem noção."
+      ]
+   },
+   {
+     "dialect":"Pegar Ar",
+     "meanings":[
+         "Ficar com raiva.",
+         "Tirar a paciência de alguém."
+      ],
+     "examples":[
+        "Boe, pare de tirar onda com teu amigo que ele tá pegando ar com tu visse.",
+        "Um aluno mexeu tanto com o professor que ele pegou ar e expulsou o aluno de sala."
+      ]
+   },
+   {
+     "dialect":"Deixe de Guerra",
+     "meanings":[
+         "Deixe de brincadeira",
+         "Deixe de brincar sobre isso."
+      ],
+     "examples":[
+         "Boe, deixe de guerra que a professora deu zero pra turma inteira.",
+         "Não, boe, deixe de guerra que as férias vão atrasar."
+      ]
+   },
+   {
+      "dialect":"Moído",
+      "meanings":[
+         "Confusão",
+         "Com dor"
+      ],
+      "examples":[
+         "Teve briga na festa ontem. Pense num moído grande!",
+         "Eu fiz academia ontem e tô todo moído."
+      ]
+   },
+   {
+      "dialect":"Frouxo",
+      "meanings":[
+         "medroso"
+      ],
+      "examples":[
+         "Aquele boe é muito frouxo."
+      ]
+   },
+   {
+      "dialect":"Pia",
+      "meanings":[
+         "Olha",
+         "Veja",
+         "Espia"
+      ],
+      "examples":[
+         "Pia onde vai Zezinho."
+      ]
+   },
+   {
+      "dialect":"Caninga",
+      "meanings":[
+         "Chato",
+         "Incomodar retidas vezes"
+      ],
+      "examples":[
+         "Isso é uma caninga da mulesta desse menino",
+         "Vai caningar outra pessoa, vai!"
+      ]
+   },
+   {
+      "dialect":"Sostô",
+      "meanings":[
+         "Quem te viu quem te vê",
+         "Decepção",
+         "Me poupe!"
+      ],
+      "examples":[
+         "Sostô dessas suas besteiras meu filho!",
+         "Quando o clima estava frio você reclamava, agora que está calor, você continua reclamando, sostô viu!"
+      ]
+   },
+   {
+      "dialect":"Estribado",
+      "meanings":[
+         "Rico.",
+         "Alguém que está gastando muito dinheiro."
+      ],
+      "examples":[
+         "Fulaninho hoje tá estribado, pagou a rodada de chopp para todo mundo no happy hour.",
+         "Meu irmão ficou estribado depois que começou a receber em dólar."
+      ]
+   },
+   {
+      "dialect":"Baixa da égua",
+      "meanings":[
+         "Lugar muito distânte"
+      ],
+      "examples":[
+         "Tive que andar até a baixa da égua hoje atrás de uma pizzaria aberta.",
+         "Boy, bati lá na baixa da égua hoje pra participar de um congresso."
+      ]
+   }
+]

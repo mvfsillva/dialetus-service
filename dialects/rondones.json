@@ -1,0 +1,47 @@
+[
+  {
+    "dialect": "Banho",
+    "meanings": ["Balneário"],
+    "examples": ["Vamos para o banho hoje?"]
+  },
+  {
+    "dialect": "Pisero",
+    "meanings": ["Festa", "Balada"],
+    "examples": ["E ai, vamos pro pisero hoje?", "Vai ter um pisero legal alí hoje."]
+  },
+  {
+    "dialect": "Papagaio",
+    "meanings": ["Pipa"],
+    "examples": ["Vamo empinar papagaio hoje?"]
+  },
+  {
+    "dialect": "Marcando",
+    "meanings": ["Vacilando", "Errando"],
+    "examples": ["Ela ta marcando na rua."]
+  },
+  {
+    "dialect": "Queidar",
+    "meanings": ["Derrubar papagaio"],
+    "examples": ["Queidou alí o papagaio."]
+  },
+  {
+    "dialect": "Embaçado",
+    "meanings": ["Situação complicada"],
+    "examples": ["Ta embaçado passar por aquela rua."]
+  },
+  {
+    "dialect": "Marrapá",
+    "meanings": ["Se liga", "Prestar atenção"],
+    "examples": ["Marrapá se liga nisso aqui."]
+  },
+  {
+    "dialect": "Pôdi",
+    "meanings": ["Sem valor", "Chato", "Ruim"],
+    "examples": ["Isso é um negócio muito podi."]
+  },
+  {
+    "dialect": "Rauéra",
+    "meanings": ["Já era"],
+    "examples": ["Vacilou no teu celular? Rauéra."]
+  }
+]

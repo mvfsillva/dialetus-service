@@ -1,0 +1,87 @@
+[
+  {
+    "dialect": "Arrudeia",
+    "meanings": ["Dar a volta"],
+    "examples": ["Arrudeia aquela rua!", "Tem que arrudear para chegar aqui."]
+  },
+  {
+    "dialect": "Abestalhado",
+    "meanings": ["Atrapalhado", "Bobo"],
+    "examples": ["Tu é muito abestalhado, visse?", "Deixe de ser abestalhado e cresça!"]
+  },
+  {
+    "dialect": "Avexado",
+    "meanings": ["Envergonhado", "Tímido", "Retraído"],
+    "examples": ["Vem pra cá, deixa de ser avexado!", "Oxe, que menino avexado."]
+  },
+  {
+    "dialect": "Avoado",
+    "meanings": ["Pessoa distraída"],
+    "examples": ["Esse rapaz é muito avoado!"]
+  },
+  {
+    "dialect": "Aperreado",
+    "meanings": ["Preocupado", "Estressado"],
+    "examples": ["Você está muito aperreado, se acalme, por favor."]
+  },
+  {
+    "dialect": "Boy",
+    "meanings": ["Menino", "Pessoa do sexo masculino", "Cara"],
+    "examples": ["E ai, boy, tudo bom contigo?", "Esse é o boy que te falei!"]
+  },
+  {
+    "dialect": "Boyzinha",
+    "meanings": ["Namorada", "Paquerda", "Ficante"],
+    "examples": ["Olha a boyzinha dele ali com ele!", "Se liga que ele tem boyzinha..."]
+  },
+  {
+    "dialect": "Borocochô",
+    "meanings": ["Triste", "Para baixo"],
+    "examples": ["João está todo borocochê hoje."]
+  },
+  {
+    "dialect": "Bulir",
+    "meanings": ["Mexer em algo"],
+    "examples": ["Para de bulir nesse celular.", "Estão bulindo nas tuas coisas"]
+  },
+  {
+    "dialect": "Cabueta",
+    "meanings": ["Dedo duro", "X9"],
+    "examples": ["José entregou a gente, esse boy é muito cabueta."]
+  },
+  {
+    "dialect": "Dispense",
+    "meanings": ["Não faça isso", "Pare com isso"],
+    "examples": ["Ei po, dispense!"]
+  },
+  {
+    "dialect": "Gazea",
+    "meanings": ["Matar aula", "Faltar no compromisso"],
+    "examples": ["Vamo gazear essa aula?", "Eu vi que você gazeeou hoje, viu?"]
+  },
+  {
+    "dialect": "Marromenos",
+    "meanings": ["Mais ou menos"],
+    "examples": ["Não gostei desse bolo, ta marromenos."]
+  },
+  {
+    "dialect": "Pala",
+    "meanings": ["Caô", "Fake News"],
+    "examples": ["Que pala do c*rai!!!"]
+  },
+  {
+    "dialect": "Peguento",
+    "meanings": ["Grudento de suor", "Suado"],
+    "examples": ["Po boy, joguei bola e to todo peguento agora.", "Vou tomar um banho que to peguento demais!"]
+  },
+  {
+    "dialect": "Pirangueiro",
+    "meanings": ["Mão de vaca", "Pão duro"],
+    "examples": ["Tu não quer gastar 10 reais com isso? Tu é muito pirangueiro visse?"]
+  },
+  {
+    "dialect": "Tabacudo",
+    "meanings": ["Bobo", "Idiota"],
+    "examples": ["Que menino tabacudo da gota!", "Sai daê, tabacudo"]
+  }
+]
