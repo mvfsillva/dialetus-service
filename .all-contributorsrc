@@ -26,7 +26,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/7683909?v=4",
       "profile": "https://github.com/anfsantana",
       "contributions": [
-        "code"
+        "code",
+        "doc",
+        "review"
       ]
     },
     {
@@ -35,7 +37,9 @@
       "avatar_url": "https://avatars2.githubusercontent.com/u/1703020?v=4",
       "profile": "http://www.rodolfosilva.com",
       "contributions": [
-        "code"
+        "code",
+        "doc",
+        "review"
       ]
     },
     {
@@ -43,6 +47,132 @@
       "name": "Bruno Pulis",
       "avatar_url": "https://avatars2.githubusercontent.com/u/1204692?v=4",
       "profile": "http://www.brunopulis.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "Wmitrut",
+      "name": "Wellington Mitrut",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5539257?v=4",
+      "profile": "https://medium.com/blog-do-mitrut/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rdiego26",
+      "name": "Diego Ramos",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/1463578?v=4",
+      "profile": "https://www.linkedin.com/in/rdiego26/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "clucasalcantara",
+      "name": "Caio Alcântara",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/6919712?v=4",
+      "profile": "http://sourcerer.io/clucasalcantara",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "luksrn",
+      "name": "Lucas Farias",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/698313?v=4",
+      "profile": "https://medium.com/@luksrn",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "higorae",
+      "name": "Higor Morais",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/808785?v=4",
+      "profile": "https://github.com/higorae",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "lmedson",
+      "name": "Medson Mendes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/19912294?v=4",
+      "profile": "https://github.com/lmedson",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rands0n",
+      "name": "Randѕon Oliveira",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/4191734?v=4",
+      "profile": "https://rands0n.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "murillo94",
+      "name": "Murillo de Miranda Pereira",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/9031279?v=4",
+      "profile": "https://twitter.com/murillomirandaa",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "peaonunes",
+      "name": "Rafael Nunes",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/3356720?v=4",
+      "profile": "http://peaonunes.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "willmendesneto",
+      "name": "Will Mendes",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1252570?v=4",
+      "profile": "https://medium.com/@willmendesneto",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "kathleenrego",
+      "name": "kathleenrego",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/26495329?v=4",
+      "profile": "https://github.com/kathleenrego",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jdrgomes",
+      "name": "Jader",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/15023006?v=4",
+      "profile": "https://github.com/jdrgomes",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "rdl-candido",
+      "name": "Rodolfo Candido",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/8007426?v=4",
+      "profile": "https://github.com/rdl-candido",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "jeffersonmourak",
+      "name": "Jefferson Moura",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5585596?v=4",
+      "profile": "http://jeffersonmourak.me",
       "contributions": [
         "code"
       ]

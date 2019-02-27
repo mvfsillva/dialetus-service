@@ -1,12 +1,16 @@
-# Contributing
+# 🎉 Thanks for taking the time to contribute to Dialetus Service! 🎉
 
-1. Fork it!
-2. Create your feature branch: `git checkout -b feature/new-feature`
-3. Commit your changes: `git commit -m 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
+It is highly appreciated that you take the time to help improve Dialetus Service.
 
-*All commands to build and test are available on [package.json](package.json).*
+## Creating new test case
 
-*Remember that we have a pre-commit hook with steps that analyzes and prevents mistakes.*
+- All tests cases should be inside `test` folders
+- When creating a end-to-end test case, always think about the user and the output of an action
+- Create successful and failure test cases
+- If you have a reusable function, you can create it inside `suites` folders
 
-**After your pull request is merged**, you can safely delete your branch.
+## Submit a PR when you are ready
+
+Finally submit a PR with your new test case.
+
+## Celebrate! 🎉
