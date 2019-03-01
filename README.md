@@ -1,5 +1,5 @@
 <p align="center">
-    <img width="400" height="auto" src="logo.svg"/>
+  <img width="400" height="auto" src="logo.svg"/>
 </p>
 
 [![CircleCI](https://circleci.com/gh/mvfsillva/dialetus-service.svg?style=svg&circle-token=1e9adb58a5664ddd2c80e17f641775e2cbb6346f)](https://circleci.com/gh/mvfsillva/dialetus-service)
