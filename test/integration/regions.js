@@ -9,6 +9,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 64,
     },
     {
+      name: 'amazones',
+      total: 9,
+    },
+    {
       name: 'baianes',
       total: 41,
     },
