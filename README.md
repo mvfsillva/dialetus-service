@@ -69,6 +69,9 @@ $ curl https://dialetus-service.now.sh/regions
   "name": "potiguares",
   "total": 34
 }, {
+  "name": "paraense",
+  "total": 30
+}, {
   "name": "rondones",
   "total": 9
 }]
@@ -168,6 +171,7 @@ GET /dialect/rondones
 GET /dialect/cearences
 GET /dialect/pernambuques
 GET /dialect/catarines
+GET /dialect/paraense
 GET /dialect/gauches
 ```
 

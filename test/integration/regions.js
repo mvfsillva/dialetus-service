@@ -57,6 +57,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 35,
     },
     {
+      name: 'paraense',
+      total: 30,
+    },
+    {
       name: 'rondones',
       total: 9,
     },
