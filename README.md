@@ -211,4 +211,4 @@ Thanks goes out to all these wonderful people ([emoji key](https://github.com/ke
 
 Dialetus is released under the [MIT license](license).
 
-Copyright © 2018.
+Copyright © 2019.
