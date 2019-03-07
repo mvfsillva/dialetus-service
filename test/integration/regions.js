@@ -41,6 +41,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 26,
     },
     {
+      name: 'paraense',
+      total: 30,
+    },
+    {
       name: 'paranes',
       total: 53,
     },
@@ -53,12 +57,12 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 17,
     },
     {
-      name: 'potiguares',
-      total: 35,
+      name: 'piauies',
+      total: 30,
     },
     {
-      name: 'paraense',
-      total: 30,
+      name: 'potiguares',
+      total: 35,
     },
     {
       name: 'rondones',
