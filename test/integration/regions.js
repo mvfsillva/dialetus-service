@@ -68,6 +68,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       name: 'rondones',
       total: 9,
     },
+    {
+      name: 'sergipanes',
+      total: 11,
+    },
   ]
 
   before(() => {
