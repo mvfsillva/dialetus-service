@@ -57,6 +57,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 17,
     },
     {
+      name: 'piauies',
+      total: 30,
+    },
+    {
       name: 'potiguares',
       total: 35,
     },
