@@ -1,0 +1,60 @@
+[
+  {
+    "dialect": "Amarrar minha égua",
+    "meanings": ["Entrar em uma fria"],
+    "examples": ["Onde eu fui amarrar minha égua?"]
+  },
+  {
+    "dialect": "Arrodear",
+    "meanings": ["Enrolar", "Arrudiar"],
+    "examples": ["Deixe de arrodeio, fale logo."]
+  },
+  {
+    "dialect": "Atroado",
+    "meanings": ["Atrapalhado", "Desajeitado"],
+    "examples": ["Esse menino é muito atroado."]
+  },
+  {
+    "dialect": "Barreado",
+    "meanings": ["Com raiva"],
+    "examples": ["Deixe ele quieto que ele está barreado."]
+  },
+  {
+    "dialect": "Biboca",
+    "meanings": ["Lugar esquisito"],
+    "examples": ["Não entre naquela biboca.", "Ele mora em uma biboca."]
+  },
+  {
+    "dialect": "Cabrunco",
+    "meanings": ["Espanto bom", "Espanto ruim", "Xingamento", "Inconformismo"],
+    "examples": ["Carro bonito do cabrunco.", "Festa ruim do cabrunco."]
+  },
+  {
+    "dialect": "De lascar o cano",
+    "meanings": ["Desagradável", "Decepcionante"],
+    "examples": ["O atraso do salário foi de lascar o cano."]
+  },
+  {
+    "dialect": "Desdobro",
+    "meanings": ["Argumento pouco convincente", "Mentira"],
+    "examples": ["Deixe de descobro, fale a verdade."]
+  },
+  {
+    "dialect": "Paia",
+    "meanings": ["Ruim", "Sem qualidade"],
+    "examples": [
+      "Deixe de ser paia, bora para a festa.",
+      "Muito paia essa roupa."
+    ]
+  },
+  {
+    "dialect": "Peste",
+    "meanings": ["Espanto bom", "Espanto ruim", "Xingamento"],
+    "examples": ["Fome da peste.", "Festa boa da peste."]
+  },
+  {
+    "dialect": "Vôte",
+    "meanings": ["Espanto", "Surpresa"],
+    "examples": ["Vôte, sabe nem dirigir."]
+  }
+]

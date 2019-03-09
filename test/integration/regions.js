@@ -9,6 +9,10 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 64,
     },
     {
+      name: 'amazones',
+      total: 9,
+    },
+    {
       name: 'baianes',
       total: 41,
     },
@@ -26,7 +30,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'gauches',
-      total: 18,
+      total: 22,
     },
     {
       name: 'lageanes',
@@ -35,6 +39,10 @@ describe('Integration: Dialect Regions endpoint', () => {
     {
       name: 'mineires',
       total: 26,
+    },
+    {
+      name: 'paraense',
+      total: 30,
     },
     {
       name: 'paranes',
@@ -49,12 +57,20 @@ describe('Integration: Dialect Regions endpoint', () => {
       total: 17,
     },
     {
+      name: 'piauies',
+      total: 30,
+    },
+    {
       name: 'potiguares',
       total: 35,
     },
     {
       name: 'rondones',
       total: 9,
+    },
+    {
+      name: 'sergipanes',
+      total: 11,
     },
   ]
 

@@ -1,0 +1,47 @@
+[
+  {
+    "dialect": "É mermo",
+    "meanings": ["Confirmação de algo", "Pode ser usado para negação com diferente entonação"],
+    "examples": ["- Você vai na festa; -Vô mermo"]
+  },
+  {
+    "dialect": "Agorinha",
+    "meanings": ["Algo que aconteceu em um espaço relativamente curto"],
+    "examples": ["Fui assaltado agorinha mesmo aqui na frente"]
+  },
+  {
+    "dialect": "à perigo",
+    "meanings": ["Está disponível para relação sexual", "Está muito tempo sem dinheiro"],
+    "examples": ["Tu tá à perigo hoje né?"]
+  },
+  {
+    "dialect": "Lá na caixa-prego",
+    "meanings": ["Lugar muito distante"],
+    "examples": ["Essa loja é lá na caixa-prego"]
+  },
+  {
+    "dialect": "Ê, caroço",
+    "meanings": ["Expressão de susto, surpresa"],
+    "examples": ["- Quse bati o carro; - Ê, caroço"]
+  },
+  {
+    "dialect": "Menino barrigudo",
+    "meanings": ["pessoa curiosa ou que só faz besteira"],
+    "examples": ["Larga de ser menino barrigudo"]
+  },
+  {
+    "dialect": "Tá lá cheiroso",
+    "meanings": ["Advérbio usado para denotar irônia"],
+    "examples": ["- Peguei uma menina muito linda no forró; - Tá lá cheiroso"]
+  },
+  {
+    "dialect": "Pitiú",
+    "meanings": ["Mau cheiro"],
+    "examples": ["Tu ta só o pitiú menino"]
+  },
+  {
+    "dialect": "Telesé",
+    "meanings": ["Usado para questionar alguma afirmação"],
+    "examples": ["- Vamos no centro? - Telesé? Que vou me meter lá no Natal"]
+  }
+]
