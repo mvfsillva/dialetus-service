@@ -108,5 +108,20 @@
         "dialect": "Cusco",
         "meanings": ["Cachorro", "Vira-Lata"],
         "examples": ["Eu tenho 3 cuscos em casa."]
+    },
+    {
+        "dialect": "Guria",
+        "meanings": ["Menina", "Moça"],
+        "examples": ["Aquela guria  é tri bonita."]
+    },
+    {
+        "dialect": "Pila",
+        "meanings": ["Palavra regional que dá nome a moeda nacional, no caso o Real"],
+        "examples": ["Me empresta 10 pila."]
+    },
+    {
+        "dialect": "Peleia",
+        "meanings": ["Briga", "Disputa"],
+        "examples": ["A medalha de ouro foi peleada por bons atletas."]
     }
 ]
