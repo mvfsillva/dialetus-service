@@ -213,7 +213,7 @@
     "dialect": "Auê ou Fuzuê",
     "meanings": ["Baderna", "Barulho", "Confusão"],
     "examples": [
-      "Ei, ó o auê aí ô", 
+      "Ei, ó o auê aí ô",
       "Que Fuzuê é esse aqui em casa mermo?!"
     ]
   },
@@ -226,5 +226,10 @@
     "dialect": "Abrir o gás",
     "meanings": ["Ir embora", "Sair"],
     "examples": ["Man, já está tarde. Vou abrir o gás"]
+  },
+  {
+    "dialect": "É com você, Bob Marley e As Baleias",
+    "meanings": ["Problema seu e dos outros.", "Faz referência à banda The Wailers, que possui pronúncia similar a The Whales (As Baleias)."],
+    "examples": ["Vei isso aí é com você, Bob Marley e as baleias, não me meta nisso não."]
   }
 ]
