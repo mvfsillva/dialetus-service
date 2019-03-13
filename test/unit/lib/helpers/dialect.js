@@ -78,4 +78,30 @@ describe('Helpers: Dialect', () => {
       expect(dialect).to.be.a('null')
     })
   })
+
+  describe('search(word)', () => {
+    it('Expect to return a array with two object when the word exists in two regions', () => {
+      const dialect = dialectHelper.search('Baita')
+
+      expect(dialect).to.be.an('object')
+
+      const expectGauches = {
+        slug: 'baita',
+        dialect: 'Baita',
+        meanings: ['Grande', 'Imenso'],
+        examples: ['Bah tchê, que baita de um problema tu arranjaste?!'],
+      }
+
+      expect(dialect.gauches).to.eql(expectGauches)
+
+      const expectParanes = {
+        slug: 'baita',
+        dialect: 'Baita',
+        meanings: ['grande', 'enorme', 'de grandes proporções'],
+        examples: ['Mas que baita susto tu me deu'],
+      }
+
+      expect(dialect.paranes).to.eql(expectParanes)
+    })
+  })
 })
