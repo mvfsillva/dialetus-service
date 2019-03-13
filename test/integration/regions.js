@@ -14,7 +14,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'baianes',
-      total: 41,
+      total: 42,
     },
     {
       name: 'carioques',
