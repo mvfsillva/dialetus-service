@@ -39,8 +39,11 @@ $ curl https://dialetus-service.now.sh/regions
   "name": "alagoanes",
   "total": 64
 }, {
+  "name": "amazones",
+  "total": 9
+}, {
   "name": "baianes",
-  "total": 41
+  "total": 42
 }, {
   "name": "carioques",
   "total": 14
@@ -52,10 +55,19 @@ $ curl https://dialetus-service.now.sh/regions
   "total": 10
 }, {
   "name": "gauches",
-  "total": 18
+  "total": 25
+}, {
+  "name": "lageanes",
+  "total": 28
+}, {
+  "name": "maranhes",
+  "total": 15
 }, {
   "name": "mineires",
   "total": 26
+}, {
+  "name": "paraense",
+  "total": 30
 }, {
   "name": "paranes",
   "total": 53
@@ -66,17 +78,17 @@ $ curl https://dialetus-service.now.sh/regions
   "name": "pernambuques",
   "total": 17
 }, {
-  "name": "potiguares",
-  "total": 34
-}, {
   "name": "piauies",
   "total": 30
 }, {
-  "name": "paraense",
-  "total": 30
+  "name": "potiguares",
+  "total": 35
 }, {
   "name": "rondones",
   "total": 9
+}, {
+  "name": "sergipanes",
+  "total": 11
 }]
 ```
 
