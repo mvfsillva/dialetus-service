@@ -85,21 +85,25 @@ describe('Helpers: Dialect', () => {
 
       expect(dialect).to.be.an('object')
 
-      const expectGauches = {
-        slug: 'baita',
-        dialect: 'Baita',
-        meanings: ['Grande', 'Imenso'],
-        examples: ['Bah tchê, que baita de um problema tu arranjaste?!'],
-      }
+      const expectGauches = [
+        {
+          slug: 'baita',
+          dialect: 'Baita',
+          meanings: ['Grande', 'Imenso'],
+          examples: ['Bah tchê, que baita de um problema tu arranjaste?!'],
+        },
+      ]
 
       expect(dialect.gauches).to.eql(expectGauches)
 
-      const expectParanes = {
-        slug: 'baita',
-        dialect: 'Baita',
-        meanings: ['grande', 'enorme', 'de grandes proporções'],
-        examples: ['Mas que baita susto tu me deu'],
-      }
+      const expectParanes = [
+        {
+          slug: 'baita',
+          dialect: 'Baita',
+          meanings: ['grande', 'enorme', 'de grandes proporções'],
+          examples: ['Mas que baita susto tu me deu'],
+        },
+      ]
 
       expect(dialect.paranes).to.eql(expectParanes)
     })
