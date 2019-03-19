@@ -14,7 +14,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'baianes',
-      total: 41,
+      total: 42,
     },
     {
       name: 'carioques',
@@ -30,11 +30,15 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'gauches',
-      total: 22,
+      total: 25,
     },
     {
       name: 'lageanes',
       total: 28,
+    },
+    {
+      name: 'maranhes',
+      total: 15,
     },
     {
       name: 'mineires',

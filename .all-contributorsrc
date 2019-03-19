@@ -230,6 +230,33 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "RuanAyram",
+      "name": "Ruan Kaylo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16547662?v=4",
+      "profile": "https://ruankaylo.netlify.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "thiagogsr",
+      "name": "Thiago Guimarães",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1802025?v=4",
+      "profile": "https://github.com/thiagogsr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "welksonramos",
+      "name": "Welkson Ramos",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5823027?v=4",
+      "profile": "https://twitter.com/welksonramos",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
