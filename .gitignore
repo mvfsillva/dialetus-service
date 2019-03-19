@@ -83,4 +83,4 @@ typings/
 # IDE
 .idea
 .vscode
-.swp
+*.swp
