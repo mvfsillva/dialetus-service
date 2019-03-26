@@ -128,5 +128,15 @@
     "dialect": "Garrado",
     "meanings": ["Farei com certeza."],
     "examples": ["Vai a festa hoje? Tô garrado!"]
+  },
+  {
+    "dialect": "Oncotô",
+    "meanings": ["Acrônimo de Onde eu estou."],
+    "examples": ["Peguei o caminho errado, Não sei oncotô."]
+  },
+  {
+    "dialect": "Logali",
+    "meanings": ["Unidade de medida para longas distâncias.", "Significa que o destino fica a aproximadamente 30 km de distância."],
+    "examples": ["Não vai demorar pra chegar, é logali."]
   }
 ]
