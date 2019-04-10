@@ -205,31 +205,31 @@ $ curl https://dialetus-service.now.sh/search?q=regui
 
 ```json
 {
-    "baianes": [
-        {
-            "slug": "regui",
-            "dialect": "Regui",
-            "meanings": [
-                "Reunião com os amigos",
-                "Balada",
-                "Festa"
-            ],
-            "examples": [
-                "Ô mizera, bora pro regui logo vá!"
-            ]
-        },
-        {
-            "slug": "num-to-comeno-regui",
-            "dialect": "Num tô comeno regui",
-            "meanings": [
-                "Não acreditar em algo",
-                "Não se importar"
-            ],
-            "examples": [
-                "Num tô comeno regui não viu pae."
-            ]
-        }
-    ]
+  "baianes": [
+    {
+      "slug": "regui",
+      "dialect": "Regui",
+      "meanings": [
+          "Reunião com os amigos",
+          "Balada",
+          "Festa"
+      ],
+      "examples": [
+        "Ô mizera, bora pro regui logo vá!"
+      ]
+    },
+    {
+      "slug": "num-to-comeno-regui",
+      "dialect": "Num tô comeno regui",
+      "meanings": [
+        "Não acreditar em algo",
+        "Não se importar"
+      ],
+      "examples": [
+        "Num tô comeno regui não viu pae."
+      ]
+    }
+  ]
 }
 ```
 
@@ -243,19 +243,17 @@ $ curl https://dialetus-service.now.sh/search?q=Virado no cão
 
 ```json
 {
-    "baianes": [
-        {
-            "slug": "virado-no-cao",
-            "dialect": "Virado no cão",
-            "meanings": [
-                "Mal humorado",
-                "Aborrecido"
-            ],
-            "examples": [
-                "Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"
-            ]
-        }
+  "baianes": [{
+    "slug": "virado-no-cao",
+    "dialect": "Virado no cão",
+    "meanings": [
+      "Mal humorado",
+      "Aborrecido"
+    ],
+    "examples": [
+      "Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"
     ]
+  }]
 }
 ```
 
@@ -269,33 +267,29 @@ $ curl https://dialetus-service.now.sh/search?q=baita
 
 ```json
 {
-    "gauches": [
-        {
-            "slug": "baita",
-            "dialect": "Baita",
-            "meanings": [
-                "Grande",
-                "Imenso"
-            ],
-            "examples": [
-                "Bah tchê, que baita de um problema tu arranjaste?!"
-            ]
-        }
+  "gauches": [{
+    "slug": "baita",
+    "dialect": "Baita",
+    "meanings": [
+      "Grande",
+      "Imenso"
     ],
-    "paranes": [
-        {
-            "slug": "baita",
-            "dialect": "Baita",
-            "meanings": [
-                "grande",
-                "enorme",
-                "de grandes proporções"
-            ],
-            "examples": [
-                "Mas que baita susto tu me deu"
-            ]
-        }
+    "examples": [
+      "Bah tchê, que baita de um problema tu arranjaste?!"
     ]
+  }],
+  "paranes": [{
+    "slug": "baita",
+    "dialect": "Baita",
+    "meanings": [
+      "grande",
+      "enorme",
+      "de grandes proporções"
+    ],
+    "examples": [
+      "Mas que baita susto tu me deu"
+    ]
+  }]
 }
 ```
 
