@@ -15,6 +15,8 @@
 
  - [dialetus web](https://github.com/mvfsillva/dialetus)
  - [dialetus-cli](https://github.com/bukinoshita/dialetus-cli) by [Bu Kinoshita](https://github.com/bukinoshita)
+ - [dialetus-ios](https://github.com/pamnovalli/dialetus-ios) by [Pamela Bembe](https://github.com/pamnovalli/dialetus-ios)
+ 
 
 ## 📃 API
 
