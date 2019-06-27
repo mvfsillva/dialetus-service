@@ -1,4 +1,4 @@
-const findDialect = require('../../../../../lib/controllers/dialects/find')
+const findDialect = require('../../../../../controllers/dialects/find')
 
 const sandbox = sinon.createSandbox()
 

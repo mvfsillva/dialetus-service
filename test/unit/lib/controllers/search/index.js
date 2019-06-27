@@ -1,4 +1,4 @@
-const searchController = require('../../../../../lib/controllers/search')
+const searchController = require('../../../../../controllers/search')
 
 const sandbox = sinon.createSandbox()
 

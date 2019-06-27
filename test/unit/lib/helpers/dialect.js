@@ -1,4 +1,4 @@
-const dialectHelper = require('../../../../lib/helpers/dialect')
+const dialectHelper = require('../../../../helpers/dialect')
 
 describe('Helpers: Dialect', () => {
   describe('find(region, slug)', () => {

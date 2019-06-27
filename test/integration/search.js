@@ -1,5 +1,5 @@
 const chai = require('chai')
-const app = require('../../app')
+const app = require('../../server')
 
 describe('Integration: Dialect Search endpoint', () => {
   let server

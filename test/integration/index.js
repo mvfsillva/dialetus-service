@@ -1,5 +1,6 @@
 const chai = require('chai')
-const app = require('../../app')
+
+const app = require('../../server')
 const { version } = require('../../package.json')
 
 describe('Integration: Default endpoint', () => {
