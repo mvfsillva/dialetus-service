@@ -48,7 +48,6 @@ jobs:
           name: Running unit and integration tests
           command: |
             npm run test:unit
-            npm run test:integration
       - persist_to_workspace:
           <<: *to_persist
 

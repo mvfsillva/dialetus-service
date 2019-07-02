@@ -85,7 +85,6 @@
     "*.js": [
       "yarn lint",
       "yarn test:unit",
-      "yarn test:integration",
       "prettier --semi false --single-quote --trailing-comma --write",
       "git add"
     ]
