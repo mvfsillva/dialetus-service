@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="400" height="auto" src="logo.svg"/>
+  <img width="400" height="auto" src=".github/logo.svg"/>
 </p>
 
 [![CircleCI](https://circleci.com/gh/mvfsillva/dialetus-service.svg?style=svg&circle-token=1e9adb58a5664ddd2c80e17f641775e2cbb6346f)](https://circleci.com/gh/mvfsillva/dialetus-service)
@@ -20,7 +20,7 @@
 
 ## 📃 API
 
-All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
+All endpoints live under the URL https://dialetus-service.herokuapp.com and then generally follow the REST architecture.
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
 
@@ -31,7 +31,7 @@ List all regions available with the total mapped dialects.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions
+$ curl https://dialetus-service.herokuapp.com/regions
 ```
 
 #### Response
@@ -101,7 +101,7 @@ List all dialects mapped.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions/baianes/dialects
+$ curl https://dialetus-service.herokuapp.com/regions/baianes/dialects
 ```
 
 #### Response
@@ -152,7 +152,7 @@ Get a dialect by slug.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions/baianes/dialects/relaxe-mo-fiu
+$ curl https://dialetus-service.herokuapp.com/regions/baianes/dialects/relaxe-mo-fiu
 ```
 
 #### Response
@@ -169,6 +169,16 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects/relaxe-mo-fiu
     "Ô vei, relaxe mô fiu todo nervoso ele."
   ]
 }
+```
+
+### GET /search?q={words}
+
+Search the words in all dialects mapped.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/search?q=regui
 ```
 
 #### List of dialects
@@ -191,16 +201,6 @@ GET /dialect/piauies
 GET /dialect/catarines
 GET /dialect/paraense
 GET /dialect/gauches
-```
-
-### GET /search?q={words}
-
-Search the words in all dialects mapped.
-
-#### Request
-
-```bash
-$ curl https://dialetus-service.now.sh/search?q=regui
 ```
 
 #### Response
@@ -238,7 +238,7 @@ $ curl https://dialetus-service.now.sh/search?q=regui
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/search?q=Virado no cão
+$ curl https://dialetus-service.herokuapp.com/search?q=Virado no cão
 ```
 
 #### Response
@@ -262,7 +262,7 @@ $ curl https://dialetus-service.now.sh/search?q=Virado no cão
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/search?q=baita
+$ curl https://dialetus-service.herokuapp.com/search?q=baita
 ```
 
 #### Response
