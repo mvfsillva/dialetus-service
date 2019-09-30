@@ -24,7 +24,7 @@
     "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "test": "yarn lint && yarn test:unit && yarn test:integration",
+    "test": "npm run lint && npm run test:unit && npm run test:integration",
     "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/unit/mocha.opts",
     "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
   },

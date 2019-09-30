@@ -16,15 +16,15 @@ jobs:
       - checkout
       - restore_cache:
           keys:
-            - v1-dependencies-{{ .Branch }}-{{ checksum "yarn.lock" }}
-            - v1-dependencies-{{ checksum "yarn.lock" }}
+            - v1-dependencies-{{ .Branch }}-{{ checksum "package-lock.json" }}
+            - v1-dependencies-{{ checksum "package-lock.json" }}
             - v1-dependencies-
       - run:
           name: Install dependencies
           command: |
             npm install
       - save_cache:
-          key: v1-dependencies-{{ checksum "yarn.lock" }}
+          key: v1-dependencies-{{ checksum "package-lock.json" }}
           paths:
             - node_modules
       - persist_to_workspace:
