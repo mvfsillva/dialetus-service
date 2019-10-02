@@ -1,5 +1,3 @@
-'use strict'
-
 const sanitize = require('mongo-sanitize')
 
 module.exports = (req, _, next) => {

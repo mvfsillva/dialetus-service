@@ -1,6 +1,6 @@
 {
   "name": "dialetus-service",
-  "version": "0.13.0",
+  "version": "1.0.1",
   "main": "index.js",
   "repository": "git@github.com:mvfsillva/dialetus-service.git",
   "author": "Marcus Silva <mvfsillva@gmail.com>",
@@ -24,42 +24,42 @@
     "precommit": "lint-staged",
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
+    "test": "npm run lint && npm run test:unit && npm run test:integration",
     "test:unit": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/unit/mocha.opts",
     "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
   },
   "devDependencies": {
-    "all-contributors-cli": "^5.4.0",
-    "chai": "^4.2.0",
-    "chai-as-promised": "^7.1.1",
-    "chai-http": "^4.2.0",
-    "cross-env": "^5.2.0",
-    "eslint-config-prettier": "^3.0.1",
-    "husky": "^0.14.3",
-    "lint-staged": "^7.2.2",
-    "mocha": "^5.2.0",
-    "nock": "^10.0.0",
-    "nodemon": "^1.18.3",
-    "nyc": "^13.0.1",
-    "proxyquire": "^2.1.0",
-    "sinon": "^6.3.5",
-    "sinon-chai": "^3.2.0",
-    "supertest": "^3.1.0",
-    "xo": "^0.22.0"
+    "all-contributors-cli": "6.9.1",
+    "chai": "4.2.0",
+    "chai-as-promised": "7.1.1",
+    "chai-http": "4.3.0",
+    "cross-env": "6.0.3",
+    "eslint-config-prettier": "6.3.0",
+    "husky": "3.0.8",
+    "lint-staged": "9.4.1",
+    "mocha": "6.2.1",
+    "nock": "11.3.5",
+    "nodemon": "1.19.3",
+    "nyc": "14.1.1",
+    "proxyquire": "2.1.3",
+    "sinon": "7.5.0",
+    "sinon-chai": "3.3.0",
+    "supertest": "4.0.2",
+    "xo": "0.22.0"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
     "cors": "^2.8.4",
+    "deepmerge": "^4.0.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "express-validator": "^5.3.0",
     "glob": "^7.1.3",
-    "moment": "^2.22.2",
+    "hoopa-logger": "^1.1.0",
     "mongo-sanitize": "^1.0.0",
     "mongoose": "^5.2.9",
     "morgan": "^1.9.0",
-    "slugify": "^1.3.1",
-    "winston": "^3.0.0"
+    "slugify": "^1.3.1"
   },
   "xo": {
     "extends": [
@@ -84,7 +84,6 @@
     "*.js": [
       "yarn lint",
       "yarn test:unit",
-      "yarn test:integration",
       "prettier --semi false --single-quote --trailing-comma --write",
       "git add"
     ]

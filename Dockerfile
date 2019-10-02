@@ -1,10 +1,9 @@
-FROM node:9.10-alpine
+FROM node:9.11-alpine
 
 WORKDIR /app/
 
 COPY package.json yarn.lock /app/
-RUN yarn install --production -s --no-progress --pure-lockfile && \
-  yarn cache clean
+RUN npm install --production -s --no-progress --pure-lockfile
 
 COPY . /app/
 

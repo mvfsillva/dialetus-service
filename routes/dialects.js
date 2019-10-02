@@ -1,6 +1,5 @@
-'use strict'
-
 const { Router } = require('express')
+
 const controller = require('../controllers/dialects')
 const middleware = require('../middlewares')
 

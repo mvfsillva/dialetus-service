@@ -1,8 +1,11 @@
-# Dialetus Service
+<p align="center">
+  <img width="400" height="auto" src=".github/logo.svg"/>
+</p>
+
 [![CircleCI](https://circleci.com/gh/mvfsillva/dialetus-service.svg?style=svg&circle-token=1e9adb58a5664ddd2c80e17f641775e2cbb6346f)](https://circleci.com/gh/mvfsillva/dialetus-service)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-28-orange.svg?style=flat-square)](#contributors)
 
 # How did the idea come about?
 
@@ -12,10 +15,12 @@
 
  - [dialetus web](https://github.com/mvfsillva/dialetus)
  - [dialetus-cli](https://github.com/bukinoshita/dialetus-cli) by [Bu Kinoshita](https://github.com/bukinoshita)
+ - [dialetus-ios](https://github.com/pamnovalli/dialetus-ios) by [Pamela Bembe](https://github.com/pamnovalli/dialetus-ios)
+ 
 
 ## 📃 API
 
-All endpoints live under the URL https://dialetus-service.now.sh and then generally follow the REST architecture.
+All endpoints live under the URL https://dialetus-service.herokuapp.com and then generally follow the REST architecture.
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
 
@@ -26,50 +31,67 @@ List all regions available with the total mapped dialects.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions
+$ curl https://dialetus-service.herokuapp.com/regions
 ```
 
 #### Response
 
 ```json
-[
-  {
-    "name": "baianes",
-    "total": 30
-  },
-  {
-    "name": "potiguares",
-    "total": 30
-  },
-  {
-    "name": "mineires",
-    "total": 21
-  },
-  {
-    "name": "paranes",
-    "total": 53
-  },
-  {
-    "name": "carioques",
-    "total": 8
-  },
-  {
-    "name": "rondones",
-    "total": 9
-  },
-  {
-    "name": "pernambuques",
-    "total": 11
-  },
-  {
-    "name": "catarines",
-    "total": 22
-  },
-  {
-    "name": "gauches",
-    "total": 18
-  }
-]
+[{
+  "name": "alagoanes",
+  "total": 64
+}, {
+  "name": "amazones",
+  "total": 9
+}, {
+  "name": "baianes",
+  "total": 42
+}, {
+  "name": "carioques",
+  "total": 14
+}, {
+  "name": "catarines",
+  "total": 22
+}, {
+  "name": "cearences",
+  "total": 10
+}, {
+  "name": "gauches",
+  "total": 25
+}, {
+  "name": "lageanes",
+  "total": 28
+}, {
+  "name": "maranhes",
+  "total": 15
+}, {
+  "name": "mineires",
+  "total": 26
+}, {
+  "name": "paraense",
+  "total": 30
+}, {
+  "name": "paranes",
+  "total": 53
+}, {
+  "name": "paulistes",
+  "total": 16
+}, {
+  "name": "pernambuques",
+  "total": 17
+}, {
+  "name": "piauies",
+  "total": 30
+}, {
+  "name": "potiguares",
+  "total": 35
+}, {
+  "name": "rondones",
+  "total": 9
+}, {
+  "name": "sergipanes",
+  "total": 11
+}]
 ```
 
 ### GET /regions/:region/dialects
@@ -79,7 +101,7 @@ List all dialects mapped.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions/baianes/dialects
+$ curl https://dialetus-service.herokuapp.com/regions/baianes/dialects
 ```
 
 #### Response
@@ -130,7 +152,7 @@ Get a dialect by slug.
 #### Request
 
 ```bash
-$ curl https://dialetus-service.now.sh/regions/baianes/dialects/relaxe-mo-fiu
+$ curl https://dialetus-service.herokuapp.com/regions/baianes/dialects/relaxe-mo-fiu
 ```
 
 #### Response
@@ -149,6 +171,16 @@ $ curl https://dialetus-service.now.sh/regions/baianes/dialects/relaxe-mo-fiu
 }
 ```
 
+### GET /search?q={words}
+
+Search the words in all dialects mapped.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/search?q=regui
+```
+
 #### List of dialects
 
 ### GET /dialect
@@ -165,9 +197,124 @@ GET /dialect/potiguares
 GET /dialect/rondones
 GET /dialect/cearences
 GET /dialect/pernambuques
+GET /dialect/piauies
 GET /dialect/catarines
+GET /dialect/paraense
 GET /dialect/gauches
 ```
+
+#### Response
+
+```json
+{
+  "baianes": [
+    {
+      "slug": "regui",
+      "dialect": "Regui",
+      "meanings": [
+          "Reunião com os amigos",
+          "Balada",
+          "Festa"
+      ],
+      "examples": [
+        "Ô mizera, bora pro regui logo vá!"
+      ]
+    },
+    {
+      "slug": "num-to-comeno-regui",
+      "dialect": "Num tô comeno regui",
+      "meanings": [
+        "Não acreditar em algo",
+        "Não se importar"
+      ],
+      "examples": [
+        "Num tô comeno regui não viu pae."
+      ]
+    }
+  ]
+}
+```
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/search?q=Virado no cão
+```
+
+#### Response
+
+```json
+{
+  "baianes": [{
+    "slug": "virado-no-cao",
+    "dialect": "Virado no cão",
+    "meanings": [
+      "Mal humorado",
+      "Aborrecido"
+    ],
+    "examples": [
+      "Eu to virado no cão, o primeiro que passar na minha frente vou rumaláporra!"
+    ]
+  }]
+}
+```
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/search?q=baita
+```
+
+#### Response
+
+```json
+{
+  "gauches": [{
+    "slug": "baita",
+    "dialect": "Baita",
+    "meanings": [
+      "Grande",
+      "Imenso"
+    ],
+    "examples": [
+      "Bah tchê, que baita de um problema tu arranjaste?!"
+    ]
+  }],
+  "paranes": [{
+    "slug": "baita",
+    "dialect": "Baita",
+    "meanings": [
+      "grande",
+      "enorme",
+      "de grandes proporções"
+    ],
+    "examples": [
+      "Mas que baita susto tu me deu"
+    ]
+  }]
+}
+```
+
+## Contribute 🍕
+### 01. Install dependencies
+
+```sh
+$ yarn
+```
+
+### 02. Create configs
+
+Create a `.env` file at the root of the project. Make sure you follow the [`.env.example`](.env.example) file as a guide.
+
+### 03. Run project
+
+```sh
+$ yarn dev
+```
+
+### 04. Learn more in the Contributing guide
+
+Please take a look at the [contributing guide](.github/contributing.md).
 
 ## Respect earns Respect 👏
 
@@ -178,9 +325,6 @@ Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
 - Gracefully accepting constructive criticism
 - Focusing on what is best for the community
 - Showing empathy towards other community members
-
-## Contribute 🍕
-Please take a look at the [contributing guide](.github/contributing.md).
 
 ## Authors 😎
 
@@ -197,11 +341,12 @@ Thanks goes out to all these wonderful people ([emoji key](https://github.com/ke
 | [<img src="https://avatars0.githubusercontent.com/u/4579340?v=4" width="100px;"/><br /><sub><b>Marcus Silva</b></sub>](https://github.com/mvfsillva)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=mvfsillva "Code") [📖](https://github.com/mvfsillva/dialetus-service/commits?author=mvfsillva "Documentation") [👀](#review-mvfsillva "Reviewed Pull Requests") | [<img src="https://avatars2.githubusercontent.com/u/7683909?v=4" width="100px;"/><br /><sub><b>Angelmário Santana</b></sub>](https://github.com/anfsantana)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=anfsantana "Code") [📖](https://github.com/mvfsillva/dialetus-service/commits?author=anfsantana "Documentation") [👀](#review-anfsantana "Reviewed Pull Requests") | [<img src="https://avatars2.githubusercontent.com/u/1703020?v=4" width="100px;"/><br /><sub><b>Rodolfo Silva</b></sub>](http://www.rodolfosilva.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=RodolfoSilva "Code") [📖](https://github.com/mvfsillva/dialetus-service/commits?author=RodolfoSilva "Documentation") [👀](#review-RodolfoSilva "Reviewed Pull Requests") | [<img src="https://avatars2.githubusercontent.com/u/1204692?v=4" width="100px;"/><br /><sub><b>Bruno Pulis</b></sub>](http://www.brunopulis.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=brunopulis "Code") | [<img src="https://avatars1.githubusercontent.com/u/5539257?v=4" width="100px;"/><br /><sub><b>Wellington Mitrut</b></sub>](https://medium.com/blog-do-mitrut/)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=Wmitrut "Code") | [<img src="https://avatars2.githubusercontent.com/u/1463578?v=4" width="100px;"/><br /><sub><b>Diego Ramos</b></sub>](https://www.linkedin.com/in/rdiego26/)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=rdiego26 "Code") | [<img src="https://avatars1.githubusercontent.com/u/6919712?v=4" width="100px;"/><br /><sub><b>Caio Alcântara</b></sub>](http://sourcerer.io/clucasalcantara)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=clucasalcantara "Code") |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | [<img src="https://avatars2.githubusercontent.com/u/698313?v=4" width="100px;"/><br /><sub><b>Lucas Farias</b></sub>](https://medium.com/@luksrn)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=luksrn "Code") | [<img src="https://avatars1.githubusercontent.com/u/808785?v=4" width="100px;"/><br /><sub><b>Higor Morais</b></sub>](https://github.com/higorae)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=higorae "Code") | [<img src="https://avatars3.githubusercontent.com/u/19912294?v=4" width="100px;"/><br /><sub><b>Medson Mendes</b></sub>](https://github.com/lmedson)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=lmedson "Code") | [<img src="https://avatars2.githubusercontent.com/u/4191734?v=4" width="100px;"/><br /><sub><b>Randѕon Oliveira</b></sub>](https://rands0n.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=rands0n "Code") | [<img src="https://avatars1.githubusercontent.com/u/9031279?v=4" width="100px;"/><br /><sub><b>Murillo de Miranda Pereira</b></sub>](https://twitter.com/murillomirandaa)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=murillo94 "Code") | [<img src="https://avatars0.githubusercontent.com/u/3356720?v=4" width="100px;"/><br /><sub><b>Rafael Nunes</b></sub>](http://peaonunes.github.io/)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=peaonunes "Code") | [<img src="https://avatars3.githubusercontent.com/u/1252570?v=4" width="100px;"/><br /><sub><b>Will Mendes</b></sub>](https://medium.com/@willmendesneto)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=willmendesneto "Code") |
-| [<img src="https://avatars2.githubusercontent.com/u/26495329?v=4" width="100px;"/><br /><sub><b>kathleenrego</b></sub>](https://github.com/kathleenrego)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=kathleenrego "Code") | [<img src="https://avatars0.githubusercontent.com/u/15023006?v=4" width="100px;"/><br /><sub><b>Jader</b></sub>](https://github.com/jdrgomes)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=jdrgomes "Code") | [<img src="https://avatars3.githubusercontent.com/u/8007426?v=4" width="100px;"/><br /><sub><b>Rodolfo Candido</b></sub>](https://github.com/rdl-candido)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=rdl-candido "Code") |
+| [<img src="https://avatars2.githubusercontent.com/u/26495329?v=4" width="100px;"/><br /><sub><b>kathleenrego</b></sub>](https://github.com/kathleenrego)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=kathleenrego "Code") | [<img src="https://avatars0.githubusercontent.com/u/15023006?v=4" width="100px;"/><br /><sub><b>Jader</b></sub>](https://github.com/jdrgomes)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=jdrgomes "Code") | [<img src="https://avatars3.githubusercontent.com/u/8007426?v=4" width="100px;"/><br /><sub><b>Rodolfo Candido</b></sub>](https://github.com/rdl-candido)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=rdl-candido "Code") | [<img src="https://avatars2.githubusercontent.com/u/5585596?v=4" width="100px;"/><br /><sub><b>Jefferson Moura</b></sub>](http://jeffersonmourak.me)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=jeffersonmourak "Code") | [<img src="https://avatars3.githubusercontent.com/u/3630346?v=4" width="100px;"/><br /><sub><b>Raphael Amorim</b></sub>](http://raphamorim.io)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=raphamorim "Code") | [<img src="https://avatars3.githubusercontent.com/u/1644099?v=4" width="100px;"/><br /><sub><b>Adriano Canofre</b></sub>](https://adrianocanofre.github.io/)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=adrianocanofre "Code") | [<img src="https://avatars3.githubusercontent.com/u/5712300?v=4" width="100px;"/><br /><sub><b>Maurício Coelho</b></sub>](https://github.com/mauscoelho)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=mauscoelho "Code") |
+| [<img src="https://avatars0.githubusercontent.com/u/13842868?v=4" width="100px;"/><br /><sub><b>Marcela Barella</b></sub>](https://twitter.com/MarcelaBarella)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=MarcelaBarella "Code") | [<img src="https://avatars1.githubusercontent.com/u/5808206?v=4" width="100px;"/><br /><sub><b>Matheus Monte</b></sub>](https://matheusmonte.github.io/)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=matheusmonte "Code") | [<img src="https://avatars2.githubusercontent.com/u/11067705?v=4" width="100px;"/><br /><sub><b>Gabriel Kalani</b></sub>](https://gkal19.github.io)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=gkal19 "Code") | [<img src="https://avatars2.githubusercontent.com/u/16547662?v=4" width="100px;"/><br /><sub><b>Ruan Kaylo</b></sub>](https://ruankaylo.netlify.com)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=RuanAyram "Code") | [<img src="https://avatars1.githubusercontent.com/u/1802025?v=4" width="100px;"/><br /><sub><b>Thiago Guimarães</b></sub>](https://github.com/thiagogsr)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=thiagogsr "Code") | [<img src="https://avatars3.githubusercontent.com/u/5823027?v=4" width="100px;"/><br /><sub><b>Welkson Ramos</b></sub>](https://twitter.com/welksonramos)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=welksonramos "Code") | [<img src="https://avatars1.githubusercontent.com/u/19865835?v=4" width="100px;"/><br /><sub><b>Mateus Malaquias</b></sub>](http://malaquias.dev)<br />[💻](https://github.com/mvfsillva/dialetus-service/commits?author=malaquiasdev "Code") |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
 ## License
 
 Dialetus is released under the [MIT license](license).
 
-Copyright © 2018.
+Copyright © 2019.

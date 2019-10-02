@@ -1,6 +1,4 @@
-'use strict'
-
-const dialects = require('../../../dialects')
+const dialects = require('../../dialects')
 
 module.exports = (req, res) => {
   const regions = Object.keys(dialects).map(name => ({

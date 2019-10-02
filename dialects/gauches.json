@@ -88,5 +88,40 @@
         "dialect": "Chinoca",
         "meanings": ["Guria que usa bota e bombacha"],
         "examples": ["Isto sim é uma chinoca!"]
+    },
+    {
+        "dialect": "Abobado",
+        "meanings": ["Infantil", "Louco" , "Pessoa que só fala besteira"],
+        "examples": ["Bah tchê, que pia mais abobado!"]
+    },
+    {
+        "dialect": "Bueno",
+        "meanings": ["Gostoso", "Bom"],
+        "examples": ["Bueno, então vou andando!"]
+    },
+    {
+        "dialect": "Chimarrão",
+        "meanings": ["Bebida feita com erva mate e água quente"],
+        "examples": ["Tchê, vamos tomar um chimarrão?"]
+    },
+    {
+        "dialect": "Cusco",
+        "meanings": ["Cachorro", "Vira-Lata"],
+        "examples": ["Eu tenho 3 cuscos em casa."]
+    },
+    {
+        "dialect": "Guria",
+        "meanings": ["Menina", "Moça"],
+        "examples": ["Aquela guria  é tri bonita."]
+    },
+    {
+        "dialect": "Pila",
+        "meanings": ["Palavra regional que dá nome a moeda nacional, no caso o Real"],
+        "examples": ["Me empresta 10 pila."]
+    },
+    {
+        "dialect": "Peleia",
+        "meanings": ["Briga", "Disputa"],
+        "examples": ["A medalha de ouro foi peleada por bons atletas."]
     }
 ]

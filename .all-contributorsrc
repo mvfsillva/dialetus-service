@@ -167,6 +167,105 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "jeffersonmourak",
+      "name": "Jefferson Moura",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/5585596?v=4",
+      "profile": "http://jeffersonmourak.me",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "raphamorim",
+      "name": "Raphael Amorim",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/3630346?v=4",
+      "profile": "http://raphamorim.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "adrianocanofre",
+      "name": "Adriano Canofre",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/1644099?v=4",
+      "profile": "https://adrianocanofre.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "mauscoelho",
+      "name": "Maurício Coelho",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5712300?v=4",
+      "profile": "https://github.com/mauscoelho",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MarcelaBarella",
+      "name": "Marcela Barella",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/13842868?v=4",
+      "profile": "https://twitter.com/MarcelaBarella",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "matheusmonte",
+      "name": "Matheus Monte",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/5808206?v=4",
+      "profile": "https://matheusmonte.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "gkal19",
+      "name": "Gabriel Kalani",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/11067705?v=4",
+      "profile": "https://gkal19.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "RuanAyram",
+      "name": "Ruan Kaylo",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/16547662?v=4",
+      "profile": "https://ruankaylo.netlify.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "thiagogsr",
+      "name": "Thiago Guimarães",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/1802025?v=4",
+      "profile": "https://github.com/thiagogsr",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "welksonramos",
+      "name": "Welkson Ramos",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/5823027?v=4",
+      "profile": "https://twitter.com/welksonramos",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "malaquiasdev",
+      "name": "Mateus Malaquias",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/19865835?v=4",
+      "profile": "http://malaquias.dev",
+      "contributions": [
+        "code"
+      ]
     }
   ]
 }
