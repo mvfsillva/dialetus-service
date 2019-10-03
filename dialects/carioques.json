@@ -2,27 +2,32 @@
   {
     "dialect": "Bolado",
     "meanings": ["Quando a gente fica preocupado com algo ou com alguém ou não entendeu alguma situação."],
-    "examples": ["Fiquei bolado com minha nota baixa na escola.", "Estou bolado com meu irmão."]
+    "examples": ["Fiquei bolado com minha nota baixa na escola.", "Estou bolado com meu irmão."],
+    "synonyms": ["Chateado", "Irritado"]
   },
   {
     "dialect": "Birita",
     "meanings": ["Bebida alcoólica"],
-    "examples": ["Vamos no boteco tomar uma birita?"]
+    "examples": ["Vamos no boteco tomar uma birita?"],
+    "synonyms": ["Cerveja"]
   },
   {
     "dialect": "Caô",
     "meanings": ["Mentira. Aquele que conta a mentira é o caozeiro"],
-    "examples": ["Ela disse que tem um carro, mas é caô",  "Aquele menino é um caozeiro."]
+    "examples": ["Ela disse que tem um carro, mas é caô",  "Aquele menino é um caozeiro."],
+    "synonyms": ["Mentira"]
   },
   {
     "dialect": "Cara",
     "meanings": ["Termo usado para denominar ou se referir a uma pessoa de maneira informal. Colega, amigo. Usado tipicamente para se referir a homens, mas também usado para mulheres. Outra gírias com o mesmo significado: moleque, maluco, campeão, mané."],
-    "examples": ["Um cara me disse que essa cerveja é muito gostosa",  "Cara, eu não sei se vou poder viajar com você"]
+    "examples": ["Um cara me disse que essa cerveja é muito gostosa",  "Cara, eu não sei se vou poder viajar com você"],
+    "synonyms": ["Rapaz", "Homem", "Colega", "Pessoa"]
   },
   {
     "dialect": "Cerva",
     "meanings": ["Forma reduzida para cerveja"],
-    "examples": ["Estou doido para tomar uma cerva"]
+    "examples": ["Estou doido para tomar uma cerva"],
+    "synonyms": ["Cerveja"]
   },
   {
     "dialect": "Coé",
@@ -32,7 +37,8 @@
   {
     "dialect": "Estar na pista",
     "meanings": ["Estar solteiro"],
-    "examples": ["Terminei o meu namoro. Agora estou na pista."]
+    "examples": ["Terminei o meu namoro. Agora estou na pista."],
+    "synonyms": ["Solteiro"]
   },
   {
     "dialect": "Mó",
@@ -47,12 +53,14 @@
   {
     "dialect": "Partiu",
     "meanings": ["Momento certo pra iniciar uma ação!"],
-    "examples": ["Partiu praia?"]
+    "examples": ["Partiu praia?"],
+    "synonyms": ["Bora?"]
   },
   {
     "dialect": "Foda",
     "meanings": ["Pode indicar dificuldade, ou algo bom, ou algo impressionante!"],
-    "examples": ["Esse teu código ficou foda!"]
+    "examples": ["Esse teu código ficou foda!"],
+    "synonyms": ["Difícil", "Complicado"]
   },
   {
     "dialect": "Fechou",
