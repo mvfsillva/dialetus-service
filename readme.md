@@ -24,6 +24,19 @@ All endpoints live under the URL https://dialetus-service.herokuapp.com and then
 
 All requests must be encoded as JSON with the Content-Type: application/json header. Most responses, including errors, are encoded exclusively as JSON as well.
 
+### Structure of dialect object
+
+The dialect object in `dialects` folder has the following fields:
+
+```js
+{
+  "dialect": String,
+  "meanings": Array<String>,
+  "examples": Array<String>,
+  "synonyms": Array<String> // (optional)
+}
+```
+
 ### GET /regions
 
 List all regions available with the total mapped dialects.
