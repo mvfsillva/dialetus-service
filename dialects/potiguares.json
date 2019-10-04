@@ -253,7 +253,7 @@
          "Mãe, como saí mais cedo da aula, vou pegar o ônibus arrudiando hoje."
       ]
    },
-   {    
+   {
      "dialect":"Mangar",
      "meanings":[
          "Zombar.",
@@ -359,5 +359,16 @@
          "Tive que andar até a baixa da égua hoje atrás de uma pizzaria aberta.",
          "Boy, bati lá na baixa da égua hoje pra participar de um congresso."
       ]
-   }
+   },
+   {
+    "dialect":"Esse ome",
+    "meanings":[
+       "Quando você se refere a alguma pessoa, indendente de gênero."
+    ],
+    "examples":[
+       "Esse ome vai no Midway hoje?",
+       "Essa ome tá ficando com Buiu mesmo?"
+    ]
+ }
+
 ]
