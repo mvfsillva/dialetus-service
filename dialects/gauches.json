@@ -123,5 +123,35 @@
         "dialect": "Peleia",
         "meanings": ["Briga", "Disputa"],
         "examples": ["A medalha de ouro foi peleada por bons atletas."]
+    },
+    {
+        "dialect": "Afudê",
+        "meanings": ["Legal", "Maneiro"],
+        "examples": ["O jogo ontem tava muito afudê."]
+    },
+    {
+        "dialect": "Arreganho",
+        "meanings": ["Brincadeira", "Brincando"],
+        "examples": ["Estou de arreganho com você."]
+    },
+    {
+        "dialect": "Trovar",
+        "meanings": ["Xavecar", "Paquerar", "Jogar conversa fora"],
+        "examples": ["Eu vou lá trovar a mina.", "Os guris estavam de trova."]
+    },
+    {
+        "dialect": "Sinaleira",
+        "meanings": ["Semáforo"],
+        "examples": ["Após a sinaleira dobrar a direita."]
+    },
+    {
+        "dialect": "Atucanado",
+        "meanings": ["Atrapalhado", "Preocupado", "Ocupado"],
+        "examples": ["Preciso falar com você. Estás muito atucanado?", "Tô muito atucanado no trabalho."]
+    },
+    {
+        "dialect": "Cupincha",
+        "meanings": ["Amigo", "Companheiro"],
+        "examples": ["Aquele guri ali é meu cupincha."]
     }
 ]

@@ -30,7 +30,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'gauches',
-      total: 25,
+      total: 31,
     },
     {
       name: 'lageanes',
@@ -54,7 +54,7 @@ describe('Integration: Dialect Regions endpoint', () => {
     },
     {
       name: 'paulistes',
-      total: 16,
+      total: 17,
     },
     {
       name: 'pernambuques',
