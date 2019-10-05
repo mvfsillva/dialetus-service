@@ -76,5 +76,17 @@
     "dialect": "Se Liga",
     "meanings": ["Pedido para que haja atenção em algo ou no que está sendo falado."],
     "examples": ["Se liga, você vai embora que horas?"]
+  },
+  {
+    "dialect": "Maciota",
+    "meanings": ["Sem esforço. tranquilamente. Sem complicações"],
+    "examples": ["Hoje vou ficar em casa só na maciota..."],
+    "synonyms": ["tranquilo", "devagar"]
+  },
+  {
+    "dialect": "x9",
+    "meanings": ["Dedo duro. Delator. Aquele que não se pode confiar. linguarudo"],
+    "examples": ["Não conte nada para ele, pois ele é um maior x9."],
+    "synonyms": ["Delator", "Dedo duro", "Cagueta"]
   }
 ]
