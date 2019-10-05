@@ -55,9 +55,24 @@
     "examples": ["Ei po, dispense!"]
   },
   {
+    "dialect": "Encarnado",
+    "meanings": ["Vermelho", "Rubro"],
+    "examples": ["Tu ficou encarnado depois da piscina."]
+  },
+  {
+    "dialect": "Estilar",
+    "meanings": ["Amarelar", "Enfurecer"],
+    "examples": ["Eu já tô estilando com essa brincadeira."]
+  },
+  {
     "dialect": "Gazea",
     "meanings": ["Matar aula", "Faltar no compromisso"],
     "examples": ["Vamo gazear essa aula?", "Eu vi que você gazeeou hoje, viu?"]
+  },
+  {
+    "dialect": "Mangar",
+    "meanings": ["Zombar", "Chacotear"],
+    "examples": ["E botaram para mangar do bicho."]
   },
   {
     "dialect": "Marromenos",
@@ -83,5 +98,10 @@
     "dialect": "Tabacudo",
     "meanings": ["Bobo", "Idiota"],
     "examples": ["Que menino tabacudo da gota!", "Sai daê, tabacudo"]
+  },
+  {
+    "dialect": "Xexêro",
+    "meanings": ["Mão-de-vaca", "Mesquinho", "Avarento"],
+    "examples": ["Zé é muito xexêro."]
   }
 ]
