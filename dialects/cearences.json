@@ -1,5 +1,25 @@
 [
 	{
+		"dialect": "Ariado",
+		"meanings": ["Perdido", "Confuso"],
+		"examples": ["Aquele cara está ariado demais", "João acordou ariado foi?"]
+	},
+	{
+		"dialect": "Arriba ou Arribar",
+		"meanings": ["Levantar", "Erguer"],
+		"examples": ["João, arriba aquela cadeira."]
+	},
+	{
+		"dialect": "Avia",
+		"meanings": ["Vamos", "Seja rápido"],
+		"examples": ["Avia logo menino", "Você está demorando demais, avia"]
+	},
+	{
+		"dialect": "Estribado",
+		"meanings": ["Rico", "Com dinheiro"],
+		"examples": ["João está estribado", "O cara está é estribado"]
+	},
+	{
 		"dialect": "Macho",
 		"meanings": ["Cara", "Amigo"],
 		"examples": ["Fala macho, tudo tranquilo?", "Ei macho, tem como levar isso pra mim?"]
