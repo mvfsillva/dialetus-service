@@ -359,5 +359,39 @@
          "Tive que andar até a baixa da égua hoje atrás de uma pizzaria aberta.",
          "Boy, bati lá na baixa da égua hoje pra participar de um congresso."
       ]
+   },
+   {
+      "dialect":"Brenha",
+      "meanings":[
+         "Lugar distânte, mais longe que baixa da égua",
+         "Lugar de dificil acesso"
+      ],
+      "examples":[
+         "Aquele galado mora lá nas brenha.",
+         "Boy, essa resenha é lá nas brenha."
+      ]
+   },
+   {
+      "dialect":"Dar um grau",
+      "meanings":[
+         "Fazer algo bem feito",
+         "Caprichar",
+         "Ato de empinar veiculo de duas rodas"
+      ],
+      "examples":[
+         "Boe, hoje vou dar um grau na moita.",
+         "Ontem eu dei um grau chega a rabeta da moto faiscou."
+      ]
+   },
+   {
+      "dialect":"De rosca",
+      "meanings":[
+         "Algo demorado",
+         "Algo dificil de ser realizado"
+      ],
+      "examples":[
+         "Esse suco é de rosca?",
+         "Siiim, ai essa atividade é de rosca?"
+      ]
    }
 ]
