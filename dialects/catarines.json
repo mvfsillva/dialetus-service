@@ -108,5 +108,10 @@
         "dialect": "Abobado",
         "meanings": ["Bobo", "Tolo"],
         "examples": ["Mas tu é um abobado mesmo."]
+    },
+    {
+        "dialect": "Banzé",
+        "meanings": ["Confusão", "Bagunça", "Rolo"],
+        "examples": ["A festa virou o maió banzé."]
     }
 ]
