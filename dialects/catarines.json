@@ -113,5 +113,10 @@
         "dialect": "Banzé",
         "meanings": ["Confusão", "Bagunça", "Rolo"],
         "examples": ["A festa virou o maió banzé."]
+    },
+    {
+        "dialect": "Conduto",
+        "meanings": ["Prato principal da refeição", "O que acompanha o pirão ou o café"],
+        "examples": ["Oie rapaze, hoje o conduto tá pouco.Por isso cheira o conduto e come o pirão."]
     }
 ]
