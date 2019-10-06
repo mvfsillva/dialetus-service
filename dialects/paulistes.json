@@ -168,5 +168,30 @@
       "Muito legal esse seu jaco",
       "Vou levar um jaco por que está frio"
     ]
+  },
+  
+  {
+    "dialect": "Goma",
+    "meanings": [
+      "Residência",
+      "Casa"
+    ],
+    "examples": [
+      "Passei na goma para trocar de roupa",
+      "Bora colar lá na goma do Pedro"
+    ]
+  }, 
+
+  {
+    "dialect": "Descolar",
+    "meanings": [
+      "Conseguir",
+      "Arranjar"
+    ],
+    "examples": [
+      "Descolei um emprego novo, começarei amanhã",
+      "Descola aquela grana para mim"
+    ]
   }
 ]
+
