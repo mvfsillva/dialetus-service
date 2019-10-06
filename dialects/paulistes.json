@@ -169,7 +169,16 @@
       "Vou levar um jaco por que está frio"
     ]
   },
-  
+  {
+    "dialect": "Bombeta",
+    "meanings": [
+      "Boné"
+    ],
+    "examples": [
+      "Que bombeta louca!",
+      "Quanto foi essa bombeta?"
+    ]
+  },
   {
     "dialect": "Goma",
     "meanings": [
@@ -181,7 +190,6 @@
       "Bora colar lá na goma do Pedro"
     ]
   }, 
-
   {
     "dialect": "Descolar",
     "meanings": [
@@ -191,7 +199,7 @@
     "examples": [
       "Descolei um emprego novo, começarei amanhã",
       "Descola aquela grana para mim"
-    ]
-  }
+      ]
+  } 
 ]
 
