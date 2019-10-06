@@ -7,12 +7,18 @@
   {
     "dialect": "Abestalhado",
     "meanings": ["Atrapalhado", "Bobo"],
-    "examples": ["Tu é muito abestalhado, visse?", "Deixe de ser abestalhado e cresça!"]
+    "examples": [
+      "Tu é muito abestalhado, visse?",
+      "Deixe de ser abestalhado e cresça!"
+    ]
   },
   {
     "dialect": "Avexado",
     "meanings": ["Envergonhado", "Tímido", "Retraído"],
-    "examples": ["Vem pra cá, deixa de ser avexado!", "Oxe, que menino avexado."]
+    "examples": [
+      "Vem pra cá, deixa de ser avexado!",
+      "Oxe, que menino avexado."
+    ]
   },
   {
     "dialect": "Avoado",
@@ -32,7 +38,10 @@
   {
     "dialect": "Boyzinha",
     "meanings": ["Namorada", "Paquerda", "Ficante"],
-    "examples": ["Olha a boyzinha dele ali com ele!", "Se liga que ele tem boyzinha..."]
+    "examples": [
+      "Olha a boyzinha dele ali com ele!",
+      "Se liga que ele tem boyzinha..."
+    ]
   },
   {
     "dialect": "Borocochô",
@@ -42,12 +51,20 @@
   {
     "dialect": "Bulir",
     "meanings": ["Mexer em algo"],
-    "examples": ["Para de bulir nesse celular.", "Estão bulindo nas tuas coisas"]
+    "examples": [
+      "Para de bulir nesse celular.",
+      "Estão bulindo nas tuas coisas"
+    ]
   },
   {
     "dialect": "Cabueta",
     "meanings": ["Dedo duro", "X9"],
     "examples": ["José entregou a gente, esse boy é muito cabueta."]
+  },
+  {
+    "dialect": "Desembestado",
+    "meanings": ["Apressado", "Acelerado"],
+    "examples": ["Esse menino só anda desembestado!"]
   },
   {
     "dialect": "Dispense",
@@ -87,12 +104,17 @@
   {
     "dialect": "Peguento",
     "meanings": ["Grudento de suor", "Suado"],
-    "examples": ["Po boy, joguei bola e to todo peguento agora.", "Vou tomar um banho que to peguento demais!"]
+    "examples": [
+      "Po boy, joguei bola e to todo peguento agora.",
+      "Vou tomar um banho que to peguento demais!"
+    ]
   },
   {
     "dialect": "Pirangueiro",
     "meanings": ["Mão de vaca", "Pão duro"],
-    "examples": ["Tu não quer gastar 10 reais com isso? Tu é muito pirangueiro visse?"]
+    "examples": [
+      "Tu não quer gastar 10 reais com isso? Tu é muito pirangueiro visse?"
+    ]
   },
   {
     "dialect": "Tabacudo",
