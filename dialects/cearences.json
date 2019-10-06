@@ -1,72 +1,113 @@
 [
-	{
-		"dialect": "Ariado",
-		"meanings": ["Perdido", "Confuso"],
-		"examples": ["Aquele cara está ariado demais", "João acordou ariado foi?"]
-	},
-	{
-		"dialect": "Arriba ou Arribar",
-		"meanings": ["Levantar", "Erguer"],
-		"examples": ["João, arriba aquela cadeira."]
-	},
-	{
-		"dialect": "Avia",
-		"meanings": ["Vamos", "Seja rápido"],
-		"examples": ["Avia logo menino", "Você está demorando demais, avia"]
-	},
-	{
-		"dialect": "Estribado",
-		"meanings": ["Rico", "Com dinheiro"],
-		"examples": ["João está estribado", "O cara está é estribado"]
-	},
-	{
-		"dialect": "Macho",
-		"meanings": ["Cara", "Amigo"],
-		"examples": ["Fala macho, tudo tranquilo?", "Ei macho, tem como levar isso pra mim?"]
-	},
-	{
-		"dialect": "Marmota",
-		"meanings": ["Algo estranho","Estranhez cômica"],
-		"examples": ["Cara, você é palhaço agora, pra tá cheio de marmota?"]
-	},
-	{
-		"dialect": "Goipada",
-		"meanings": ["Cuspir"],
-		"examples":["Fulano, espera um minuto enquanto eu vou dar goipada na pia do banheiro."]
-	},
-	{
-		"dialect": "Péba",
-		"meanings": ["De má qualidade"],
-		"examples": ["Comprei esse celular e me arrependi, é peba demais.", "ô camisa peba, usei 2 semanas e já tá furada."]
-	},
-	{
-		"dialect": "Sustança",
-		"meanings": ["Energia dos alimentos."],
-		"examples": ["Meu filho, não abro mão do meu arroz e feijão cheios de sustança."]
-	},
-	{
-		"dialect": "Vixe",
-		"meanings": ["Espanto","surpresa"],
-		"examples": ["Vixe que a chuva tá forte e não vai parar hoje.", "Viiixe, não acredito que o ônibus perdi o ônibus desse horário."]
+  {
+    "dialect": "Ariado",
+    "meanings": ["Perdido", "Confuso"],
+    "examples": ["Aquele cara está ariado demais", "João acordou ariado foi?"]
   },
   {
-		"dialect": "Bregueço",
-		"meanings": ["Algo velho"],
-		"examples": ["Menino, tu guarda esse bregueço há muito tempo, tá bom de jogar fora."]
+    "dialect": "Arriba ou Arribar",
+    "meanings": ["Levantar", "Erguer"],
+    "examples": ["João, arriba aquela cadeira."]
   },
   {
-		"dialect": "Gasgita",
-		"meanings": ["Falar muito alto", "Falar gritando"],
-		"examples": ["Minha filha, deixe de ser gasgita, lá da outra rua dá pra te ouvir falando."]
+    "dialect": "Avia",
+    "meanings": ["Vamos", "Seja rápido"],
+    "examples": ["Avia logo menino", "Você está demorando demais, avia"]
   },
   {
-		"dialect": "Malamanhado",
-		"meanings": ["Desleixado","Desajeitado"],
-		"examples": ["Macho, tu só vem pra aula malamanhado, venha mais arrumadinho, rapaz."]
+    "dialect": "Estribado",
+    "meanings": ["Rico", "Com dinheiro"],
+    "examples": ["João está estribado", "O cara está é estribado"]
   },
   {
-		"dialect": "Rebolar no mato",
-		"meanings": ["Jogar fora"],
-		"examples": ["Querida, esse queijo já passou o prazo de validade, tá bom de rebolar no mato."]
-	}
+    "dialect": "Macho",
+    "meanings": ["Cara", "Amigo"],
+    "examples": [
+      "Fala macho, tudo tranquilo?",
+      "Ei macho, tem como levar isso pra mim?"
+    ]
+  },
+  {
+    "dialect": "Marmota",
+    "meanings": ["Algo estranho", "Estranhez cômica"],
+    "examples": ["Cara, você é palhaço agora, pra tá cheio de marmota?"]
+  },
+  {
+    "dialect": "Goipada",
+    "meanings": ["Cuspir"],
+    "examples": [
+      "Fulano, espera um minuto enquanto eu vou dar goipada na pia do banheiro."
+    ]
+  },
+  {
+    "dialect": "Péba",
+    "meanings": ["De má qualidade"],
+    "examples": [
+      "Comprei esse celular e me arrependi, é peba demais.",
+      "ô camisa peba, usei 2 semanas e já tá furada."
+    ]
+  },
+  {
+    "dialect": "Sustança",
+    "meanings": ["Energia dos alimentos."],
+    "examples": [
+      "Meu filho, não abro mão do meu arroz e feijão cheios de sustança."
+    ]
+  },
+  {
+    "dialect": "Vixe",
+    "meanings": ["Espanto", "surpresa"],
+    "examples": [
+      "Vixe que a chuva tá forte e não vai parar hoje.",
+      "Viiixe, não acredito que o ônibus perdi o ônibus desse horário."
+    ]
+  },
+  {
+    "dialect": "Bregueço",
+    "meanings": ["Algo velho"],
+    "examples": [
+      "Menino, tu guarda esse bregueço há muito tempo, tá bom de jogar fora."
+    ]
+  },
+  {
+    "dialect": "Gasgita",
+    "meanings": ["Falar muito alto", "Falar gritando"],
+    "examples": [
+      "Minha filha, deixe de ser gasgita, lá da outra rua dá pra te ouvir falando."
+    ]
+  },
+  {
+    "dialect": "Malamanhado",
+    "meanings": ["Desleixado", "Desajeitado"],
+    "examples": [
+      "Macho, tu só vem pra aula malamanhado, venha mais arrumadinho, rapaz."
+    ]
+  },
+  {
+    "dialect": "Rebolar no mato",
+    "meanings": ["Jogar fora"],
+    "examples": [
+      "Querida, esse queijo já passou o prazo de validade, tá bom de rebolar no mato."
+    ]
+  },
+  {
+    "dialect": "Ai dento",
+    "meanings": ["Sai fora", "Vai se danar"],
+    "examples": ["Vamos naquela palestrar chata? Ai dento, nem pensar"]
+  },
+  {
+    "dialect": "Arengar",
+    "meanings": ["Arrumar confusão"],
+    "examples": ["Seu filho ficou arrumando arenga na escola hoje"]
+  },
+  {
+    "dialect": "Botar boneco",
+    "meanings": ["Perturbar", "Pessoa chata"],
+    "examples": ["Se for para botar boneco melhor ficar em casa"]
+  },
+  {
+    "dialect": "Mah",
+    "meanings": ["Macho"],
+    "examples": ["Mah, aparece lá em casa hoje"]
+  }
 ]
