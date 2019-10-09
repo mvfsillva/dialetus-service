@@ -253,7 +253,7 @@
          "Mãe, como saí mais cedo da aula, vou pegar o ônibus arrudiando hoje."
       ]
    },
-   {    
+   {
      "dialect":"Mangar",
      "meanings":[
          "Zombar.",
@@ -392,6 +392,16 @@
       "examples":[
          "Esse suco é de rosca?",
          "Siiim, ai essa atividade é de rosca?"
+      ]
+   },
+   {
+     "dialect":"Zuada",
+     "meanings":[
+         "Barulho"
+     ],
+     "examples":[
+         "Home, deixa de zuada aí.",
+         "No alecrim tem muita zuada."
       ]
    }
 ]
