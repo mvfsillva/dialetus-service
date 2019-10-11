@@ -35,7 +35,7 @@
     "examples": ["Arreda daqui"]
   },
   {
-    "dialect": "Cadin",
+    "dialect": "É mió",
     "meanings": ["um pouco"],
     "examples": ["Coloca um cadin de leite."]
   },
@@ -128,5 +128,40 @@
     "dialect": "Garrado",
     "meanings": ["Farei com certeza."],
     "examples": ["Vai a festa hoje? Tô garrado!"]
+  },
+  {
+    "dialect": "Gastura",
+    "meanings": ["Nervoso"],
+    "examples": ["Para de fazer isso! Me da gastura"]
+  },
+  {
+    "dialect": "Cacunda",
+    "meanings": ["Coluna",
+                 "Costas"],
+    "examples": ["To levando esse time na cacunda", 
+                 "Minha cacunda ta doendo"]
+  },
+  {
+    "dialect": "É mió",
+    "meanings": ["É melhor"],
+    "examples": ["Iphone? Compra um Xiaomi, é mió e mais barato",
+                "O Cruzeiro é mió que o Galo"]
+  },
+  {
+    "dialect": "Muié",
+    "meanings": ["Mulher"],
+    "examples": ["Muié do céu tu viu?",
+                 "Viu o que muié?"]
+  },
+  {
+    "dialect": "Embuchá",
+    "meanings": ["Engravidar"],
+    "examples": ["Tu viu que a Ana embuchô?",
+                "Muié to tentando Embuchá"]
+  },
+  {
+    "dialect": "Furdunço",
+    "meanings": ["Confusão"],
+    "examples": ["Tu viu o furdunço no jogo do cruzeiro?"]
   }
 ]
