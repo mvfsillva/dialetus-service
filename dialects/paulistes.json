@@ -200,6 +200,17 @@
       "Descolei um emprego novo, começarei amanhã",
       "Descola aquela grana para mim"
       ]
-  } 
+  },
+  {
+    "dialect": "treta",
+    "meanings": [
+      "briga",
+      "confusão"
+    ],
+    "examples": [
+      "Deu a maior treta naquela festa",
+      "Arrumei uma treta com minha família"
+      ]
+  }  
 ]
 
