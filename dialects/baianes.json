@@ -236,5 +236,11 @@
     "dialect": "Bangu virô",
     "meanings": ["Deu tudo errado."],
     "examples": ["Vamos embora, bangu virô."]
+  },
+  {
+    "dialect": "Massa",
+    "meanings":["Algo muito legal, interessante"],
+    "examples":["Nossa que massa essa festa"]
   }
+
 ]
