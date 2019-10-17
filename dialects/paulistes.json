@@ -189,7 +189,7 @@
       "Passei na goma para trocar de roupa",
       "Bora colar lá na goma do Pedro"
     ]
-  }, 
+  },
   {
     "dialect": "Descolar",
     "meanings": [
@@ -202,7 +202,7 @@
       ]
   },
   {
-    "dialect": "MC (Como em MC Donalds)",
+    "dialect": "MC",
     "meanings": [
       "Deve ser lido como 'Mc' em 'McDonalds'",
       "Motel"
@@ -232,6 +232,6 @@
       "Que isso fih, o que te aconteceu?",
       "Fih, nem te conto!"
       ]
-  }    
+  }
 ]
 
