@@ -204,11 +204,34 @@
   {
     "dialect": "MC (Como em MC Donalds)",
     "meanings": [
+      "Deve ser lido como 'Mc' em 'McDonalds'",
       "Motel"
     ],
     "examples": [
       "Aí depois do rolê a gente foi pro MC"
       ]
-  } 
+  },
+  {
+    "dialect": "treta",
+    "meanings": [
+      "briga",
+      "confusão"
+    ],
+    "examples": [
+      "Deu a maior treta naquela festa",
+      "Arrumei uma treta com minha família"
+      ]
+  },
+  {
+    "dialect": "fih",
+    "meanings": [
+      "meu",
+      "mano"
+    ],
+    "examples": [
+      "Que isso fih, o que te aconteceu?",
+      "Fih, nem te conto!"
+      ]
+  }    
 ]
 
