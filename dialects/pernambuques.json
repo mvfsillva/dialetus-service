@@ -165,5 +165,11 @@
     "dialect": "Zona",
     "meanings": ["Confusão", "Bagunça"],
     "examples": ["Esse quarto ta uma zona, vá arrumar."]
+  },
+  {
+    "dialect": "Oxe",
+    "variations": ["baianes.Oxente"],
+    "meanings": ["Espanto", "Surpresa"],
+    "examples": ["Oxe, o que tu ta fazendo menino.", "Oxe, que negócio estranho boy"]
   }
 ]
