@@ -13,6 +13,16 @@
     ]
   },
   {
+    "dialect": "Afolosado",
+    "meanings": ["Frouxo"],
+    "examples": ["Essa calça está muito afolosada."]
+  },
+  {
+    "dialect": "Arengar",
+    "meanings": ["Brigar", "Criar confusão", "Implicar"],
+    "examples": ["Esse menino passa o dia todo arengando na escola."]
+  },
+  {
     "dialect": "Avexado",
     "meanings": ["Envergonhado", "Tímido", "Retraído"],
     "examples": [
@@ -29,6 +39,11 @@
     "dialect": "Aperreado",
     "meanings": ["Preocupado", "Estressado"],
     "examples": ["Você está muito aperreado, se acalme, por favor."]
+  },
+  {
+    "dialect": "Arretar",
+    "meanings": ["Irritar", "Estressar"],
+    "examples": ["Esse menino não para de me arretar!"]
   },
   {
     "dialect": "Boy",
@@ -77,6 +92,11 @@
     "examples": ["Tu ficou encarnado depois da piscina."]
   },
   {
+    "dialect": "Espichar",
+    "meanings": ["Esticar", "Alongar"],
+    "examples": ["Vou me espichar na areia da praia."]
+  },
+  {
     "dialect": "Estilar",
     "meanings": ["Amarelar", "Enfurecer"],
     "examples": ["Eu já tô estilando com essa brincadeira."]
@@ -87,6 +107,11 @@
     "examples": ["Vamo gazear essa aula?", "Eu vi que você gazeeou hoje, viu?"]
   },
   {
+    "dialect": "Inhaca",
+    "meanings": ["Catinga", "Mau cheiro"],
+    "examples": ["Assim que entrei em casa senti a inhaca de sua roupa."]
+  },
+  {
     "dialect": "Mangar",
     "meanings": ["Zombar", "Chacotear"],
     "examples": ["E botaram para mangar do bicho."]
@@ -95,6 +120,16 @@
     "dialect": "Marromenos",
     "meanings": ["Mais ou menos"],
     "examples": ["Não gostei desse bolo, ta marromenos."]
+  },
+  {
+    "dialect": "Munganga",
+    "meanings": ["Palhaçada", "Careta"],
+    "examples": ["Ela não para de fazer munganga na sala de aula."]
+  },
+  {
+    "dialect": "Paia",
+    "meanings": ["Sem graça"],
+    "examples": ["A festa estava muito paia."]
   },
   {
     "dialect": "Pala",
@@ -125,5 +160,16 @@
     "dialect": "Xexêro",
     "meanings": ["Mão-de-vaca", "Mesquinho", "Avarento"],
     "examples": ["Zé é muito xexêro."]
+  },
+  {
+    "dialect": "Zona",
+    "meanings": ["Confusão", "Bagunça"],
+    "examples": ["Esse quarto ta uma zona, vá arrumar."]
+  },
+  {
+    "dialect": "Oxe",
+    "variations": ["baianes.Oxente"],
+    "meanings": ["Espanto", "Surpresa"],
+    "examples": ["Oxe, o que tu ta fazendo menino.", "Oxe, que negócio estranho boy"]
   }
 ]

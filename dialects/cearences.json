@@ -1,5 +1,10 @@
 [
 	{
+		"dialect": "Amostrado",
+		"meanings": ["Exibido", "Ostentador"],
+		"examples": ["Deixe de ser amostrado menino.", "Não gosto dele, ele é muito amostrado."]
+	},
+	{
 		"dialect": "Ariado",
 		"meanings": ["Perdido", "Confuso"],
 		"examples": ["Aquele cara está ariado demais", "João acordou ariado foi?"]
@@ -10,14 +15,39 @@
 		"examples": ["João, arriba aquela cadeira."]
 	},
 	{
+		"dialect": "Arrudeia",
+		"meanings": ["Dar a volta"],
+		"examples": ["Arrudeia pela rua e para o carro."]
+	},
+	{
 		"dialect": "Avia",
 		"meanings": ["Vamos", "Seja rápido"],
 		"examples": ["Avia logo menino", "Você está demorando demais, avia"]
 	},
 	{
+		"dialect": "Bregueço",
+		"meanings": ["Algo velho"],
+		"examples": ["Menino, tu guarda esse bregueço há muito tempo, tá bom de jogar fora."]
+  },
+	{
 		"dialect": "Estribado",
 		"meanings": ["Rico", "Com dinheiro"],
 		"examples": ["João está estribado", "O cara está é estribado"]
+	},
+	{
+		"dialect": "Gaiato",
+		"meanings": ["Engraçado"],
+		"examples": ["Antônio tá muito gaiato pro meu gosto.", "Ele é o mais gaiato da sala."]
+	},
+	{
+		"dialect": "Gasgita",
+		"meanings": ["Falar muito alto", "Falar gritando"],
+		"examples": ["Minha filha, deixe de ser gasgita, lá da outra rua dá pra te ouvir falando."]
+  },
+	{
+		"dialect": "Goipada",
+		"meanings": ["Cuspir"],
+		"examples":["Fulano, espera um minuto enquanto eu vou dar goipada na pia do banheiro."]
 	},
 	{
 		"dialect": "Macho",
@@ -25,19 +55,34 @@
 		"examples": ["Fala macho, tudo tranquilo?", "Ei macho, tem como levar isso pra mim?"]
 	},
 	{
+		"dialect": "Malamanhado",
+		"meanings": ["Desleixado","Desajeitado"],
+		"examples": ["Macho, tu só vem pra aula malamanhado, venha mais arrumadinho, rapaz."]
+  },
+  {
+		"dialect": "Mangar",
+		"meanings": ["Zombar","Gozar","Debochar"],
+		"examples": ["Não param de mangar do Antônio."]
+  },
+	{
 		"dialect": "Marmota",
 		"meanings": ["Algo estranho","Estranhez cômica"],
 		"examples": ["Cara, você é palhaço agora, pra tá cheio de marmota?"]
 	},
 	{
-		"dialect": "Goipada",
-		"meanings": ["Cuspir"],
-		"examples":["Fulano, espera um minuto enquanto eu vou dar goipada na pia do banheiro."]
-	},
-	{
 		"dialect": "Péba",
 		"meanings": ["De má qualidade"],
 		"examples": ["Comprei esse celular e me arrependi, é peba demais.", "ô camisa peba, usei 2 semanas e já tá furada."]
+	},
+	{
+		"dialect": "Peleja",
+		"meanings": ["Tenta", "Empenhar-se"],
+		"examples": ["Já faz tempo que ele tá pelejando nisso."]
+	},
+	{
+		"dialect": "Rebolar no mato",
+		"meanings": ["Jogar fora"],
+		"examples": ["Querida, esse queijo já passou o prazo de validade, tá bom de rebolar no mato."]
 	},
 	{
 		"dialect": "Sustança",
@@ -48,25 +93,5 @@
 		"dialect": "Vixe",
 		"meanings": ["Espanto","surpresa"],
 		"examples": ["Vixe que a chuva tá forte e não vai parar hoje.", "Viiixe, não acredito que o ônibus perdi o ônibus desse horário."]
-  },
-  {
-		"dialect": "Bregueço",
-		"meanings": ["Algo velho"],
-		"examples": ["Menino, tu guarda esse bregueço há muito tempo, tá bom de jogar fora."]
-  },
-  {
-		"dialect": "Gasgita",
-		"meanings": ["Falar muito alto", "Falar gritando"],
-		"examples": ["Minha filha, deixe de ser gasgita, lá da outra rua dá pra te ouvir falando."]
-  },
-  {
-		"dialect": "Malamanhado",
-		"meanings": ["Desleixado","Desajeitado"],
-		"examples": ["Macho, tu só vem pra aula malamanhado, venha mais arrumadinho, rapaz."]
-  },
-  {
-		"dialect": "Rebolar no mato",
-		"meanings": ["Jogar fora"],
-		"examples": ["Querida, esse queijo já passou o prazo de validade, tá bom de rebolar no mato."]
-	}
+  }
 ]

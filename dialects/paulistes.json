@@ -212,6 +212,28 @@
       "O mano lá é firmeza",
       "Salve rapaziada, firmeza?"
       ]
-  } 
+  },
+  {
+    "dialect": "treta",
+    "meanings": [
+      "briga",
+      "confusão"
+    ],
+    "examples": [
+      "Deu a maior treta naquela festa",
+      "Arrumei uma treta com minha família"
+      ]
+  },
+  {
+    "dialect": "fih",
+    "meanings": [
+      "meu",
+      "mano"
+    ],
+    "examples": [
+      "Que isso fih, o que te aconteceu?",
+      "Fih, nem te conto!"
+      ]
+  }
 ]
 
