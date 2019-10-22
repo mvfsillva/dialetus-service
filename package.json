@@ -38,7 +38,7 @@
     "husky": "3.0.9",
     "lint-staged": "9.4.2",
     "mocha": "6.2.2",
-    "nock": "11.4.0",
+    "nock": "11.5.0",
     "nodemon": "1.19.4",
     "nyc": "14.1.1",
     "proxyquire": "2.1.3",
