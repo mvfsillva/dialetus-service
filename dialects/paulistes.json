@@ -189,7 +189,7 @@
       "Passei na goma para trocar de roupa",
       "Bora colar lá na goma do Pedro"
     ]
-  }, 
+  },
   {
     "dialect": "Descolar",
     "meanings": [
@@ -222,6 +222,48 @@
       "Que isso fih, o que te aconteceu?",
       "Fih, nem te conto!"
       ]
-  }    
+  },
+  {
+    "dialect": "Trombar",
+    "meanings": [
+      "Se encontrar",
+      "Se ver"
+    ],
+    "examples": [
+      "Ontem eu trombei o seu irmão",
+      "Podemos nos trombar amanhã?"
+    ]
+  },
+  {
+    "dialect": "Fechou",
+    "meanings": [
+      "Combinado"
+    ],
+    "examples": [
+      "Fechou, amanhã eu vou no show com você"
+    ]
+  },
+  {
+    "dialect": "Rolê",
+    "meanings": [
+      "Passeio",
+      "Festa",
+      "Evento"
+    ],
+    "examples": [
+      "Bora dar um rolê amanhã?",
+      "Sábado a gente tem um rolê"
+    ]
+  },
+  {
+    "dialect": "Faz uma cara",
+    "meanings": [
+      "Faz tempo"
+    ],
+    "examples": [
+      "Faz uma cara que eu não te vejo",
+      "A gente não viaja faz uma cara"
+    ]
+  }
 ]
 
