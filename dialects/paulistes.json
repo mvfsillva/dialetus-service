@@ -189,7 +189,7 @@
       "Passei na goma para trocar de roupa",
       "Bora colar lá na goma do Pedro"
     ]
-  }, 
+  },
   {
     "dialect": "Descolar",
     "meanings": [
@@ -222,6 +222,17 @@
       "Que isso fih, o que te aconteceu?",
       "Fih, nem te conto!"
       ]
-  }    
+  },
+  {
+    "dialect": "voti",
+    "meanings": [
+      "eita",
+      "rapaiz"
+    ],
+    "examples": [
+      "Vôti, cê viu aquilo?",
+      "Vôti, véi. "
+      ]
+  }
 ]
 
