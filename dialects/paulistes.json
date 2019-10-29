@@ -233,6 +233,47 @@
       "Vôti, cê viu aquilo?",
       "Vôti, véi. "
       ]
+  },
+    "dialect": "Trombar",
+    "meanings": [
+      "Se encontrar",
+      "Se ver"
+    ],
+    "examples": [
+      "Ontem eu trombei o seu irmão",
+      "Podemos nos trombar amanhã?"
+    ]
+  },
+  {
+    "dialect": "Fechou",
+    "meanings": [
+      "Combinado"
+    ],
+    "examples": [
+      "Fechou, amanhã eu vou no show com você"
+    ]
+  },
+  {
+    "dialect": "Rolê",
+    "meanings": [
+      "Passeio",
+      "Festa",
+      "Evento"
+    ],
+    "examples": [
+      "Bora dar um rolê amanhã?",
+      "Sábado a gente tem um rolê"
+    ]
+  },
+  {
+    "dialect": "Faz uma cara",
+    "meanings": [
+      "Faz tempo"
+    ],
+    "examples": [
+      "Faz uma cara que eu não te vejo",
+      "A gente não viaja faz uma cara"
+    ]
   }
 ]
 
