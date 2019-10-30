@@ -403,5 +403,15 @@
          "Home, deixa de zuada aí.",
          "No alecrim tem muita zuada."
       ]
+   },
+   {
+     "dialect":"Mar minino!",
+     "meanings":[
+         "Admiração, ou contrariedade"
+     ],
+     "examples":[
+         "Mar minino, você já foi encher a cara?.",
+         "Mar minino, como você fez isso?."
+      ]
    }
 ]
