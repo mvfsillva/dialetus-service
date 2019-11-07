@@ -19,6 +19,26 @@
     ]
   },
   {
+    "dialect": "Larica",
+    "meanings": [
+      "Fome",
+      "Apetite exacerbado"
+    ],
+    "examples": [
+      "Mano, estou na maior larica"
+    ]
+  },
+  {
+    "dialect": "Fita",
+    "meanings": [
+      "Alguma coisa",
+      "Fato ou situação"
+    ],
+    "examples": [
+      "Vou te contar uma fita, você nem vai acreditar"
+    ]
+  },
+  {
     "dialect": "Miar",
     "meanings": [
       "Nao dar certo",
