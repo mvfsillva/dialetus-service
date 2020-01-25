@@ -7,12 +7,10 @@ describe('Database: Flags', () => {
 
       expect(flags).to.be.an('array')
 
-      const expectTheAlagoanesImagePath = {
-          key: 'alagoanes',
-          url: '/flags/alagoanes.svg'
-      }
+      const firstItem = flags.shift()
 
-      expect(flags[0]).to.eql(expectTheAlagoanesImagePath)
+      expect(firstItem.key).to.eql('alagoanes')
+      expect(firstItem.url.includes('/flags/alagoanes.svg')).to.be.true;
     })
   })
 })

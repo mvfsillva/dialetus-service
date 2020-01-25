@@ -5,12 +5,10 @@ const PATH_PATTERN = path.join(__dirname, '/*.svg')
 
 const getFlagKey = filePath => filePath.split('/').pop().replace('.svg', '')
 
-const getFlagUrl = filePath => filePath.split('/database').pop()
-
 const transform = (filePath) => {
   return {
     key: getFlagKey(filePath),
-    url: getFlagUrl(filePath)
+    url: filePath
   }
 }
 
