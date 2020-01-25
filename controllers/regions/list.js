@@ -1,4 +1,4 @@
-const dialects = require('../../dialects')
+const dialects = require('../../database/dialects')
 
 module.exports = (req, res) => {
   const regions = Object.keys(dialects).map(name => ({

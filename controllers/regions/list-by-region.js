@@ -1,4 +1,4 @@
-const dialects = require('../../dialects')
+const dialects = require('../../database/dialects')
 const dialectHelper = require('../../helpers/dialect')
 
 module.exports = (req, res) => {
