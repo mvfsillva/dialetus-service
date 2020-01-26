@@ -308,6 +308,118 @@ $ curl https://dialetus-service.herokuapp.com/search?q=baita
 }
 ```
 
+### GET /flags
+
+List all flags of a dialects available.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/flags
+```
+
+#### Response
+
+```json
+{
+    "flags": [
+        {
+            "key": "alagoanes",
+            "url": "https://mydomain.com.br/database/flags/alagoanes.svg"
+        },
+        {
+            "key": "amazones",
+            "url": "https://mydomain.com.br/database/flags/amazones.svg"
+        },
+        {
+            "key": "baianes",
+            "url": "https://mydomain.com.br/database/flags/baianes.svg"
+        },
+        {
+            "key": "carioques",
+            "url": "https://mydomain.com.br/database/flags/carioques.svg"
+        },
+        {
+            "key": "catarines",
+            "url": "https://mydomain.com.br/database/flags/catarines.svg"
+        },
+        {
+            "key": "cearences",
+            "url": "https://mydomain.com.br/database/flags/cearences.svg"
+        },
+        {
+            "key": "gauches",
+            "url": "https://mydomain.com.br/database/flags/gauches.svg"
+        },
+        {
+            "key": "lageanes",
+            "url": "https://mydomain.com.br/database/flags/lageanes.svg"
+        },
+        {
+            "key": "maranhes",
+            "url": "https://mydomain.com.br/database/flags/maranhes.svg"
+        },
+        {
+            "key": "mineires",
+            "url": "https://mydomain.com.br/database/flags/mineires.svg"
+        },
+        {
+            "key": "paraense",
+            "url": "https://mydomain.com.br/database/flags/paraense.svg"
+        },
+        {
+            "key": "paranes",
+            "url": "https://mydomain.com.br/database/flags/paranes.svg"
+        },
+        {
+            "key": "paulistes",
+            "url": "https://mydomain.com.br/database/flags/paulistes.svg"
+        },
+        {
+            "key": "pernambuques",
+            "url": "https://mydomain.com.br/database/flags/pernambuques.svg"
+        },
+        {
+            "key": "piauies",
+            "url": "https://mydomain.com.br/database/flags/piauies.svg"
+        },
+        {
+            "key": "potiguares",
+            "url": "https://mydomain.com.br/database/flags/potiguares.svg"
+        },
+        {
+            "key": "rondones",
+            "url": "https://mydomain.com.br/database/flags/rondones.svg"
+        },
+        {
+            "key": "sergipanes",
+            "url": "https://mydomain.com.br/database/flags/sergipanes.svg"
+        }
+    ]
+}
+```
+
+### GET /flags/:key
+
+Get a dialect flag by key.
+
+#### Request
+
+```bash
+$ curl https://dialetus-service.herokuapp.com/flags/baianes
+```
+
+#### Response
+
+```json
+{
+    "flag": {
+        "key": "baianes",
+        "url": "https://mydomain.com.br/database/flags/baianes.svg"
+    }
+}
+```
+
 ## Contribute 🍕
 ### 01. Install dependencies
 
