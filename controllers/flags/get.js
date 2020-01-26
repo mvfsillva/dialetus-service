@@ -6,6 +6,6 @@ module.exports = (req, res) => {
   if(!flag) {
     return res.status(404).send({ error: 'Not found!' })
   }
-
+  
   res.send({ flag })
 }
