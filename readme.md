@@ -346,6 +346,10 @@ Please respect our [Code of Conduct](.github/code-of-conduct.md), in short:
 - Jader Gomes ([@jdrgomes](https://github.com/jdrgomes))
 - Rodolfo Silva ([@RodolfoSilva](https://github.com/RodolfoSilva))
 
+## Maintainers
+- Marcus Silva ([@mvfsillva](https://github.com/mvfsillva))
+- Mateus Malaquias ([@malaquiasdev](https://github.com/malaquiasdev))
+
 ## Contributors 🎉
 Thanks goes out to all these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
