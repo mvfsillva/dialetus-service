@@ -4,6 +4,7 @@ const middleware = require('../middlewares')
 const regionsRouter = require('./regions')
 const dialectsRouter = require('./dialects')
 const searchRouter = require('./search')
+const flagsRouter = require('./flags')
 
 module.exports = () => {
   const router = new Router()
@@ -13,6 +14,7 @@ module.exports = () => {
   router.use('/dialect', dialectsRouter())
   router.use('/regions', regionsRouter())
   router.use('/search', searchRouter())
+  router.use('/flags', flagsRouter())
 
   return router
 }
