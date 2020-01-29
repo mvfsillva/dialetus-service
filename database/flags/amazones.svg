@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="700" height="500" viewBox="0 0 2100 1500">
+<title>Bandeira do Amazonas</title>
+<defs>
+<polygon id="t" fill="#fff" points="0.162,0 0,-0.5 -0.162,0" transform="scale(65)"/>
+<g id="s">
+<use xlink:href="#t"/>
+<use xlink:href="#t" transform="rotate(72)"/>
+<use xlink:href="#t" transform="rotate(-72)"/>
+<use xlink:href="#t" transform="rotate(144)"/>
+<use xlink:href="#t" transform="rotate(-144)"/>
+</g>
+<use id="s1" xlink:href="#s"  transform="scale(2)"/>
+</defs>
+<rect fill="#fff" x="0" y="0" width="2100" height="1500"/>
+<rect fill="#d20000" x="0" y="500" width="2100" height="500"/>
+<rect fill="#001e78" x="0" y="0" width="900" height="500"/>
+<use xlink:href="#s1" x="450" y="250"/>
+<use xlink:href="#s" x="100" y="100"/><use xlink:href="#s" x="200" y="100"/>
+<use xlink:href="#s" x="300" y="100"/><use xlink:href="#s" x="400" y="100"/>
+<use xlink:href="#s" x="500" y="100"/><use xlink:href="#s" x="600" y="100"/>
+<use xlink:href="#s" x="700" y="100"/><use xlink:href="#s" x="800" y="100"/>
+<use xlink:href="#s" x="100" y="200"/><use xlink:href="#s" x="300" y="200"/>
+<use xlink:href="#s" x="600" y="200"/><use xlink:href="#s" x="800" y="200"/>
+<use xlink:href="#s" x="100" y="300"/><use xlink:href="#s" x="300" y="300"/>
+<use xlink:href="#s" x="600" y="300"/><use xlink:href="#s" x="800" y="300"/>
+<use xlink:href="#s" x="100" y="400"/><use xlink:href="#s" x="200" y="400"/>
+<use xlink:href="#s" x="300" y="400"/><use xlink:href="#s" x="400" y="400"/>
+<use xlink:href="#s" x="500" y="400"/><use xlink:href="#s" x="600" y="400"/>
+<use xlink:href="#s" x="700" y="400"/><use xlink:href="#s" x="800" y="400"/>
+</svg>

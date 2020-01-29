@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"
+  xmlns:xlink="http://www.w3.org/1999/xlink" width="1855" height="1300">
+  <desc>Bandeira do Piauí</desc>
+  <defs>
+    <rect id="stripe" width="1855" height="100" fill="#00994c"/>
+  </defs>
+  <rect width="1855" height="1300" fill="#f3e718"/>
+  <use xlink:href="#stripe"/>
+  <use xlink:href="#stripe" y="200"/>
+  <use xlink:href="#stripe" y="400"/>
+  <use xlink:href="#stripe" y="600"/>
+  <use xlink:href="#stripe" y="800"/>
+  <use xlink:href="#stripe" y="1000"/>
+  <use xlink:href="#stripe" y="1200"/>
+  <rect width="500" height="500" fill="#002580"/>
+<path
+       id="estrela"
+       style="fill:#ffffff;" d="M 373.43490,419.89357 L 250,330.21286 L 126.56510,419.89357 L 173.71304,274.78714 L 50.278132,185.10643 L 202.85206,185.10643 L 250,40 L 297.14794,185.10643 L 449.72187,185.10643 L 326.28696,274.78714 L 373.43490,419.89357" />
+</svg>
