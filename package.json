@@ -36,7 +36,7 @@
     "cross-env": "7.0.2",
     "eslint-config-prettier": "6.11.0",
     "husky": "4.2.5",
-    "lint-staged": "10.2.4",
+    "lint-staged": "10.2.6",
     "mocha": "7.1.2",
     "nock": "11.9.1",
     "nodemon": "2.0.4",
