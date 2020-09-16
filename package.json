@@ -29,7 +29,7 @@
     "test:integration": "cross-env NODE_ENV=test nyc --reporter=lcov --reporter=html  mocha --opts ./test/integration/mocha.opts"
   },
   "devDependencies": {
-    "all-contributors-cli": "6.17.2",
+    "all-contributors-cli": "6.17.3",
     "chai": "4.2.0",
     "chai-as-promised": "7.1.1",
     "chai-http": "4.3.0",
