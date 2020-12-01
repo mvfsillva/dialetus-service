@@ -1,5 +1,10 @@
 [
   {
+    "dialect": "Fraga?",
+    "meanings": ["Conhece?"],
+    "examples": ["Fraga o nome dessa música?"]
+  },
+  {
     "dialect": "Cuméquecêchama?",
     "meanings": ["Qual seu nome?"],
     "examples": ["Ei, Cuméquecêchama?"]
