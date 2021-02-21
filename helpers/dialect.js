@@ -12,16 +12,16 @@ const find = (region, slugParam) => {
   return null;
 };
 
-const getRegionAndSlugByVariation = variation => {
+const getRegionAndSlugByVariation = (variation) => {
   const [region, slug] = variation.split(".");
 
   return {
     region,
-    slug: slug.toLowerCase()
+    slug: slug.toLowerCase(),
   };
 };
 
-const mergeVariations = variations => {
+const mergeVariations = (variations) => {
   return variations
     .map(getRegionAndSlugByVariation)
     .reduce(
@@ -52,20 +52,26 @@ const get = (region, slugParam) => {
   return dialect;
 };
 
-const search = word => {
+const search = (word) => {
   const dialectWord = toNormalize(word);
-  const isEmpty = obj => Object.keys(obj).length > 0;
+  const isEmpty = (obj) => Object.keys(obj).length > 0;
   const result = Object.entries(dialects).reduce((acc, [key, values]) => {
-    const value = values.filter(value => {
+    const value = values.filter((value) => {
       return toNormalize(value.dialect)
         .toLowerCase()
         .includes(dialectWord.toLowerCase());
     });
     if (isEmpty(value)) {
-      acc[key] = value;
+      const dialectWithRegion = value.map((dialect) => {
+        return {
+          ...dialect,
+          region: key,
+        };
+      });
+      acc.push(...dialectWithRegion);
     }
     return acc;
-  }, {});
+  }, []);
   return isEmpty(result) ? result : null;
 };
 
@@ -74,5 +80,5 @@ module.exports = {
   find,
   getRegionAndSlugByVariation,
   mergeVariations,
-  search
+  search,
 };
