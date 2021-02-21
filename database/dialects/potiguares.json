@@ -413,5 +413,14 @@
          "Mar minino, você já foi encher a cara?.",
          "Mar minino, como você fez isso?."
       ]
+   },
+   {
+      "dialect":"Ruma",
+      "meanings":[
+         "Muita coisa"
+      ],
+      "examples":[
+         "Ele tem uma ruma de livros."
+      ]
    }
 ]
