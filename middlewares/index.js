@@ -1,1 +1,0 @@
-exports.sanitizer = require('./sanitizer')

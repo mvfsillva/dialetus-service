@@ -1,3 +1,0 @@
---require test/globals.js
---recursive test/integration/
- --check-leaks
