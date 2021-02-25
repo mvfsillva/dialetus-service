@@ -17,10 +17,19 @@
     "dicionário",
     "API"
   ],
-  "scripts": {
-  },
+  "scripts": {},
   "devDependencies": {
+    "husky": "^5.1.1",
+    "serverless": "^2.27.1",
+    "serverless-bundle": "^4.2.1",
+    "serverless-dotenv-plugin": "^3.8.1",
+    "serverless-offline": "^6.8.0"
   },
   "dependencies": {
+    "aws-sdk": "^2.852.0",
+    "aws-xray-sdk": "^3.2.0",
+    "dotenv": "^8.2.0",
+    "hoopa-logger": "^1.1.0",
+    "uuid": "^8.3.2"
   }
 }
