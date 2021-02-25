@@ -17,7 +17,12 @@
     "dicionário",
     "API"
   ],
-  "scripts": {},
+  "scripts": {
+    "dev": "SLS_DEBUG=* && serverless offline",
+    "deploy:dev": "export SLS_DEBUG=* && serverless deploy --stage dev",
+    "deploy:test": "export SLS_DEBUG=* && serverless deploy --stage test",
+    "deploy:prod": "export SLS_DEBUG=* && serverless deploy --stage prod"
+  },
   "devDependencies": {
     "husky": "^5.1.1",
     "serverless": "^2.27.1",

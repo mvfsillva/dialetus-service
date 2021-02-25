@@ -1,0 +1,40 @@
+service: dialetus-service
+
+frameworkVersion: "2"
+
+plugins:
+  - serverless-bundle
+  - serverless-offline
+  - serverless-dotenv-plugin
+
+provider:
+  name: aws
+  runtime: nodejs12.x
+  lambdaHashingVersion: 20201221
+  stage: ${opt:stage, 'dev'}
+  region: us-east-1
+  deploymentBucket: dialetus-service-${self:provider.stage}
+  tracing:
+    apiGateway: true
+    lambda: true
+  iamRoleStatements:
+    - Effect: Allow
+      Action:
+        - s3:*
+        - cloudwatch:*
+        - dynamodb:*
+        - xray:*
+      Resource: "*"
+
+functions:
+  hello:
+    handler: handler.helloHandler
+    events:
+      - http:
+          path: hello
+          method: get
+          cors: true
+          integration: lambda-proxy
+
+package:
+  individually: true
