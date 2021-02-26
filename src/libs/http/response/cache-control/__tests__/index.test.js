@@ -1,6 +1,6 @@
 import { cacheControl } from '../index';
 
-describe('# Lib - HTTP Cache Control Response', () => {
+describe('# Lib - HTTP - cacheControl', () => {
   it('## should create a obj to sets the public cache-control in the header', () => {
     const obj = cacheControl({ maxAge: 300 });
     expect(obj).toBeInstanceOf(Object);
