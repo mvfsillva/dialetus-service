@@ -1,4 +1,4 @@
-import { noCache } from './no_cache';
+import { noCache } from './no-cache';
 
 function isOptionsValid(options) {
   return options && options.maxAge !== undefined && options.maxAge > 0;
