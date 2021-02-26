@@ -24,7 +24,8 @@
     "deploy:prod": "export SLS_DEBUG=* && serverless deploy --stage prod",
     "lint": "eslint --format codeframe src",
     "test": "serverless-bundle test",
-    "coveralls": "jest --coverage"
+    "coveralls": "jest --coverage",
+    "postinstall": "husky install"
   },
   "devDependencies": {
     "eslint-config-prettier": "^7.0.0",
