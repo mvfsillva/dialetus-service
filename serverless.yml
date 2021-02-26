@@ -1,6 +1,6 @@
 service: dialetus-service
 
-frameworkVersion: "2"
+frameworkVersion: '2'
 
 plugins:
   - serverless-bundle
@@ -24,11 +24,11 @@ provider:
         - cloudwatch:*
         - dynamodb:*
         - xray:*
-      Resource: "*"
+      Resource: '*'
 
 functions:
   hello:
-    handler: handler.helloHandler
+    handler: src/handler.helloHandler
     events:
       - http:
           path: hello

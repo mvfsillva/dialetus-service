@@ -21,10 +21,17 @@
     "dev": "SLS_DEBUG=* && serverless offline",
     "deploy:dev": "export SLS_DEBUG=* && serverless deploy --stage dev",
     "deploy:test": "export SLS_DEBUG=* && serverless deploy --stage test",
-    "deploy:prod": "export SLS_DEBUG=* && serverless deploy --stage prod"
+    "deploy:prod": "export SLS_DEBUG=* && serverless deploy --stage prod",
+    "lint": "eslint --format codeframe src",
+    "test": "serverless-bundle test",
+    "coveralls": "jest --coverage"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-config-prettier": "^7.0.0",
     "husky": "^5.1.1",
+    "prettier": "^2.2.1",
     "serverless": "^2.27.1",
     "serverless-bundle": "^4.2.1",
     "serverless-dotenv-plugin": "^3.8.1",

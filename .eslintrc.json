@@ -1,0 +1,31 @@
+{
+    "env": {
+        "commonjs": true,
+        "es2021": true,
+        "node": true,
+        "jest": true
+    },
+    "extends": [
+        "strongloop",
+        "plugin:prettier/recommended"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 12,
+        "sourceType": "module"
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "arrow-body-style": "off",
+        "function-paren-newline": "off",
+        "complexity": ["error", 5],
+        "max-statements": ["error", { "max": 10 }],
+        "max-statements-per-line": ["warn", { "max": 1 }],
+        "max-nested-callbacks": ["warn", { "max": 2 }],
+        "max-depth": ["warn", { "max": 2 }],
+        "max-params": ["error", 3],
+        "max-lines": ["warn", { "max": 50, "skipComments": true }],
+        "max-len": ["warn", 120, { "ignoreUrls": true, "ignorePattern": "^\\s*const\\s.+=\\s*require\\s*\\(" }]
+    }
+}
