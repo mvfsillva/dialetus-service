@@ -7,7 +7,7 @@ function isOptionsValid(options) {
 /**
  *  Sets the `cache-control` header. If none value is passed to this function the return will be a NO CACHE value
  *
- *  @public
+ *  @private
  *  @memberof Response
  *  @function cache
  *  @param {Object} [options] - an options object

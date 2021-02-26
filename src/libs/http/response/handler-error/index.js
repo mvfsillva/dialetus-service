@@ -6,7 +6,7 @@ import { getErrorCodePattern } from './get-error-code-pattern';
 
 /*
  * Handler the error and convert it to a valid response obj to AWS serverless model
- *  @private
+ *  @public
  *  @memberof Response
  *  @function toAWS
  *  @param {Object} [err] - value that contains all information to json.stringify
