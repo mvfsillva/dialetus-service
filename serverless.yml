@@ -7,10 +7,17 @@ plugins:
   - serverless-offline
   - serverless-dotenv-plugin
 
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  regionTableName: dialetus-service-region-${self:custom.stage}
+  tableThroughputs:
+    prod: 5
+    default: 1
+  tableThroughput: ${self:custom.tableThroughputs.${self:custom.stage}, self:custom.tableThroughputs.default}
+
 provider:
   name: aws
   runtime: nodejs12.x
-  lambdaHashingVersion: 20201221
   stage: ${opt:stage, 'dev'}
   region: us-east-1
   deploymentBucket: dialetus-service-${self:provider.stage}
@@ -25,16 +32,27 @@ provider:
         - dynamodb:*
         - xray:*
       Resource: '*'
+  environment:
+    DYNAMODB_REGION: dialetus-service-${self:provider.stage}-region
 
 functions:
-  hello:
-    handler: src/handler.helloHandler
-    events:
-      - http:
-          path: hello
-          method: get
-          cors: true
-          integration: lambda-proxy
+  - ${file(src/functions/get-regions/function.yml)}
+
+resources:
+  Resources:
+    RegionTable:
+      Type: AWS::DynamoDB::Table
+      Properties:
+        TableName: ${self:custom.regionTableName}
+        AttributeDefinitions:
+          - AttributeName: id
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+        ProvisionedThroughput:
+          ReadCapacityUnits: ${self:custom.tableThroughput}
+          WriteCapacityUnits: ${self:custom.tableThroughput}
 
 package:
   individually: true

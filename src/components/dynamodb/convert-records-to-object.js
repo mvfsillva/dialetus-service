@@ -1,6 +1,4 @@
-import { loadAWSConfiguration } from '../aws';
-
-const AWS = loadAWSConfiguration();
+import AWS from 'aws-sdk';
 
 function unmarshall(data) {
   return AWS.DynamoDB.Converter.unmarshall(data);
