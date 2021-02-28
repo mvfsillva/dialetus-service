@@ -7,7 +7,7 @@ Resources:
         - AttributeName: uf
           AttributeType: S
         - AttributeName: draft
-          AttributeType: B
+          AttributeType: S
         - AttributeName: label
           AttributeType: S
       KeySchema:
@@ -20,6 +20,15 @@ Resources:
         - IndexName: draft-index
           KeySchema:
             - AttributeName: draft
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: ${self:custom.tableThroughput}
+            WriteCapacityUnits: ${self:custom.tableThroughput}
+        - IndexName: label-index
+          KeySchema:
+            - AttributeName: label
               KeyType: HASH
           Projection:
             ProjectionType: ALL
