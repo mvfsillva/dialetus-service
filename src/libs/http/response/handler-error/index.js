@@ -1,5 +1,4 @@
 import { logError } from '../../../../components/logger';
-import { cacheControl } from '../cache-control';
 import { parseResponseToAWSGatewayPattern } from '../parse-response-to-aws-gateway';
 import { createErrorResponseBody } from './create-error-response-body';
 import { getErrorCodePattern } from './get-error-code-pattern';
