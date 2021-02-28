@@ -6,6 +6,7 @@ plugins:
   - serverless-bundle
   - serverless-offline
   - serverless-dotenv-plugin
+  - serverless-deployment-bucket
 
 custom:
   stage: ${opt:stage, self:provider.stage}
@@ -20,7 +21,8 @@ provider:
   runtime: nodejs12.x
   stage: ${opt:stage, 'dev'}
   region: us-east-1
-  deploymentBucket: dialetus-service-${self:provider.stage}
+  deploymentBucket:
+    name: dialetus-service-${self:provider.stage}
   tracing:
     apiGateway: true
     lambda: true
@@ -33,9 +35,10 @@ provider:
         - xray:*
       Resource: '*'
   environment:
-    DYNAMODB_REGION: dialetus-service-${self:provider.stage}-region
+    regionTableName: ${self:custom.regionTableName}
 
 functions:
+  - ${file(src/functions/create-new-region/function.yml)}
   - ${file(src/functions/get-regions/function.yml)}
 
 resources:
@@ -48,7 +51,7 @@ resources:
           - AttributeName: id
             AttributeType: S
         KeySchema:
-          - AttributeName: userId
+          - AttributeName: id
             KeyType: HASH
         ProvisionedThroughput:
           ReadCapacityUnits: ${self:custom.tableThroughput}
