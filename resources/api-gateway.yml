@@ -17,7 +17,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: DEFAULT_4XX
       ResponseTemplates:
-        application/json: '{"error":{"code":"BadRequestError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"BadRequestError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseDefault500:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -25,7 +25,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: DEFAULT_5XX
       ResponseTemplates:
-        application/json: '{"error":{"code":"InternalServerError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"InternalServerError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseAccessDeied:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -33,7 +33,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: ACCESS_DENIED
       ResponseTemplates:
-        application/json: '{"error":{"code":"AccessDeniedError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"AccessDeniedError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseApiConfigurationError:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -41,7 +41,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: API_CONFIGURATION_ERROR
       ResponseTemplates:
-        application/json: '{"error":{"code":"ApiConfigurationError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"ApiConfigurationError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseAuthorizerConfigurationError:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -49,7 +49,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: AUTHORIZER_CONFIGURATION_ERROR
       ResponseTemplates:
-        application/json: '{"error":{"code":"AuthorizerConfigurationError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"AuthorizerConfigurationError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseAuthorizerFailure:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -57,7 +57,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: AUTHORIZER_FAILURE
       ResponseTemplates:
-        application/json: '{"error":{"code":"AuthorizerFailureError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"AuthorizerFailureError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseBadRequestBody:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -65,7 +65,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: BAD_REQUEST_BODY
       ResponseTemplates:
-        application/json: '{"error":{"code":"BadRequestBodyError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"BadRequestBodyError","message":"$context.error.validationErrorString"},"requestId":"$context.requestId"}'
   GatewayResponseBadRequestParameters:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -73,7 +73,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: BAD_REQUEST_PARAMETERS
       ResponseTemplates:
-        application/json: '{"error":{"code":"BadRequestParametersError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"BadRequestParametersError","message":"$context.error.validationErrorString"},"requestId":"$context.requestId"}'
   GatewayResponseExpiredToken:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -81,7 +81,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: EXPIRED_TOKEN
       ResponseTemplates:
-        application/json: '{"error":{"code":"ExpiredTokenError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"ExpiredTokenError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseIntegrationFailure:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -89,7 +89,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: INTEGRATION_FAILURE
       ResponseTemplates:
-        application/json: '{"error":{"code":"IntegrationFailureError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"IntegrationFailureError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseIntegrationTimeout:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -97,7 +97,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: INTEGRATION_TIMEOUT
       ResponseTemplates:
-        application/json: '{"error":{"code":"IntegrationTimeoutError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"IntegrationTimeoutError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseInvalidApiKey:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -105,7 +105,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: INVALID_API_KEY
       ResponseTemplates:
-        application/json: '{"error":{"code":"InvalidApiKeyError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"InvalidApiKeyError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseInvalidSignature:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -113,7 +113,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: INVALID_SIGNATURE
       ResponseTemplates:
-        application/json: '{"error":{"code":"InvalidSignatureError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"InvalidSignatureError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseMissingAuthenticationToken:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -121,7 +121,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: MISSING_AUTHENTICATION_TOKEN
       ResponseTemplates:
-        application/json: '{"error":{"code":"MissingAuthenticationTokenError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"MissingAuthenticationTokenError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseQuotaExceeded:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -129,7 +129,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: QUOTA_EXCEEDED
       ResponseTemplates:
-        application/json: '{"error":{"code":"QuotaExceededError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"QuotaExceededError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseRequestTooLarge:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -137,7 +137,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: REQUEST_TOO_LARGE
       ResponseTemplates:
-        application/json: '{"error":{"code":"RequestTooLargeError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"RequestTooLargeError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseResourceNotFound:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -145,7 +145,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: RESOURCE_NOT_FOUND
       ResponseTemplates:
-        application/json: '{"error":{"code":"ResourceNotFoundError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"ResourceNotFoundError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseThrottled:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -153,7 +153,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: THROTTLED
       ResponseTemplates:
-        application/json: '{"error":{"code":"ThrottledError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"ThrottledError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseUnauthorized:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -161,7 +161,7 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: UNAUTHORIZED
       ResponseTemplates:
-        application/json: '{"error":{"code":"UnauthorizedError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"UnauthorizedError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'
   GatewayResponseUnauthorizedMediType:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
@@ -169,4 +169,4 @@ Resources:
         Ref: ApiGatewayRestApi
       ResponseType: UNSUPPORTED_MEDIA_TYPE
       ResponseTemplates:
-        application/json: '{"error":{"code":"UnsupportedMediaYypeError","message":$context.error.messageString},"requestId":"$context.requestId"}'
+        application/json: '{"error":{"code":"UnsupportedMediaYypeError","message":"$context.error.messageString"},"requestId":"$context.requestId"}'

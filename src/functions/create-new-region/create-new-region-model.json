@@ -1,0 +1,23 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "title": "CreateNewRegionModel",
+  "description": "Validation model for create new regions",
+  "properties": {
+    "label": {
+      "type": "string",
+      "title": "State name of Brazil",
+      "default": "",
+      "pattern": "^[a-zA-Z0-9]+$"
+    },
+    "uf": {
+      "type": "string",
+      "title": "Federative units of Brazil",
+      "default": "",
+      "minLength": 2,
+      "maxLength": 2
+    }
+  },
+  "required": ["label", "uf"]
+}

@@ -9,5 +9,5 @@ create-new-region:
           parameters:
             schemas:
               application/json: ${file(src/functions/create-new-region/create-new-region-schema.json)}
-              name: CreateNewRegionSchema
-              description: 'Create New Region Schema'
+              name: CreateNewRegionModel
+              description: 'Validation model for create new regions'
