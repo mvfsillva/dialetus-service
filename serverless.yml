@@ -7,6 +7,7 @@ plugins:
   - serverless-offline
   - serverless-dotenv-plugin
   - serverless-deployment-bucket
+  - serverless-plugin-stage-variables
 
 custom:
   stage: ${opt:stage, self:provider.stage}
@@ -31,6 +32,7 @@ provider:
       Action:
         - s3:*
         - cloudwatch:*
+        - logs:*
         - dynamodb:*
         - xray:*
       Resource: '*'
@@ -42,6 +44,7 @@ functions:
   - ${file(src/functions/get-regions/function.yml)}
 
 resources:
+  - ${file(resources/api-gateway.yml)}
   - ${file(resources/region-table.yml)}
 
 package:
