@@ -28,7 +28,7 @@ describe('# Lib - HTTP - handlerResponseError', () => {
 
     expect(res).toHaveProperty('body');
     expect(res.body).toBe(
-      '{"error":{"code":"403-invalid-api-key","message":"Forbidden. Invalid configuration for api key."},"requestId":"9d309dd3-de02-11e8-80ae-db95b1d17f01"}',
+      '{"error":{"code":"InvalidApiKeyException","message":"Forbidden. Invalid configuration for api key."},"requestId":"9d309dd3-de02-11e8-80ae-db95b1d17f01"}',
     );
   });
 });
