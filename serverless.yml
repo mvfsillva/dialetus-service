@@ -48,10 +48,10 @@ resources:
       Properties:
         TableName: ${self:custom.regionTableName}
         AttributeDefinitions:
-          - AttributeName: id
+          - AttributeName: uf
             AttributeType: S
         KeySchema:
-          - AttributeName: id
+          - AttributeName: uf
             KeyType: HASH
         ProvisionedThroughput:
           ReadCapacityUnits: ${self:custom.tableThroughput}
