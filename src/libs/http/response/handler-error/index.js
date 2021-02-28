@@ -3,7 +3,7 @@ import { parseResponseToAWSGatewayPattern } from '../parse-response-to-aws-gatew
 import { createErrorResponseBody } from './create-error-response-body';
 import { getErrorCodePattern } from './get-error-code-pattern';
 
-/*
+/**
  * Handler the error and convert it to a valid response obj to AWS serverless model
  *  @public
  *  @memberof Response
