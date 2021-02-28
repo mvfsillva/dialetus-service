@@ -6,11 +6,12 @@ const dynamoDB = new AWS.DynamoDB();
 async function saveNewRegion(tableName, data) {
   const insertQuery = `INSERT INTO "${tableName}" VALUE ${stringify(data)}`;
   try {
-    return dynamoDB
+    await dynamoDB
       .executeStatement({
         Statement: insertQuery,
       })
       .promise();
+    return data;
   } catch (error) {
     throw error;
   }

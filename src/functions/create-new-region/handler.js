@@ -10,13 +10,13 @@ async function handlerCreateNewRegion(event) {
     requestContext: { requestId },
   } = event;
   try {
-    const region = createNewRegion(JSON.parse(body), {
+    const region = await createNewRegion(JSON.parse(body), {
       saveNewRegion,
       tableName: config.regionTableName,
     });
-    return handlerSuccess({ body: region }, requestId);
+    return handlerSuccess({ body: region, statusCode: 201 }, requestId);
   } catch (error) {
-    return handlerResponseError({ error }, requestId);
+    return handlerResponseError(error, requestId);
   }
 }
 
