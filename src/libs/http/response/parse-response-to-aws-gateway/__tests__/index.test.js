@@ -12,7 +12,7 @@ describe('# Lib - HTTP - parseResponseToAWSGatewayPattern', () => {
       'Cache-Control': 'private, max-age=0, no-cache, no-store, must-revalidate',
     };
 
-    const res = parseResponseToAWSGatewayPattern(body, headers);
+    const res = parseResponseToAWSGatewayPattern({ body, headers });
 
     expect(res).toBeInstanceOf(Object);
     expect(res).toHaveProperty('body');
@@ -39,7 +39,7 @@ describe('# Lib - HTTP - parseResponseToAWSGatewayPattern', () => {
       'Cache-Control': 'private, max-age=0, no-cache, no-store, must-revalidate',
     };
 
-    const res = parseResponseToAWSGatewayPattern(body, headers, 201);
+    const res = parseResponseToAWSGatewayPattern({ body, headers, statusCode: 201 });
 
     expect(res).toBeInstanceOf(Object);
     expect(res).toHaveProperty('body');

@@ -1,5 +1,7 @@
 import { getCORSHeaders } from './get-cors-headers';
-/*
+import { cacheControl } from '../cache-control';
+
+/**
  * Convert the params in a valid response obj to AWS serverless model
  *  @private
  *  @memberof Response
@@ -9,12 +11,13 @@ import { getCORSHeaders } from './get-cors-headers';
  *  @param {Number} [statusCode] - http status code
  *  @returns {Object} the response object
  */
-function parseResponseToAWSGatewayPattern(body, headers, statusCode = 200) {
+function parseResponseToAWSGatewayPattern({ body, headers, statusCode = 200 }) {
   return {
     statusCode,
     headers: {
       ...headers,
       ...getCORSHeaders(),
+      ...cacheControl(headers),
     },
     body: JSON.stringify(body),
   };

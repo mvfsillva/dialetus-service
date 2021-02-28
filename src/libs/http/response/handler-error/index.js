@@ -19,11 +19,10 @@ function handlerResponseError(
 ) {
   logError({ message: message, params: { stack } });
   const code = getErrorCodePattern(httpStatusCode, suffixStatusCode);
-  return parseResponseToAWSGatewayPattern(
-    createErrorResponseBody({ code, message, requestId }),
-    cacheControl(),
-    httpStatusCode,
-  );
+  return parseResponseToAWSGatewayPattern({
+    body: createErrorResponseBody({ code, message, requestId }),
+    statusCode: httpStatusCode,
+  });
 }
 
 export { handlerResponseError };
