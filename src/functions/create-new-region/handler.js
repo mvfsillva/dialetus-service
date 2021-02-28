@@ -1,5 +1,5 @@
 import { config } from './config';
-import { saveNewRegion } from '../../components/dynamodb/querys/save-new-region';
+import { dynamoDBSaveItem } from '../../components/dynamodb/querys/save-item';
 import { handlerSuccess } from '../../libs/http/response/handler-success';
 import { handlerResponseError } from '../../libs/http/response/handler-error';
 import { createNewRegion } from './use-case';
@@ -11,7 +11,7 @@ async function handlerCreateNewRegion(event) {
   } = event;
   try {
     const region = await createNewRegion(JSON.parse(body), {
-      saveNewRegion,
+      dynamoDBSaveItem,
       tableName: config.regionTableName,
     });
     return handlerSuccess({ body: region, statusCode: 201 }, requestId);

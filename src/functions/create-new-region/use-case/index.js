@@ -1,8 +1,8 @@
 async function createNewRegion(
   { uf = '', label = '', draft = true },
-  { saveNewRegion, tableName },
+  { dynamoDBSaveItem, tableName },
 ) {
-  return saveNewRegion(tableName, { uf: uf, label, draft });
+  return dynamoDBSaveItem(tableName, { uf: uf, label, draft });
 }
 
 export { createNewRegion };
