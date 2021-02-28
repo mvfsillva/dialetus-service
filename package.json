@@ -45,7 +45,7 @@
     "sinon": "8.1.1",
     "sinon-chai": "3.5.0",
     "supertest": "4.0.2",
-    "xo": "0.22.0"
+    "xo": "0.38.2"
   },
   "dependencies": {
     "bluebird": "^3.5.1",
