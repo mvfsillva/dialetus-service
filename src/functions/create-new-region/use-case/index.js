@@ -1,5 +1,5 @@
 async function createNewRegion(
-  { uf = '', label = '', draft = true },
+  { uf = '', label = '', draft = 'true' },
   { dynamoDBSaveItem, tableName },
 ) {
   return dynamoDBSaveItem(tableName, { uf: uf, label, draft });
