@@ -5,8 +5,8 @@ import { handlerResponseError } from '../index';
 describe('# Lib - HTTP - handlerResponseError', () => {
   it('## should recevie the error context and convert it to an AWS response model', () => {
     const error = new Error('Forbidden. Invalid configuration for api key.');
-    error.httpStatusCode = 403;
-    error.suffixStatusCode = 'invalid-api-key';
+    error.statusCode = 403;
+    error.code = 'InvalidApiKeyException';
 
     const res = handlerResponseError(error, '9d309dd3-de02-11e8-80ae-db95b1d17f01');
 
