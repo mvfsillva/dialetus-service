@@ -50,12 +50,26 @@ resources:
         AttributeDefinitions:
           - AttributeName: uf
             AttributeType: S
+          - AttributeName: draft
+            AttributeType: B
+          - AttributeName: label
+            AttributeType: S
         KeySchema:
           - AttributeName: uf
             KeyType: HASH
         ProvisionedThroughput:
           ReadCapacityUnits: ${self:custom.tableThroughput}
           WriteCapacityUnits: ${self:custom.tableThroughput}
+        GlobalSecondaryIndexes:
+          - IndexName: draft-index
+            KeySchema:
+              - AttributeName: draft
+                KeyType: HASH
+            Projection:
+              ProjectionType: ALL
+            ProvisionedThroughput:
+              ReadCapacityUnits: ${self:custom.tableThroughput}
+              WriteCapacityUnits: ${self:custom.tableThroughput}
 
 package:
   individually: true
