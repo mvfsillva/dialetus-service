@@ -5,3 +5,5 @@ get-all-regions:
         path: regions
         method: get
         cors: true
+  environment:
+    CACHE_MAX_AGE: 604800

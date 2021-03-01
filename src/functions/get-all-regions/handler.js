@@ -8,7 +8,10 @@ import { adapterRegionsResponse } from './adapter';
 async function handlerGetAllRegions(event, context) {
   try {
     const regions = await GetAllRegions({ findRegions, tableName: config.regionTableName });
-    return handlerSuccess(adapterRegionsResponse(regions), context.awsRequestId);
+    return handlerSuccess(
+      adapterRegionsResponse(regions, config.cacheMaxAge),
+      context.awsRequestId,
+    );
   } catch (error) {
     return handlerResponseError(error, context.awsRequestId);
   }
