@@ -1,0 +1,13 @@
+create-new-region:
+  handler: src/functions/create-new-region/handler.handlerCreateNewRegion
+  events:
+    - http:
+        path: regions
+        method: post
+        cors: true
+        request:
+          parameters:
+            schemas:
+              application/json: ${file(src/functions/create-new-region/create-new-region-schema.json)}
+              name: CreateNewRegionModel
+              description: 'Validation model for create new regions'

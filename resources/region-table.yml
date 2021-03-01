@@ -1,0 +1,37 @@
+Resources:
+  RegionTable:
+    Type: AWS::DynamoDB::Table
+    Properties:
+      TableName: ${self:custom.regionTableName}
+      AttributeDefinitions:
+        - AttributeName: uf
+          AttributeType: S
+        - AttributeName: draft
+          AttributeType: S
+        - AttributeName: label
+          AttributeType: S
+      KeySchema:
+        - AttributeName: uf
+          KeyType: HASH
+      ProvisionedThroughput:
+        ReadCapacityUnits: ${self:custom.tableThroughput}
+        WriteCapacityUnits: ${self:custom.tableThroughput}
+      GlobalSecondaryIndexes:
+        - IndexName: draft-index
+          KeySchema:
+            - AttributeName: draft
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: ${self:custom.tableThroughput}
+            WriteCapacityUnits: ${self:custom.tableThroughput}
+        - IndexName: label-index
+          KeySchema:
+            - AttributeName: label
+              KeyType: HASH
+          Projection:
+            ProjectionType: ALL
+          ProvisionedThroughput:
+            ReadCapacityUnits: ${self:custom.tableThroughput}
+            WriteCapacityUnits: ${self:custom.tableThroughput}

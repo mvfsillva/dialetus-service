@@ -6,14 +6,24 @@ plugins:
   - serverless-bundle
   - serverless-offline
   - serverless-dotenv-plugin
+  - serverless-deployment-bucket
+  - serverless-plugin-stage-variables
+
+custom:
+  stage: ${opt:stage, self:provider.stage}
+  regionTableName: dialetus-service-region-${self:custom.stage}
+  tableThroughputs:
+    prod: 5
+    default: 1
+  tableThroughput: ${self:custom.tableThroughputs.${self:custom.stage}, self:custom.tableThroughputs.default}
 
 provider:
   name: aws
   runtime: nodejs12.x
-  lambdaHashingVersion: 20201221
   stage: ${opt:stage, 'dev'}
   region: us-east-1
-  deploymentBucket: dialetus-service-${self:provider.stage}
+  deploymentBucket:
+    name: dialetus-service-${self:provider.stage}
   tracing:
     apiGateway: true
     lambda: true
@@ -22,19 +32,20 @@ provider:
       Action:
         - s3:*
         - cloudwatch:*
+        - logs:*
         - dynamodb:*
         - xray:*
       Resource: '*'
+  environment:
+    regionTableName: ${self:custom.regionTableName}
 
 functions:
-  hello:
-    handler: src/handler.helloHandler
-    events:
-      - http:
-          path: hello
-          method: get
-          cors: true
-          integration: lambda-proxy
+  - ${file(src/functions/create-new-region/function.yml)}
+  - ${file(src/functions/get-regions/function.yml)}
+
+resources:
+  - ${file(resources/api-gateway.yml)}
+  - ${file(resources/region-table.yml)}
 
 package:
   individually: true
