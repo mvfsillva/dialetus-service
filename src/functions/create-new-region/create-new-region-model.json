@@ -9,7 +9,7 @@
       "type": "string",
       "title": "State name of Brazil",
       "default": "",
-      "pattern": "^[a-zA-Z0-9]+$"
+      "minLength": 1
     },
     "uf": {
       "type": "string",
