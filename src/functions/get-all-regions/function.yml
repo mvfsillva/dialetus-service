@@ -1,0 +1,7 @@
+get-all-regions:
+  handler: src/functions/get-all-regions/handler.handlerGetAllRegions
+  events:
+    - http:
+        path: regions
+        method: get
+        cors: true
