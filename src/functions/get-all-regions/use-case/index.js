@@ -1,5 +1,5 @@
-async function GetAllRegions({ findRegions, tableName }) {
+async function getAllRegions({ findRegions, tableName }) {
   return findRegions(tableName);
 }
 
-export { GetAllRegions };
+export { getAllRegions };
