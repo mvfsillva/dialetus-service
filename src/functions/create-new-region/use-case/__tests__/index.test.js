@@ -82,7 +82,6 @@ describe('# Functions - createNewRegion - use-case', () => {
     try {
       await createNewRegion(data, { dynamoDBSaveItem, findRegionByUF, ConflictError, tableName });
     } catch (error) {
-      console.log('error', error);
       expect(error).toMatchSnapshot();
     }
   });

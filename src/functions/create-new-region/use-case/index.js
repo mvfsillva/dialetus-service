@@ -2,7 +2,6 @@ async function createNewRegion(
   { uf = '', label = '', draft = 'true' },
   { dynamoDBSaveItem, findRegionByUF, ConflictError, tableName },
 ) {
-  console.log('findRegionByUF', findRegionByUF);
   const region = await findRegionByUF(tableName, uf.toUpperCase());
   if (region) {
     throw new ConflictError(`The UF '${uf.toUpperCase()}' exists in table`);
