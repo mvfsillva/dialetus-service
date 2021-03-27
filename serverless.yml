@@ -41,7 +41,7 @@ provider:
 
 functions:
   - ${file(src/functions/create-new-region/function.yml)}
-  - ${file(src/functions/get-regions/function.yml)}
+  - ${file(src/functions/get-all-regions/function.yml)}
 
 resources:
   - ${file(resources/api-gateway.yml)}
