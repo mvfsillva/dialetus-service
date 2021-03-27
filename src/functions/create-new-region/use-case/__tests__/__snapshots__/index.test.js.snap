@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`# Functions - createNewRegion - use-case ## should return an error when try save new region because label is empty 1`] = `[Error: One or more parameter values are not valid.]`;
+
+exports[`# Functions - createNewRegion - use-case ## should return an error when try save new region because the UF exist in the table 1`] = `[ConflictError: The UF 'BA' exists in table]`;
