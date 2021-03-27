@@ -1,4 +1,4 @@
-function removeNoUnsedProperties(regions) {
+function removeNoUnusedProperties(regions) {
   return regions.map(({ uf, label }) => {
     return {
       uf,
@@ -7,4 +7,4 @@ function removeNoUnsedProperties(regions) {
   });
 }
 
-export { removeNoUnsedProperties };
+export { removeNoUnusedProperties };
