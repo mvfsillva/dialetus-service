@@ -3,13 +3,6 @@ Resources:
     Type: AWS::ApiGateway::RestApi
     Properties:
       Name: ${self:service}-${self:provider.stage}
-  ApiGatewayStage:
-    Type: AWS::ApiGateway::Stage
-    Properties:
-      RestApiId:
-        Ref: ApiGatewayRestApi
-      StageName: $self:provider.stage
-      TracingEnabled: true
   GatewayResponseDefault400:
     Type: AWS::ApiGateway::GatewayResponse
     Properties:
