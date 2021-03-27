@@ -1,5 +1,5 @@
 import { config } from './config';
-import { findRegions } from '../../components/dynamodb/querys/find-regions';
+import { findRegions } from '../../components/dynamodb/queries/find-regions';
 import { handlerSuccess } from '../../libs/http/response/handler-success';
 import { handlerResponseError } from '../../libs/http/response/handler-error';
 import { getAllRegions } from './use-case';

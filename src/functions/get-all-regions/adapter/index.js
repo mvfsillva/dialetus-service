@@ -1,13 +1,13 @@
 import { isRegionsEmpty } from './is-region-empty';
-import { buildNoContentReponse } from './build-no-content-response';
-import { removeNoUnsedProperties } from './remove-no-unsed-properties';
+import { buildNoContentResponse } from './build-no-content-response';
+import { removeNoUnusedProperties } from './remove-no-unused-properties';
 import { buildSuccessRegionsResponse } from './build-success-regions-response';
 
 function adapterRegionsResponse(data, cacheMaxAge) {
   if (isRegionsEmpty(data)) {
-    return buildNoContentReponse();
+    return buildNoContentResponse();
   }
-  return buildSuccessRegionsResponse(removeNoUnsedProperties(data), cacheMaxAge);
+  return buildSuccessRegionsResponse(removeNoUnusedProperties(data), cacheMaxAge);
 }
 
 export { adapterRegionsResponse };

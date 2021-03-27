@@ -1,7 +1,7 @@
-function buildNoContentReponse() {
+function buildNoContentResponse() {
   return {
     statusCode: 204,
   };
 }
 
-export { buildNoContentReponse };
+export { buildNoContentResponse };

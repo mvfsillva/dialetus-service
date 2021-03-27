@@ -1,6 +1,6 @@
 import { config } from './config';
-import { dynamoDBSaveItem } from '../../components/dynamodb/querys/save-item';
-import { findRegionByUF } from '../../components/dynamodb/querys/find-regions-by-uf';
+import { dynamoDBSaveItem } from '../../components/dynamodb/queries/save-item';
+import { findRegionByUF } from '../../components/dynamodb/queries/find-regions-by-uf';
 import { ConflictError } from '../../libs/errors/ConflictError';
 import { handlerSuccess } from '../../libs/http/response/handler-success';
 import { handlerResponseError } from '../../libs/http/response/handler-error';
