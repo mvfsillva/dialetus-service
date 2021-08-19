@@ -88,5 +88,11 @@
     "meanings": ["Dedo duro. Delator. Aquele que não se pode confiar. linguarudo"],
     "examples": ["Não conte nada para ele, pois ele é um maior x9."],
     "synonyms": ["Delator", "Dedo duro", "Cagueta"]
+  },
+  {
+    "dialect": "Mec",
+    "meanings": ["Afirmação ou pergunta sobre o quão 'tranquilo' está algo"],
+    "examples": ["Hoje tá tudo mec."],
+    "synonyms": ["Tranquilo", "Suave", "Relaxado"],
   }
 ]
