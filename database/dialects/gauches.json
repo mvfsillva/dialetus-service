@@ -153,5 +153,10 @@
         "dialect": "Cupincha",
         "meanings": ["Amigo", "Companheiro"],
         "examples": ["Aquele guri ali é meu cupincha."]
+    },
+    {
+        "dialect": "Fatiota",
+        "meanings": ["Bem vestido", "Paletó", "Terno"],
+        "examples": ["Vou à missa sempre de fatiota nova."]
     }
 ]
