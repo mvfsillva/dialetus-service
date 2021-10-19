@@ -9,7 +9,7 @@ describe("Integration: Dialect Regions endpoint", () => {
     { name: "baianes", total: 44 },
     { name: "carioques", total: 16 },
     { name: "catarines", total: 29 },
-    { name: "cearences", total: 19 },
+    { name: "cearences", total: 25 },
     { name: "gauches", total: 31 },
     { name: "lageanes", total: 27 },
     { name: "maranhes", total: 15 },

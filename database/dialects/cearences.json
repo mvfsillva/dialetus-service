@@ -1,8 +1,18 @@
 [
 	{
+		"dialect": "Abirobado",
+		"meanings": ["Tolo", "Lerdo"],
+		"examples": ["Deixe de ser abirobado, macho.", "Aquela mulher não é normal não. Ela é meio abirobada."]
+	},
+	{
 		"dialect": "Amostrado",
 		"meanings": ["Exibido", "Ostentador"],
 		"examples": ["Deixe de ser amostrado menino.", "Não gosto dele, ele é muito amostrado."]
+	},
+	{
+		"dialect": "Arengar",
+		"meanings": ["Brigar", "Pertubar"],
+		"examples": ["Aquele menino é arengueiro", "Ana, para de arengar com a Maria."]
 	},
 	{
 		"dialect": "Ariado",
@@ -30,6 +40,11 @@
 		"examples": ["Menino, tu guarda esse bregueço há muito tempo, tá bom de jogar fora."]
   },
 	{
+		"dialect": "Cabra",
+		"meanings": ["Homem", "Indivíduo"],
+		"examples": ["A cabra de sorte.", "Pense em um cabra safado."]
+	},
+	{
 		"dialect": "Estribado",
 		"meanings": ["Rico", "Com dinheiro"],
 		"examples": ["João está estribado", "O cara está é estribado"]
@@ -48,6 +63,16 @@
 		"dialect": "Goipada",
 		"meanings": ["Cuspir"],
 		"examples":["Fulano, espera um minuto enquanto eu vou dar goipada na pia do banheiro."]
+	},
+	{
+		"dialect": "Ispilicute",
+		"meanings": ["Bonita", "Vaidosa"],
+		"examples": ["A filha da Francisca é ispilicute.", "Ela é ispilicute demais."]
+	},
+	{
+		"dialect": "Lapada",
+		"meanings": ["Bater", "Paulada"],
+		"examples": ["Se você não me respeitar vai levar uma paulada.", "A seleção brasileira levou uma lapada da Alemanha na Copa no Brasil."]
 	},
 	{
 		"dialect": "Macho",
@@ -78,6 +103,11 @@
 		"dialect": "Peleja",
 		"meanings": ["Tenta", "Empenhar-se"],
 		"examples": ["Já faz tempo que ele tá pelejando nisso."]
+	},
+	{
+		"dialect": "Racha",
+		"meanings": ["Pelada de futebol"],
+		"examples": ["Vai no racha sábado, cara?"]
 	},
 	{
 		"dialect": "Rebolar no mato",
