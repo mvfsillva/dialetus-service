@@ -143,5 +143,15 @@
       "dialect": "Segue reto toda vida",
       "meanings": ["Direção"],
       "examples": ["Depois da primeira a direita, tu segue reto toda vida."]
+  },
+  {
+      "dialect": "Oooo chego éé",
+      "meanings": ["Surpresa"],
+      "examples": ["Oooo chego éé que ele conseguiu subir aquela arvore."]
+  },
+  {
+      "dialect": "Facada",
+      "meanings": ["Surpresa", "Indignação"],
+      "examples": ["Facada que eu consigo chegar a tempo.", "É uma facada o preço do mercado."]
   }
 ]
