@@ -284,6 +284,42 @@
       "Faz uma cara que eu não te vejo",
       "A gente não viaja faz uma cara"
     ]
+  },
+  {
+    "dialect": "Xepa",
+    "meanings": [
+      "Comida"
+    ],
+    "examples": [
+      "Já estou indo, só vou bater uma xepa ali rapidinho."
+    ]
+  },
+  {
+    "dialect": "B.O.",
+    "meanings": [
+      "Problema"
+    ],
+    "examples": [
+      "Ih, deu mó B.O. lá em casa hoje."
+    ]
+  },
+  {
+    "dialect": "Cota",
+    "meanings": [
+      "Tempo"
+    ],
+    "examples": [
+      "Você demorou mó cota para chegar, hein?"
+    ]
+  },
+  {
+    "dialect": "Dois palitos",
+    "meanings": [
+      "Rápido"
+    ],
+    "examples": [
+      "Espera aí, estou me arrumando. É dois palitos!"
+    ]
   }
 ]
 
