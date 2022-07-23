@@ -1,5 +1,20 @@
 [
   {
+    "dialect": "Tiquin",
+    "meanings": ["Pouco"],
+    "examples": ["Um tiquin só"]
+  },
+  {
+    "dialect": "Tantão",
+    "meanings": ["Muito"],
+    "examples": ["Um tantão assim ó"]
+  },
+  {
+    "dialect": "ô",
+    "meanings": ["Muito utilizado em inicío de frase quando se quer da entonação de algo que realizou"],
+    "examples": ["Ocê foi no bar denovo? Ô se fui!"]
+  },
+  {
     "dialect": "Fraga?",
     "meanings": ["Conhece?"],
     "examples": ["Fraga o nome dessa música?"]
@@ -10,9 +25,9 @@
     "examples": ["Ei, Cuméquecêchama?"]
   },
   {
-    "dialect": "Doncêé",
+    "dialect": "Donqcêé",
     "meanings": ["De onde você é? "],
-    "examples": ["Doncêé sô?"]
+    "examples": ["Donqcêé sô?"]
   },
   {
     "dialect": "Dêsabençôi",
@@ -70,6 +85,11 @@
     "examples": ["Nóóó doidimais"]
   },
   {
+    "dialect": "Nú",
+    "meanings": ["espanto, impressionado", "varia dependendo a intonação"],
+    "examples": ["Nú, que doidera!"]
+  },
+  {
     "dialect": "Rachá os bico",
     "meanings": ["rir muito"],
     "examples": ["Raxei os bico do cê"]
@@ -100,14 +120,14 @@
     "examples": ["Maria, você deu meus trem prusôtrô?"]
   },
   {
-    "dialect": "Pondioins",
+    "dialect": "Pondiôns",
     "meanings": ["Ponto de ônibus"],
-    "examples": ["Vou embora, vou ali no pondioins"]
+    "examples": ["Vou embora, vou ali no pondiôns"]
   },
   {
-    "dialect": "Oins",
+    "dialect": "Ôns",
     "meanings": ["Ônibus"],
-    "examples": ["Maria, você já pegou o oins"]
+    "examples": ["Maria, você já pegou o ôns"]
   },
   {
     "dialect": "Ah neein",
@@ -140,11 +160,11 @@
     "examples": ["Para de fazer isso! Me da gastura"]
   },
   {
-    "dialect": "Cacunda",
+    "dialect": "Carcunda",
     "meanings": ["Coluna",
                  "Costas"],
-    "examples": ["To levando esse time na cacunda", 
-                 "Minha cacunda ta doendo"]
+    "examples": ["To levando esse time na carcunda", 
+                 "Minha carcunda ta doendo"]
   },
   {
     "dialect": "É mió",
