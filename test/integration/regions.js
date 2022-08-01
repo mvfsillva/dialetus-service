@@ -7,6 +7,7 @@ describe("Integration: Dialect Regions endpoint", () => {
     { name: "alagoanes", total: 64 },
     { name: "amazones", total: 9 },
     { name: "baianes", total: 44 },
+    { name: "capixabes", total: 3 },
     { name: "carioques", total: 16 },
     { name: "catarines", total: 31 },
     { name: "cearences", total: 25 },
@@ -21,7 +22,7 @@ describe("Integration: Dialect Regions endpoint", () => {
     { name: "piauies", total: 30 },
     { name: "potiguares", total: 41 },
     { name: "rondones", total: 9 },
-    { name: "sergipanes", total: 11 }
+    { name: "sergipanes", total: 11 },
   ];
 
   before(() => {
@@ -31,10 +32,7 @@ describe("Integration: Dialect Regions endpoint", () => {
   after(() => server.close());
 
   it("GET `/regions` should return all available dialects", async () => {
-    const res = await chai
-      .request(server)
-      .get("/regions")
-      .redirects(0);
+    const res = await chai.request(server).get("/regions").redirects(0);
 
     expect(res).to.have.status(200);
     expect(res.body).to.eql(expectedResponse);
