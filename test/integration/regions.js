@@ -15,6 +15,7 @@ describe("Integration: Dialect Regions endpoint", () => {
     { name: "maranhes", total: 15 },
     { name: "mineires", total: 33 },
     { name: "paraense", total: 34 },
+    { name: "paraibanes", total: 3 },
     { name: "paranes", total: 53 },
     { name: "paulistes", total: 32 },
     { name: "pernambuques", total: 31 },
