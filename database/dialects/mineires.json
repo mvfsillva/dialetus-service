@@ -188,5 +188,10 @@
     "dialect": "Furdunço",
     "meanings": ["Confusão"],
     "examples": ["Tu viu o furdunço no jogo do cruzeiro?"]
+  },
+  {
+    "dialect": "Qui cê",
+    "meanings": ["O que você"],
+    "examples": ["Qui cê tá fazendo hoje?"]
   }
 ]
