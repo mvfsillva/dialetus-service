@@ -320,6 +320,66 @@
     "examples": [
       "Espera aí, estou me arrumando. É dois palitos!"
     ]
+  },
+  {
+    "dialect": "Meter o louco",
+    "meanings": [
+      "Fazer alguma coisa sem pensar muito",
+      "Fazer algo que não deveria"
+    ],
+    "examples": [
+      "Nossa, aquele cara meteu o louco na festa!"
+    ]
+  },
+  {
+    "dialect": "Migué",
+    "meanings": [
+      "Enganar",
+      "Mentir"
+    ],
+    "examples": [
+      "Dei o maior migué na minha mãe."
+    ]
+  },
+  {
+    "dialect": "Moscando",
+    "meanings": [
+      "Vacilando",
+      "Está por fora"
+    ],
+    "examples": [
+      "Presta atenção! Eu to falando contigo e você tá aí moscando.",
+      "Nossa, ontem eu mosquei naquele sorteio."
+    ]
+  },
+  {
+    "dialect": "Parça",
+    "meanings": [
+      "Parceiro(a)",
+      "Amigo(a)"
+    ],
+    "examples": [
+      "Qual foi, parça?",
+      "Parça, preciso te contar uma coisa."
+    ]
+  },
+  {
+    "dialect": "Tá me tirando?",
+    "meanings": [
+      "Tá de brincadeira?"
+    ],
+    "examples": [
+      "Você vai continuar mentindo pra mim? Tá me tirando?"
+    ]
+  },
+  {
+    "dialect": "Mano do céu",
+    "meanings": [
+      "Meu Deus do céu",
+      "Expressão de espanto"
+    ],
+    "examples": [
+      "Mano do céu, tu não vai acreditar!"
+    ]
   }
 ]
-
