@@ -1,0 +1,17 @@
+[
+  {
+    "dialect": "Camelo",
+    "meanings": ["Bicicleta"],
+    "examples": ["Eu vou de camelo!"]
+  },
+  {
+    "dialect": "Véi",
+    "meanings": ["Cara", "Pessoa"],
+    "examples": ["Sério isso, véi?", "Véi, eu vou com certeza!"]
+  },
+  {
+    "dialect": "Cabuloso",
+    "meanings": ["Intenso", "Grande"],
+    "examples": ["Foi um acidente cabuloso!"]
+  }
+]
