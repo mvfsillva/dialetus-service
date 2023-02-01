@@ -57,7 +57,7 @@
     "glob": "^7.1.3",
     "hoopa-logger": "^1.1.0",
     "mongo-sanitize": "^1.0.0",
-    "mongoose": "^5.2.9",
+    "mongoose": "^5.13.15",
     "morgan": "^1.9.0",
     "slugify": "^1.3.1"
   },
